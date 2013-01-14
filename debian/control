@@ -6,9 +6,11 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
            Sune Vuorela <debian@pusling.com>,
            Pino Toscano <pino@debian.org>,
-           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9.0.0),
                autotools-dev,
+               qt5-default,
                qt5-qmake,
                qtbase5-dev-tools,
                qtbase5-dev,
@@ -20,8 +22,10 @@ Build-Depends: debhelper (>= 9.0.0),
                libgstreamer0.10-dev,
                zlib1g-dev,
                pkg-kde-tools,
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: https://qt-project.org/
+Vcs-Git: git://git.debian.org/pkg-kde/qt/qtmultimedia.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtmultimedia.git;a=summary
 
 Package: libqt5multimedia5
 Architecture: any

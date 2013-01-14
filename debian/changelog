@@ -1,5 +1,5 @@
 qtmultimedia-opensource-src (5.0.0-1) UNRELEASED; urgency=low
 
-  * Initial release.
+  * Initial release. (Closes: #697509)
 
- -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Thu, 20 Dec 2012 12:11:39 +0000
+ -- Timo Jyrinki <timo@debian.org>  Thu, 20 Dec 2012 12:11:39 +0000

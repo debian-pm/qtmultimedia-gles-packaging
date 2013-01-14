@@ -1,0 +1,3 @@
+usr/lib/*/libQt5Multimedia.la
+usr/lib/*/libQt5MultimediaWidgets.la
+usr/lib/*/libQt5MultimediaQuick_p.la
