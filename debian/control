@@ -44,7 +44,6 @@ Package: libqt5multimediaquick-p5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Replaces: libqt5multimediaquick5
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Multimedia Quick module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -69,7 +68,6 @@ Package: qtdeclarative5-qtmultimedia-plugin
 Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Replaces: libqt5declarative5-qtmultimedia-plugin
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Multimedia QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -92,7 +90,6 @@ Package: libqgsttools-p1
 Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Replaces: libqgsttools
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: GStreamer tools for  Qt 5 Multimedia module
  Qt is a cross-platform C++ application framework. Qt's primary feature
