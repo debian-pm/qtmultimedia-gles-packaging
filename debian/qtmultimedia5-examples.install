@@ -289,3 +289,7 @@ usr/lib/*/qt5/examples/multimedia/video/qmlvideofx/shaders/emboss.fsh
 usr/lib/*/qt5/examples/multimedia/video/qmlvideofx/shaders/gaussianblur_h.fsh
 usr/lib/*/qt5/examples/multimedia/video/qmlvideofx/shaders/warhol.fsh
 usr/lib/*/qt5/examples/multimedia/video/qmlvideofx/shaders/sepia.fsh
+usr/lib/*/qt5/examples/multimedia/audioengine/audioengine.pro
+usr/lib/*/qt5/examples/multimedia/audioengine/qml/audioengine.qmlproject
+usr/lib/*/qt5/examples/multimedia/audioengine/qml/audioengine.qml
+usr/lib/*/qt5/examples/multimedia/audioengine/qml/content/MyAudioEngine.qml
