@@ -1,12 +1,1 @@
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/spectrum/app/images/record.png
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/spectrum/app/images/settings.png
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/video/qmlvideo/images/close.png
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/video/qmlvideo/images/folder.png
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/video/qmlvideo/images/leaves.jpg
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/video/qmlvideo/images/titlebar.png
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/video/qmlvideo/images/up.png
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/video/qmlvideofx/images/close.png
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/video/qmlvideofx/images/folder.png
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/video/qmlvideofx/images/qt-logo.png
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/video/qmlvideofx/images/titlebar.png
-qtmultimedia5-examples: image-file-in-usr-lib usr/lib/x86_64-linux-gnu/qt5/examples/multimedia/video/qmlvideofx/images/up.png
+qtmultimedia5-examples: image-file-in-usr-lib
