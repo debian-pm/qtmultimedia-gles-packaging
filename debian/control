@@ -29,59 +29,74 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtmultimedia.git;a=summary
 
 Package: libqt5multimedia5
 Architecture: any
+Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Multimedia module
- Qt 5 delivers a set of new APIs for mobile device functionality.
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains a set of APIs to play and record media, and manage a
  collection of media content.
 
-Package: libqt5multimediaquick5
+Package: libqt5multimediaquick-p5
 Architecture: any
+Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Replaces: libqt5multimediaquick5
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Multimedia Quick module
- Qt 5 delivers a set of new APIs for mobile device functionality.
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains a set of APIs to play and record media, and manage a
  collection of media content.
 
 Package: libqt5multimediawidgets5
 Architecture: any
+Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Multimedia Widgets module
- Qt 5 delivers a set of new APIs for mobile device functionality.
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains a set of APIs to play and record media, and manage a
  collection of media content.
 
-Package: libqt5declarative5-qtmultimedia-plugin
+Package: qtdeclarative5-qtmultimedia-plugin
 Architecture: any
+Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Replaces: libqt5declarative5-qtmultimedia-plugin
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Multimedia QML plugin
- Qt 5  delivers a set of new APIs for mobile device functionality.
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the Multimedia QML plugin for QtDeclarative.
 
-Package: libqgsttools
+Package: libqgsttools-p1
 Architecture: any
+Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Replaces: libqgsttools
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: GStreamer tools for  Qt 5 Multimedia module
- Qt 5  delivers a set of new APIs for mobile device functionality.
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the GStreamer tools for Qt 5 Multimedia module
 
 Package: qtmultimedia5-examples
 Architecture: any
+Multi-Arch: same
 Section: x11
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Examples for Qt 5 Multimedia module
- Qt 5 delivers a set of new APIs for mobile device functionality.
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the examples for Qt5 multimedia application
  development.
@@ -93,9 +108,9 @@ Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          libgles2-mesa-dev [armel armhf] | libgles2-dev [armel armhf],
          libglu1-mesa-dev [!armel !armhf] | libglu-dev [!armel !armhf],
-         libqgsttools (= ${binary:Version}),
+         libqgsttools-p1 (= ${binary:Version}),
          libqt5multimedia5 (= ${binary:Version}),
-         libqt5multimediaquick5 (= ${binary:Version}),
+         libqt5multimediaquick-p5 (= ${binary:Version}),
          libqt5multimediawidgets5 (= ${binary:Version}),
          qt5-qmake,
          qtbase5-dev-tools,
@@ -103,7 +118,8 @@ Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          ${shlibs:Depends}
 Conflicts: icheck
 Description: APIs for multimedia functionality - development files
- Qt 5 delivers a set of new APIs for mobile device functionality.
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the development files needed to build Qt applications
  using Qt Multimedia libraries.
@@ -114,7 +130,8 @@ Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: qtmultimedia5-dev (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: APIs for multimedia functionality - development files
- Qt 5 delivers a set of new APIs for mobile device functionality.
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the private header development files for building some
  Qt 5 applications like Qt Creator QML Designer plugin.
