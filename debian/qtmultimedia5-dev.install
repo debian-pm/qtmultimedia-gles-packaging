@@ -181,12 +181,6 @@ usr/include/qt5/QtMultimediaQuick_p/QtMultimediaQuick_pVersion
 usr/share/qt5/mkspecs/modules/qt_lib_multimediawidgets.pri
 usr/share/qt5/mkspecs/modules/qt_lib_qtmultimediaquicktools.pri
 usr/share/qt5/mkspecs/modules/qt_lib_multimedia.pri
-usr/lib/*/qt5/plugins/audio/libqtmedia_pulse.so
-usr/lib/*/qt5/plugins/mediaservice/libgstcamerabin.so
-usr/lib/*/qt5/plugins/mediaservice/libgstmediacapture.so
-usr/lib/*/qt5/plugins/mediaservice/libgstaudiodecoder.so
-usr/lib/*/qt5/plugins/mediaservice/libgstmediaplayer.so
-usr/lib/*/qt5/plugins/playlistformats/libqtmultimedia_m3u.so
 usr/lib/*/libqgsttools_p.prl
 usr/lib/*/libQt5Multimedia.prl
 usr/lib/*/libQt5MultimediaWidgets.prl
