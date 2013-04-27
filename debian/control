@@ -73,7 +73,7 @@ Description: Qt 5 Multimedia Widgets module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains a set of APIs to play and record media, and manage a
+ This package contains a set of widgets to play and record media, and manage a
  collection of media content.
 
 Package: qtdeclarative5-qtmultimedia-plugin
