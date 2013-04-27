@@ -14,6 +14,12 @@ export QT_SELECT := qt5
 override_dh_auto_configure:
 	qmake
 
+override_dh_auto_install:
+	dh_auto_install
+
+	# Remove libtool-like files
+	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
+
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
 
