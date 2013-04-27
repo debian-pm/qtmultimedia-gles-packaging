@@ -39,6 +39,19 @@ Description: Qt 5 Multimedia module
  This package contains a set of APIs to play and record media, and manage a
  collection of media content.
 
+Package: libqt5multimedia5-plugins
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: libqt5multimedia5 (= ${binary:Version}), ${misc:Depends},
+ ${shlibs:Depends}
+Description: Qt 5 Multimedia module plugins
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains a set of plugins for supporting m3u, pulseaudio
+ and gstreamer.
+
 Package: libqt5multimediaquick-p5
 Architecture: any
 Multi-Arch: same
