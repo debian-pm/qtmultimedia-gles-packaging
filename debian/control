@@ -62,7 +62,7 @@ Description: Qt 5 Multimedia Quick module
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains a set of APIs to play and record media, and manage a
- collection of media content.
+ collection of media content with the Quick module.
 
 Package: libqt5multimediawidgets5
 Architecture: any
