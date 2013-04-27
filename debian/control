@@ -94,7 +94,7 @@ Description: GStreamer tools for  Qt 5 Multimedia module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the GStreamer tools for Qt 5 Multimedia module
+ This package contains the GStreamer tools for Qt 5 Multimedia module.
 
 Package: qtmultimedia5-examples
 Architecture: any
