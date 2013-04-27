@@ -145,7 +145,6 @@ Description: APIs for multimedia functionality - development files
  Qt 5 applications like Qt Creator QML Designer plugin.
 
 Package: qtmultimedia5-dbg
-Priority: extra
 Architecture: any
 Section: debug
 Depends: libqt5multimedia5 (= ${binary:Version}),
