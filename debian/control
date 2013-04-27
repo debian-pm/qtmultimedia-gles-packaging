@@ -50,7 +50,7 @@ Description: Qt 5 Multimedia module plugins
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains a set of plugins for supporting m3u, pulseaudio
- and gstreamer.
+ and GStreamer.
 
 Package: libqt5multimediaquick-p5
 Architecture: any
