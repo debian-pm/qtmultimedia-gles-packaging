@@ -10,7 +10,6 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9.0.0),
                autotools-dev,
-               qt5-default,
                qt5-qmake,
                qtbase5-dev-tools,
                qtbase5-dev (>= 5.0.2~),
