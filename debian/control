@@ -154,7 +154,8 @@ Package: qtmultimedia5-dbg
 Architecture: any
 Section: debug
 Depends: libqt5multimedia5 (= ${binary:Version}),
-         qtmultimedia5-examples (= ${binary:Version})
+         ${misc:Depends}
+Suggests: qtmultimedia5-examples (= ${binary:Version})
 Description: Qt 5 Multimedia library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
