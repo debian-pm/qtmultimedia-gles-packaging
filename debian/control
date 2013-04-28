@@ -9,8 +9,6 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9.0.0),
-               qt5-qmake,
-               qtbase5-dev-tools,
                qtbase5-dev (>= 5.0.2~),
                libqt5opengl5-dev (>= 5.0.2~),
                qtbase5-private-dev (>= 5.0.2~),
