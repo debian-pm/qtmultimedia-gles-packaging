@@ -1,5 +1,5 @@
-qtmultimedia-opensource-src (5.0.2-1) UNRELEASED; urgency=low
+qtmultimedia-opensource-src (5.0.2-1) experimental; urgency=low
 
   * Initial release. (Closes: #697509)
 
- -- Timo Jyrinki <timo@debian.org>  Wed, 06 Feb 2013 14:02:18 +0000
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 28 Apr 2013 09:28:52 -0300
