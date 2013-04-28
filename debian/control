@@ -125,7 +125,7 @@ Description: Examples for Qt 5 Multimedia module
 Package: qtmultimedia5-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          libgles2-mesa-dev [armel armhf] | libgles2-dev [armel armhf],
          libglu1-mesa-dev [!armel !armhf] | libglu-dev [!armel !armhf],
@@ -135,8 +135,7 @@ Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          libqt5multimediawidgets5 (= ${binary:Version}),
          qt5-qmake,
          qtbase5-dev-tools,
-         ${misc:Depends},
-         ${shlibs:Depends}
+         ${misc:Depends}
 Conflicts: icheck
 Description: APIs for multimedia functionality - development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -148,8 +147,8 @@ Description: APIs for multimedia functionality - development files
 Package: qtmultimedia5-private-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Depends: qtmultimedia5-dev (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: qtmultimedia5-dev (= ${binary:Version}), ${misc:Depends}
 Description: APIs for multimedia functionality - private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -163,8 +162,7 @@ Package: qtmultimedia5-dbg
 Architecture: any
 Section: debug
 Depends: libqt5multimedia5 (= ${binary:Version}),
-         qtmultimedia5-examples (= ${binary:Version}),
-         ${misc:Depends}
+         qtmultimedia5-examples (= ${binary:Version})
 Description: Qt 5 Multimedia library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
