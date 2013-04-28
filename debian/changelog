@@ -1,5 +1,7 @@
 qtmultimedia-opensource-src (5.0.2-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Update Vcs-Browser and Vcs-Git headers.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Apr 2013 17:09:31 +0200
 
