@@ -126,17 +126,12 @@ Package: qtmultimedia5-dev
 Architecture: any
 Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
-         libgles2-mesa-dev [armel armhf] | libgles2-dev [armel armhf],
-         libglu1-mesa-dev [!armel !armhf] | libglu-dev [!armel !armhf],
-         libqgsttools-p1 (= ${binary:Version}),
+Depends: libqgsttools-p1 (= ${binary:Version}),
          libqt5multimedia5 (= ${binary:Version}),
          libqt5multimediaquick-p5 (= ${binary:Version}),
          libqt5multimediawidgets5 (= ${binary:Version}),
-         qt5-qmake,
-         qtbase5-dev-tools,
+         qtbase5-dev,
          ${misc:Depends}
-Conflicts: icheck
 Description: APIs for multimedia functionality - development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
