@@ -6,6 +6,7 @@ qtmultimedia-opensource-src (5.0.2-2) UNRELEASED; urgency=low
   * qtmultimedia5-dbg: add ${misc:Depends}, and demote the
     qtmultimedia5-examples dependency to suggest.
   * Update symbols files.
+  * Add the libasound2-dev (on Linux only) build dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Apr 2013 17:09:31 +0200
 
