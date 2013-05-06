@@ -1,10 +1,10 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 i386
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrc11onDataReadyEv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacastEPKc@Base 5.0.2
  _ZN10QGstAppSrc12on_need_dataEP10_GstAppSrcjPv@Base 5.0.2
- _ZN10QGstAppSrc12on_seek_dataEP10_GstAppSrcmPv@Base 5.0.2
+ (subst)_ZN10QGstAppSrc12on_seek_dataEP10_GstAppSrc{uint64_t}Pv@Base 5.0.2
  _ZN10QGstAppSrc14destroy_notifyEPv@Base 5.0.2
  _ZN10QGstAppSrc14on_enough_dataEP10_GstAppSrcPv@Base 5.0.2
  _ZN10QGstAppSrc15streamDestroyedEv@Base 5.0.2
@@ -20,7 +20,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrcD0Ev@Base 5.0.2
  _ZN10QGstAppSrcD1Ev@Base 5.0.2
  _ZN10QGstAppSrcD2Ev@Base 5.0.2
- _ZN14QGstCodecsInfo20supportedElementCapsEm7GstRank15GstPadDirection@Base 5.0.2
+ (subst)_ZN14QGstCodecsInfo20supportedElementCapsE{uint64_t}7GstRank15GstPadDirection@Base 5.0.2
  _ZN14QGstCodecsInfoC1ENS_11ElementTypeE@Base 5.0.2
  _ZN14QGstCodecsInfoC2ENS_11ElementTypeE@Base 5.0.2
  _ZN15QGstVideoBuffer3mapEN20QAbstractVideoBuffer7MapModeEPiS2_@Base 5.0.2
@@ -68,7 +68,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN20QGstBufferPoolPluginD2Ev@Base 5.0.2
  _ZN20QVideoSurfaceGstSink10class_initEPvS0_@Base 5.0.2
  _ZN20QVideoSurfaceGstSink10createSinkEP21QAbstractVideoSurface@Base 5.0.2
- _ZN20QVideoSurfaceGstSink12buffer_allocEP12_GstBaseSinkmjP8_GstCapsPP10_GstBuffer@Base 5.0.2
+ (subst)_ZN20QVideoSurfaceGstSink12buffer_allocEP12_GstBaseSink{uint64_t}jP8_GstCapsPP10_GstBuffer@Base 5.0.2
  _ZN20QVideoSurfaceGstSink12change_stateEP11_GstElement14GstStateChange@Base 5.0.2
  _ZN20QVideoSurfaceGstSink13formatForCapsEP8_GstCapsPiN20QAbstractVideoBuffer10HandleTypeE@Base 5.0.2
  _ZN20QVideoSurfaceGstSink13instance_initEP14_GTypeInstancePv@Base 5.0.2
