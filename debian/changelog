@@ -1,4 +1,4 @@
-qtmultimedia-opensource-src (5.0.2-2) UNRELEASED; urgency=low
+qtmultimedia-opensource-src (5.0.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Update Vcs-Browser and Vcs-Git headers.
@@ -8,7 +8,7 @@ qtmultimedia-opensource-src (5.0.2-2) UNRELEASED; urgency=low
   * Update symbols files.
   * Add the libasound2-dev (on Linux only) build dependency.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Apr 2013 17:09:31 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 06 May 2013 15:15:00 -0300
 
 qtmultimedia-opensource-src (5.0.2-1) experimental; urgency=low
 
