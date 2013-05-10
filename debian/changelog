@@ -1,3 +1,8 @@
+qtmultimedia-opensource-src (5.0.2-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 May 2013 11:55:01 +0200
+
 qtmultimedia-opensource-src (5.0.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
