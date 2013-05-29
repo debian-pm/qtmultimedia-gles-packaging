@@ -3,6 +3,9 @@ qtmultimedia-opensource-src (5.0.2-3) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * qtmultimedia5-examples: add ${misc:Pre-Depends}.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 May 2013 11:55:01 +0200
 
 qtmultimedia-opensource-src (5.0.2-2) experimental; urgency=low
