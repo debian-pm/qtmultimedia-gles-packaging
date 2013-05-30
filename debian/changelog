@@ -6,6 +6,9 @@ qtmultimedia-opensource-src (5.0.2-3) experimental; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files.
 
+  [ Timo Jyrinki]
+  * Fix paths in pkgconfig files
+
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 29 May 2013 12:19:03 -0300
 
 qtmultimedia-opensource-src (5.0.2-2) experimental; urgency=low
