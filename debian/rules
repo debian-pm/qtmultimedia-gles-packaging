@@ -14,7 +14,10 @@ export QT_SELECT := qt5
 override_dh_auto_configure:
 	qmake
 
-override_dh_auto_install:
+override_dh_auto_build-indep:
+	dh_auto_build -Smakefile -- docs
+
+override_dh_auto_install-arch:
 	dh_auto_install
 	
 	# Fix wrong path in pkgconfig files
@@ -23,6 +26,9 @@ override_dh_auto_install:
 	
 	# Remove libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
+
+override_dh_auto_install-indep:
+	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_install:
 	dh_install --fail-missing
