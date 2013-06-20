@@ -7,6 +7,8 @@ qtmultimedia-opensource-src (5.0.2-4) UNRELEASED; urgency=low
       * libqt5sql5-sqlite to generate qch doc.
     - Build and create packages for qch and HTML doc formats.
   * Update symbols file.
+  * Make qtmultimedia5-dbg M-A same to allow coinstalability of debugging
+    symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Jun 2013 12:48:09 -0300
 

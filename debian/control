@@ -155,6 +155,7 @@ Description: APIs for multimedia functionality - private development files
 
 Package: qtmultimedia5-dbg
 Architecture: any
+Multi-Arch: same
 Section: debug
 Depends: libqt5multimedia5 (= ${binary:Version}),
          ${misc:Depends}
