@@ -167,7 +167,6 @@ Description: Qt 5 Multimedia library debugging symbols
  libraries.
 
 Package: qtmultimedia5-doc
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
@@ -178,7 +177,6 @@ Description: Qt 5 multimedia documentation
  This package contains the documentation for the Qt 5 multimedia libraries.
 
 Package: qtmultimedia5-doc-html
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
