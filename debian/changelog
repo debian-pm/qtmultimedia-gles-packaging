@@ -1,6 +1,5 @@
-qtmultimedia-opensource-src (5.0.2-4) UNRELEASED; urgency=low
+qtmultimedia-opensource-src (5.0.2-4) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Build the documentation shipped with this submodule as a build-indep task:
     - Add the necessary indep build dependencies:
       * qttools5-dev-tools to use qhelpgenerator.
@@ -12,7 +11,7 @@ qtmultimedia-opensource-src (5.0.2-4) UNRELEASED; urgency=low
   * Bump qtbase B-D to 5.0.2+dfsg1-6~, because it's the version that adds
     GStreamer support.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Jun 2013 12:48:09 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 20 Jun 2013 20:26:20 -0300
 
 qtmultimedia-opensource-src (5.0.2-3) experimental; urgency=low
 
