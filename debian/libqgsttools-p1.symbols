@@ -21,7 +21,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrcD0Ev@Base 5.0.2
  _ZN10QGstAppSrcD1Ev@Base 5.0.2
  _ZN10QGstAppSrcD2Ev@Base 5.0.2
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.0.2
+ (optional=templinst|arch=amd64)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.0.2-4~
  (subst)_ZN14QGstCodecsInfo20supportedElementCapsE{uint64_t}7GstRank15GstPadDirection@Base 5.0.2
  _ZN14QGstCodecsInfoC1ENS_11ElementTypeE@Base 5.0.2
  _ZN14QGstCodecsInfoC2ENS_11ElementTypeE@Base 5.0.2
