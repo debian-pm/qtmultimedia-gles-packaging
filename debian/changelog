@@ -1,5 +1,9 @@
 qtmultimedia-opensource-src (5.0.2-5) UNRELEASED; urgency=low
 
+  [ Ricardo Salveti de Araujo ]
+  * debian/control: adding missing dependencies for qtmultimedia5-examples.
+    Forwarded to Debian by Dmitry Shachnev.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Jul 2013 19:40:01 +0400
 
 qtmultimedia-opensource-src (5.0.2-4) experimental; urgency=low
