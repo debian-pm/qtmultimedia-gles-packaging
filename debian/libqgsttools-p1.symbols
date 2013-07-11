@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrc11onDataReadyEv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -57,8 +57,6 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN19QGstreamerBusHelperD0Ev@Base 5.0.2
  _ZN19QGstreamerBusHelperD1Ev@Base 5.0.2
  _ZN19QGstreamerBusHelperD2Ev@Base 5.0.2
- (optional=templinst)_ZN20QGlobalStaticDeleterI18QMediaPluginLoaderED1Ev@Base 5.0.2
- (optional=templinst)_ZN20QGlobalStaticDeleterI18QMediaPluginLoaderED2Ev@Base 5.0.2
  _ZN20QGstBufferPoolPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN20QGstBufferPoolPlugin11qt_metacastEPKc@Base 5.0.2
  _ZN20QGstBufferPoolPlugin16staticMetaObjectE@Base 5.0.2
