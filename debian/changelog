@@ -10,6 +10,10 @@ qtmultimedia-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   * Update symbols files.
   * Fix watch file.
   * Bump build dependencies to 5.1.0~.
+  * Remove package qtmultimedia5-private-dev. Nothing in the Qt stack seems to
+    be using it. Can be reintroduced later if needed.
+    - Remove associated install file.
+    - Remove the files from debian/tmp before installing the packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Jul 2013 19:40:01 +0400
 

@@ -19,6 +19,10 @@ override_dh_auto_build-indep:
 
 override_dh_auto_install-arch:
 	dh_auto_install
+
+	# Remove private headers.
+	rm -rfv debian/tmp/usr/include/qt5/QtMultimedia/*/QtMultimedia/private
+	rm -rfv debian/tmp/usr/include/qt5/QtMultimediaWidgets/*/QtMultimediaWidgets/private/
 	
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \
