@@ -1,3 +1,5 @@
+usr/include/qt5/QtMultimedia/QtMultimediaDepends
+usr/include/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends
 usr/include/qt5/QtMultimedia/QAbstractAudioDeviceInfo
 usr/include/qt5/QtMultimedia/QAbstractAudioInput
 usr/include/qt5/QtMultimedia/QAbstractAudioOutput
