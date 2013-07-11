@@ -1,4 +1,4 @@
-qtmultimedia-opensource-src (5.1.0-1) UNRELEASED; urgency=low
+qtmultimedia-opensource-src (5.1.0-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -16,7 +16,7 @@ qtmultimedia-opensource-src (5.1.0-1) UNRELEASED; urgency=low
     - Remove the files from debian/tmp before installing the packages.
   * Adjust install files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Jul 2013 19:40:01 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 11 Jul 2013 20:42:48 -0300
 
 qtmultimedia-opensource-src (5.0.2-4) experimental; urgency=low
 
