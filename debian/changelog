@@ -1,4 +1,6 @@
-qtmultimedia-opensource-src (5.0.2-5) UNRELEASED; urgency=low
+qtmultimedia-opensource-src (5.1.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Ricardo Salveti de Araujo ]
   * debian/control: adding missing dependencies for qtmultimedia5-examples.
