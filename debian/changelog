@@ -8,6 +8,7 @@ qtmultimedia-opensource-src (5.1.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files.
+  * Fix watch file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Jul 2013 19:40:01 +0400
 
