@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64 i386
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrc11onDataReadyEv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -20,7 +20,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrcD0Ev@Base 5.0.2
  _ZN10QGstAppSrcD1Ev@Base 5.0.2
  _ZN10QGstAppSrcD2Ev@Base 5.0.2
- (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.0.2-4~
+ (optional=templinst)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.0.2-4~
  (subst)_ZN14QGstCodecsInfo20supportedElementCapsE{uint64_t}7GstRank15GstPadDirection@Base 5.0.2
  _ZN14QGstCodecsInfoC1ENS_11ElementTypeE@Base 5.0.2
  _ZN14QGstCodecsInfoC2ENS_11ElementTypeE@Base 5.0.2
@@ -176,10 +176,9 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN33QGstreamerVideoInputDeviceControlD1Ev@Base 5.0.2
  _ZN33QGstreamerVideoInputDeviceControlD2Ev@Base 5.0.2
  (optional=templinst)_ZN4QMapI10QByteArray8QVariantE13detach_helperEv@Base 5.0.2
- (optional=templinst|arch=amd64 armhf)_ZN4QMapI10QByteArray8QVariantE6insertERKS0_RKS1_@Base 5.0.2
+ (optional=templinst)_ZN4QMapI10QByteArray8QVariantE6insertERKS0_RKS1_@Base 5.0.2
  (optional=templinst)_ZN4QMapI7QStringS0_E13detach_helperEv@Base 5.0.2
  (optional=templinst)_ZN5QHashI10QByteArray15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QHashI10QByteArray15QHashDummyValueE13detach_helperEv@Base 5.0.2
  (optional=templinst)_ZN5QHashI10QByteArray15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 5.0.2
  (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@Base 5.0.2
  (optional=templinst)_ZN5QListI7QStringE5clearEv@Base 5.0.2
@@ -188,40 +187,25 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZN5QListI7QStringEC2ERKS1_@Base 5.0.2
  (optional=templinst)_ZN5QListI7QStringED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListI7QStringED2Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListI9QFileInfoEC1ERKS1_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListI9QFileInfoEC2ERKS1_@Base 5.0.2
  (optional=templinst)_ZN5QListI9QFileInfoED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListI9QFileInfoED2Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIN11QVideoFrame11PixelFormatEE18detach_helper_growEii@Base 5.0.2
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEE5clearEv@Base 5.0.2
- (optional=templinst|arch=amd64 armhf)_ZN5QListIN11QVideoFrame11PixelFormatEE6appendERKS1_@Base 5.0.2
+ (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEE6appendERKS1_@Base 5.0.2
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEEC1ERKS2_@Base 5.0.2
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEEC2ERKS2_@Base 5.0.2
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEED2Ev@Base 5.0.2
  (optional=templinst)_ZN5QListIP23QGstBufferPoolInterfaceE18detach_helper_growEii@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP23QGstBufferPoolInterfaceEC1ERKS2_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP23QGstBufferPoolInterfaceEC2ERKS2_@Base 5.0.2
  (optional=templinst)_ZN5QListIP23QGstBufferPoolInterfaceED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListIP23QGstBufferPoolInterfaceED2Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP26QGstreamerBusMessageFilterE13detach_helperEi@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP26QGstreamerBusMessageFilterE18detach_helper_growEii@Base 5.0.2
- (optional=templinst|arch=amd64 armhf)_ZN5QListIP26QGstreamerBusMessageFilterE6appendERKS1_@Base 5.0.2
+ (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterE6appendERKS1_@Base 5.0.2
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterE9removeAllERKS1_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP26QGstreamerBusMessageFilterEC1ERKS2_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP26QGstreamerBusMessageFilterEC2ERKS2_@Base 5.0.2
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterED2Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP27QGstreamerSyncMessageFilterE13detach_helperEi@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP27QGstreamerSyncMessageFilterE18detach_helper_growEii@Base 5.0.2
- (optional=templinst|arch=amd64 armhf)_ZN5QListIP27QGstreamerSyncMessageFilterE6appendERKS1_@Base 5.0.2
+ (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterE6appendERKS1_@Base 5.0.2
  (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterE9removeAllERKS1_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP27QGstreamerSyncMessageFilterEC1ERKS2_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP27QGstreamerSyncMessageFilterEC2ERKS2_@Base 5.0.2
  (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterED2Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP7QObjectEC1ERKS2_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf)_ZN5QListIP7QObjectEC2ERKS2_@Base 5.0.2
  (optional=templinst)_ZN5QListIP7QObjectED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListIP7QObjectED2Ev@Base 5.0.2
  (optional=templinst)_ZN8QMapNodeI10QByteArray8QVariantE14destroySubTreeEv@Base 5.0.2
