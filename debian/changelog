@@ -1,9 +1,9 @@
-qtmultimedia-opensource-src (5.1.0-2) UNRELEASED; urgency=low
+qtmultimedia-opensource-src (5.1.0-2) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upload to unstable.
   * Update symbols files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Aug 2013 10:48:39 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 11 Aug 2013 10:50:12 -0300
 
 qtmultimedia-opensource-src (5.1.0-1) experimental; urgency=low
 
