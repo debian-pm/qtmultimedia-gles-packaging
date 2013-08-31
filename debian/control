@@ -9,10 +9,10 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9.0.0),
-               qtbase5-dev (>= 5.1.0+dfsg~),
-               libqt5opengl5-dev (>= 5.1.0~),
-               qtbase5-private-dev (>= 5.1.0~),
-               qtdeclarative5-private-dev (>= 5.1.0~),
+               qtbase5-dev (>= 5.1.1+dfsg~),
+               libqt5opengl5-dev (>= 5.1.1+dfsg~),
+               qtbase5-private-dev (>= 5.1.1+dfsg~),
+               qtdeclarative5-private-dev (>= 5.1.1~),
                libasound2-dev [linux-any],
                libpulse-dev,
                libgstreamer-plugins-base0.10-dev,
@@ -21,7 +21,7 @@ Build-Depends: debhelper (>= 9.0.0),
                zlib1g-dev,
                pkg-kde-tools,
 Build-Depends-Indep: libqt5sql5-sqlite,
-                     qttools5-dev-tools (>= 5.1.0~)
+                     qttools5-dev-tools (>= 5.1.1~)
 Standards-Version: 3.9.4
 Homepage: https://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtmultimedia.git
