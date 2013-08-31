@@ -1,4 +1,7 @@
-qtmultimedia-opensource-src (5.1.0-3) UNRELEASED; urgency=low
+qtmultimedia-opensource-src (5.1.1-1) UNRELEASED; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Aug 2013 22:57:26 -0300
 
