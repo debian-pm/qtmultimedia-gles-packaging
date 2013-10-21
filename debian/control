@@ -1,6 +1,6 @@
 Source: qtmultimedia-opensource-src
 Section: libs
-Priority: extra
+Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
