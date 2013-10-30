@@ -3,6 +3,7 @@ qtmultimedia-opensource-src (5.2.0~beta1-1) UNRELEASED; urgency=low
   [ Dmitry Shachnev ]
   * New upstream beta release.
   * Bump Qt 5 build-dependencies to 5.2.0.
+  * Update qtmultimedia5-examples.install.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Oct 2013 12:17:59 +0400
 
