@@ -1,7 +1,7 @@
-qtmultimedia-opensource-src (5.2.0~beta1-1) UNRELEASED; urgency=low
+qtmultimedia-opensource-src (5.2.0-1) UNRELEASED; urgency=low
 
   [ Dmitry Shachnev ]
-  * New upstream beta release.
+  * New upstream release.
   * Bump Qt 5 build-dependencies to 5.2.0.
   * Update qtmultimedia5-examples.install.
   * Make Vcs-Browser field canonical by dropping useless attribute.
