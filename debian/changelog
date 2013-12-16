@@ -9,6 +9,13 @@ qtmultimedia-opensource-src (5.2.0~beta1-1) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Oct 2013 12:17:59 +0400
 
+qtmultimedia-opensource-src (5.1.1-2) unstable; urgency=low
+
+  * Switch priority to optional. Hat tip to Dmitry Shachnev.
+    - Switch the dbg package back to priority extra.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 16 Dec 2013 19:07:59 -0300
+
 qtmultimedia-opensource-src (5.1.1-1) unstable; urgency=low
 
   * New upstream release.
