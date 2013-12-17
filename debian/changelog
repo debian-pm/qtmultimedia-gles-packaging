@@ -9,6 +9,7 @@ qtmultimedia-opensource-src (5.2.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove new private stuff we are not shipping.
+  * Adjust install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Oct 2013 12:17:59 +0400
 

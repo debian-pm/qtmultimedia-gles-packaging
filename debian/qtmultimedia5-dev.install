@@ -197,4 +197,3 @@ usr/lib/*/pkgconfig/Qt5MultimediaQuick_p.pc
 usr/lib/*/pkgconfig/Qt5MultimediaWidgets.pc
 usr/share/qt5/mkspecs/modules/qt_lib_multimedia.pri
 usr/share/qt5/mkspecs/modules/qt_lib_multimediawidgets.pri
-usr/share/qt5/mkspecs/modules/qt_lib_qtmultimediaquicktools.pri
