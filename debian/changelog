@@ -1,4 +1,4 @@
-qtmultimedia-opensource-src (5.2.0-1) UNRELEASED; urgency=low
+qtmultimedia-opensource-src (5.2.0-1) experimental; urgency=low
 
   [ Dmitry Shachnev ]
   * New upstream release.
@@ -13,7 +13,7 @@ qtmultimedia-opensource-src (5.2.0-1) UNRELEASED; urgency=low
   * Update symbols files with current build log.
   * Regenerate the symbols that used to have the qreal subst.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Oct 2013 12:17:59 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 16 Dec 2013 23:15:42 -0300
 
 qtmultimedia-opensource-src (5.1.1-2) unstable; urgency=low
 
