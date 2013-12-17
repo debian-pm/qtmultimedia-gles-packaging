@@ -26,6 +26,10 @@ override_dh_auto_install-arch:
 	rm -rfv debian/tmp/usr/include/qt5/QtMultimedia/*/QtMultimedia/private
 	rm -rfv debian/tmp/usr/include/qt5/QtMultimediaWidgets/*/QtMultimediaWidgets/private/
 	rm -rfv debian/tmp/usr/include/qt5/QtMultimediaQuick_p/QtMultimediaQuick_pDepends
+	# And some other private stuff.
+	rm -fv debian/tmp/usr/share/qt5/mkspecs/modules/qt_lib_multimedia_private.pri
+	rm -fv debian/tmp/usr/share/qt5/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri
+	rm -fv debian/tmp/usr/share/qt5/mkspecs/modules/qt_lib_multimediawidgets_private.pri
 	
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \

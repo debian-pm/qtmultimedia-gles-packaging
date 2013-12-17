@@ -7,6 +7,9 @@ qtmultimedia-opensource-src (5.2.0-1) UNRELEASED; urgency=low
   * Make Vcs-Browser field canonical by dropping useless attribute.
   * Explicitly define DEB_HOST_MULTIARCH in debian/rules.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove new private stuff we are not shipping.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Oct 2013 12:17:59 +0400
 
 qtmultimedia-opensource-src (5.1.1-2) unstable; urgency=low
