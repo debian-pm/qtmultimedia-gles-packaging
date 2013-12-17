@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrc11onDataReadyEv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -84,6 +84,35 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN20QVideoSurfaceGstSink8get_typeEv@Base 5.0.2
  _ZN20QVideoSurfaceGstSink8set_capsEP12_GstBaseSinkP8_GstCaps@Base 5.0.2
  _ZN20QVideoSurfaceGstSink9base_initEPv@Base 5.0.2
+ _ZN21QGstreamerVideoWidget10paintEventEP11QPaintEvent@Base 5.2.0
+ _ZN21QGstreamerVideoWidgetD0Ev@Base 5.2.0
+ _ZN21QGstreamerVideoWidgetD1Ev@Base 5.2.0
+ _ZN21QGstreamerVideoWidgetD2Ev@Base 5.2.0
+ _ZN21QGstreamerVideoWindow11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0
+ _ZN21QGstreamerVideoWindow11qt_metacastEPKc@Base 5.2.0
+ _ZN21QGstreamerVideoWindow11setColorKeyERK6QColor@Base 5.2.0
+ _ZN21QGstreamerVideoWindow11setContrastEi@Base 5.2.0
+ _ZN21QGstreamerVideoWindow11sinkChangedEv@Base 5.2.0
+ _ZN21QGstreamerVideoWindow12readyChangedEb@Base 5.2.0
+ _ZN21QGstreamerVideoWindow13setBrightnessEi@Base 5.2.0
+ _ZN21QGstreamerVideoWindow13setFullScreenEb@Base 5.2.0
+ _ZN21QGstreamerVideoWindow13setSaturationEi@Base 5.2.0
+ _ZN21QGstreamerVideoWindow14padBufferProbeEP7_GstPadP10_GstBufferPv@Base 5.2.0
+ _ZN21QGstreamerVideoWindow14setDisplayRectERK5QRect@Base 5.2.0
+ _ZN21QGstreamerVideoWindow16staticMetaObjectE@Base 5.2.0
+ _ZN21QGstreamerVideoWindow18processSyncMessageERK17QGstreamerMessage@Base 5.2.0
+ _ZN21QGstreamerVideoWindow18setAspectRatioModeEN2Qt15AspectRatioModeE@Base 5.2.0
+ _ZN21QGstreamerVideoWindow20setAutopaintColorKeyEb@Base 5.2.0
+ _ZN21QGstreamerVideoWindow21updateNativeVideoSizeEv@Base 5.2.0
+ _ZN21QGstreamerVideoWindow6setHueEi@Base 5.2.0
+ _ZN21QGstreamerVideoWindow7repaintEv@Base 5.2.0
+ _ZN21QGstreamerVideoWindow8setWinIdEy@Base 5.2.0
+ _ZN21QGstreamerVideoWindow9videoSinkEv@Base 5.2.0
+ _ZN21QGstreamerVideoWindowC1EP7QObjectPKc@Base 5.2.0
+ _ZN21QGstreamerVideoWindowC2EP7QObjectPKc@Base 5.2.0
+ _ZN21QGstreamerVideoWindowD0Ev@Base 5.2.0
+ _ZN21QGstreamerVideoWindowD1Ev@Base 5.2.0
+ _ZN21QGstreamerVideoWindowD2Ev@Base 5.2.0
  _ZN23QGstBufferPoolInterfaceD0Ev@Base 5.0.2
  _ZN23QGstBufferPoolInterfaceD1Ev@Base 5.0.2
  _ZN23QGstBufferPoolInterfaceD2Ev@Base 5.0.2
@@ -161,6 +190,31 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN28QGstreamerAudioInputSelectorD0Ev@Base 5.0.2
  _ZN28QGstreamerAudioInputSelectorD1Ev@Base 5.0.2
  _ZN28QGstreamerAudioInputSelectorD2Ev@Base 5.0.2
+ _ZN28QGstreamerVideoWidgetControl10setOverlayEv@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl11eventFilterEP7QObjectP6QEvent@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl11qt_metacastEPKc@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl11setContrastEi@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl11sinkChangedEv@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl11videoWidgetEv@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl12readyChangedEb@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl13setBrightnessEi@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl13setFullScreenEb@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl13setSaturationEi@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl13windowExposedEv@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl16staticMetaObjectE@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl17createVideoWidgetEv@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl17processBusMessageERK17QGstreamerMessage@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl18processSyncMessageERK17QGstreamerMessage@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl18setAspectRatioModeEN2Qt15AspectRatioModeE@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl21updateNativeVideoSizeEv@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl6setHueEi@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControl9videoSinkEv@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControlC1EP7QObject@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControlC2EP7QObject@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControlD0Ev@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControlD1Ev@Base 5.2.0
+ _ZN28QGstreamerVideoWidgetControlD2Ev@Base 5.2.0
  _ZN32QGstreamerVideoRendererInterface12stopRendererEv@Base 5.0.2
  _ZN32QGstreamerVideoRendererInterfaceD0Ev@Base 5.0.2
  _ZN32QGstreamerVideoRendererInterfaceD1Ev@Base 5.0.2
@@ -227,6 +281,20 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZNK17QGstreamerMessage10rawMessageEv@Base 5.0.2
  _ZNK19QGstreamerBusHelper10metaObjectEv@Base 5.0.2
  _ZNK20QGstBufferPoolPlugin10metaObjectEv@Base 5.0.2
+ _ZNK21QGstreamerVideoWidget8sizeHintEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow10brightnessEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow10metaObjectEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow10nativeSizeEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow10saturationEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow11displayRectEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow12isFullScreenEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow15aspectRatioModeEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow17autopaintColorKeyEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow3hueEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow5winIdEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow7isReadyEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow8colorKeyEv@Base 5.2.0
+ _ZNK21QGstreamerVideoWindow8contrastEv@Base 5.2.0
  _ZNK23QGstreamerVideoRenderer10metaObjectEv@Base 5.0.2
  _ZNK23QGstreamerVideoRenderer7isReadyEv@Base 5.0.2
  _ZNK23QGstreamerVideoRenderer7surfaceEv@Base 5.0.2
@@ -241,6 +309,13 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZNK28QGstreamerAudioInputSelector12defaultInputEv@Base 5.0.2
  _ZNK28QGstreamerAudioInputSelector15availableInputsEv@Base 5.0.2
  _ZNK28QGstreamerAudioInputSelector16inputDescriptionERK7QString@Base 5.0.2
+ _ZNK28QGstreamerVideoWidgetControl10brightnessEv@Base 5.2.0
+ _ZNK28QGstreamerVideoWidgetControl10metaObjectEv@Base 5.2.0
+ _ZNK28QGstreamerVideoWidgetControl10saturationEv@Base 5.2.0
+ _ZNK28QGstreamerVideoWidgetControl12isFullScreenEv@Base 5.2.0
+ _ZNK28QGstreamerVideoWidgetControl15aspectRatioModeEv@Base 5.2.0
+ _ZNK28QGstreamerVideoWidgetControl3hueEv@Base 5.2.0
+ _ZNK28QGstreamerVideoWidgetControl8contrastEv@Base 5.2.0
  _ZNK32QGstreamerVideoRendererInterface7isReadyEv@Base 5.0.2
  _ZNK33QGstreamerVideoInputDeviceControl10deviceNameEi@Base 5.0.2
  _ZNK33QGstreamerVideoInputDeviceControl10metaObjectEv@Base 5.0.2
@@ -256,39 +331,54 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZTI15QGstVideoBuffer@Base 5.0.2
  _ZTI19QGstreamerBusHelper@Base 5.0.2
  _ZTI20QGstBufferPoolPlugin@Base 5.0.2
+ _ZTI21QGstreamerVideoWidget@Base 5.2.0
+ _ZTI21QGstreamerVideoWindow@Base 5.2.0
  _ZTI23QGstBufferPoolInterface@Base 5.0.2
  _ZTI23QGstreamerVideoRenderer@Base 5.0.2
  _ZTI24QVideoSurfaceGstDelegate@Base 5.0.2
  _ZTI26QGstreamerBusHelperPrivate@Base 5.0.2
+ _ZTI26QGstreamerBusMessageFilter@Base 5.2.0
  _ZTI27QGstreamerAudioProbeControl@Base 5.0.2
+ _ZTI27QGstreamerSyncMessageFilter@Base 5.2.0
  _ZTI27QGstreamerVideoProbeControl@Base 5.0.2
  _ZTI28QGstreamerAudioInputSelector@Base 5.0.2
+ _ZTI28QGstreamerVideoWidgetControl@Base 5.2.0
  _ZTI32QGstreamerVideoRendererInterface@Base 5.0.2
  _ZTI33QGstreamerVideoInputDeviceControl@Base 5.0.2
  _ZTS10QGstAppSrc@Base 5.0.2
  _ZTS15QGstVideoBuffer@Base 5.0.2
  _ZTS19QGstreamerBusHelper@Base 5.0.2
  _ZTS20QGstBufferPoolPlugin@Base 5.0.2
+ _ZTS21QGstreamerVideoWidget@Base 5.2.0
+ _ZTS21QGstreamerVideoWindow@Base 5.2.0
  _ZTS23QGstBufferPoolInterface@Base 5.0.2
  _ZTS23QGstreamerVideoRenderer@Base 5.0.2
  _ZTS24QVideoSurfaceGstDelegate@Base 5.0.2
  _ZTS26QGstreamerBusHelperPrivate@Base 5.0.2
+ _ZTS26QGstreamerBusMessageFilter@Base 5.2.0
  _ZTS27QGstreamerAudioProbeControl@Base 5.0.2
+ _ZTS27QGstreamerSyncMessageFilter@Base 5.2.0
  _ZTS27QGstreamerVideoProbeControl@Base 5.0.2
  _ZTS28QGstreamerAudioInputSelector@Base 5.0.2
+ _ZTS28QGstreamerVideoWidgetControl@Base 5.2.0
  _ZTS32QGstreamerVideoRendererInterface@Base 5.0.2
  _ZTS33QGstreamerVideoInputDeviceControl@Base 5.0.2
  _ZTV10QGstAppSrc@Base 5.0.2
  _ZTV15QGstVideoBuffer@Base 5.0.2
  _ZTV19QGstreamerBusHelper@Base 5.0.2
  _ZTV20QGstBufferPoolPlugin@Base 5.0.2
+ _ZTV21QGstreamerVideoWidget@Base 5.2.0
+ _ZTV21QGstreamerVideoWindow@Base 5.2.0
  _ZTV23QGstBufferPoolInterface@Base 5.0.2
  _ZTV23QGstreamerVideoRenderer@Base 5.0.2
  _ZTV24QVideoSurfaceGstDelegate@Base 5.0.2
  _ZTV26QGstreamerBusHelperPrivate@Base 5.0.2
+ _ZTV26QGstreamerBusMessageFilter@Base 5.2.0
  _ZTV27QGstreamerAudioProbeControl@Base 5.0.2
+ _ZTV27QGstreamerSyncMessageFilter@Base 5.2.0
  _ZTV27QGstreamerVideoProbeControl@Base 5.0.2
  _ZTV28QGstreamerAudioInputSelector@Base 5.0.2
+ _ZTV28QGstreamerVideoWidgetControl@Base 5.2.0
  _ZTV32QGstreamerVideoRendererInterface@Base 5.0.2
  _ZTV33QGstreamerVideoInputDeviceControl@Base 5.0.2
  (optional=templinst)_ZZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEvE11metatype_id@Base 5.0.2
@@ -298,3 +388,12 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (c++)"non-virtual thunk to QGstreamerVideoRenderer::stopRenderer()@Base" 5.0.2
  (c++)"non-virtual thunk to QGstreamerVideoRenderer::videoSink()@Base" 5.0.2
  (c++)"non-virtual thunk to QGstreamerVideoRenderer::~QGstreamerVideoRenderer()@Base" 5.0.2
+ (c++)"non-virtual thunk to QGstreamerVideoWidget::~QGstreamerVideoWidget()@Base" 5.2.0
+ (c++)"non-virtual thunk to QGstreamerVideoWidgetControl::processBusMessage(QGstreamerMessage const&)@Base" 5.2.0
+ (c++)"non-virtual thunk to QGstreamerVideoWidgetControl::processSyncMessage(QGstreamerMessage const&)@Base" 5.2.0
+ (c++)"non-virtual thunk to QGstreamerVideoWidgetControl::videoSink()@Base" 5.2.0
+ (c++)"non-virtual thunk to QGstreamerVideoWidgetControl::~QGstreamerVideoWidgetControl()@Base" 5.2.0
+ (c++)"non-virtual thunk to QGstreamerVideoWindow::isReady() const@Base" 5.2.0
+ (c++)"non-virtual thunk to QGstreamerVideoWindow::processSyncMessage(QGstreamerMessage const&)@Base" 5.2.0
+ (c++)"non-virtual thunk to QGstreamerVideoWindow::videoSink()@Base" 5.2.0
+ (c++)"non-virtual thunk to QGstreamerVideoWindow::~QGstreamerVideoWindow()@Base" 5.2.0

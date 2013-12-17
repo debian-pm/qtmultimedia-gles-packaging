@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN10QRadioData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QRadioData11qt_metacastEPKc@Base 5.0.2
@@ -1303,6 +1303,16 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN29QMediaNetworkPlaylistProviderD0Ev@Base 5.0.2
  _ZN29QMediaNetworkPlaylistProviderD1Ev@Base 5.0.2
  _ZN29QMediaNetworkPlaylistProviderD2Ev@Base 5.0.2
+ _ZN30QVideoOutputOrientationHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0
+ _ZN30QVideoOutputOrientationHandler11qt_metacastEPKc@Base 5.2.0
+ _ZN30QVideoOutputOrientationHandler16staticMetaObjectE@Base 5.2.0
+ _ZN30QVideoOutputOrientationHandler18orientationChangedEi@Base 5.2.0
+ _ZN30QVideoOutputOrientationHandler24screenOrientationChangedEN2Qt17ScreenOrientationE@Base 5.2.0
+ _ZN30QVideoOutputOrientationHandlerC1EP7QObject@Base 5.2.0
+ _ZN30QVideoOutputOrientationHandlerC2EP7QObject@Base 5.2.0
+ _ZN30QVideoOutputOrientationHandlerD0Ev@Base 5.2.0
+ _ZN30QVideoOutputOrientationHandlerD1Ev@Base 5.2.0
+ _ZN30QVideoOutputOrientationHandlerD2Ev@Base 5.2.0
  _ZN32QCameraCaptureDestinationControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN32QCameraCaptureDestinationControl11qt_metacastEPKc@Base 5.0.2
  _ZN32QCameraCaptureDestinationControl16staticMetaObjectE@Base 5.0.2
@@ -1850,6 +1860,8 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK29QMediaNetworkPlaylistProvider10mediaCountEv@Base 5.0.2
  _ZNK29QMediaNetworkPlaylistProvider10metaObjectEv@Base 5.0.2
  _ZNK29QMediaNetworkPlaylistProvider5mediaEi@Base 5.0.2
+ _ZNK30QVideoOutputOrientationHandler10metaObjectEv@Base 5.2.0
+ _ZNK30QVideoOutputOrientationHandler18currentOrientationEv@Base 5.2.0
  _ZNK32QCameraCaptureDestinationControl10metaObjectEv@Base 5.0.2
  _ZNK32QCameraViewfinderSettingsControl10metaObjectEv@Base 5.0.2
  _ZNK32QMediaPlayerResourceSetInterface10metaObjectEv@Base 5.0.2
@@ -1951,6 +1963,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI28QVideoEncoderSettingsControl@Base 5.0.2
  _ZTI29QCameraImageProcessingControl@Base 5.0.2
  _ZTI29QMediaNetworkPlaylistProvider@Base 5.0.2
+ _ZTI30QVideoOutputOrientationHandler@Base 5.2.0
  _ZTI32QCameraCaptureDestinationControl@Base 5.0.2
  _ZTI32QCameraViewfinderSettingsControl@Base 5.0.2
  _ZTI32QMediaPlayerResourceSetInterface@Base 5.0.2
@@ -2035,6 +2048,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS28QVideoEncoderSettingsControl@Base 5.0.2
  _ZTS29QCameraImageProcessingControl@Base 5.0.2
  _ZTS29QMediaNetworkPlaylistProvider@Base 5.0.2
+ _ZTS30QVideoOutputOrientationHandler@Base 5.2.0
  _ZTS32QCameraCaptureDestinationControl@Base 5.0.2
  _ZTS32QCameraViewfinderSettingsControl@Base 5.0.2
  _ZTS32QMediaPlayerResourceSetInterface@Base 5.0.2
@@ -2119,6 +2133,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV28QVideoEncoderSettingsControl@Base 5.0.2
  _ZTV29QCameraImageProcessingControl@Base 5.0.2
  _ZTV29QMediaNetworkPlaylistProvider@Base 5.0.2
+ _ZTV30QVideoOutputOrientationHandler@Base 5.2.0
  _ZTV32QCameraCaptureDestinationControl@Base 5.0.2
  _ZTV32QCameraViewfinderSettingsControl@Base 5.0.2
  _ZTV32QMediaPlayerResourceSetInterface@Base 5.0.2

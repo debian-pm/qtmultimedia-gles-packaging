@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libQt5MultimediaQuick_p.so.5 libqt5multimediaquick-p5 #MINVER#
  _ZN12QSGVideoNode23setTexturedRectGeometryERK6QRectFS2_i@Base 5.0.2
  _ZN12QSGVideoNodeC1Ev@Base 5.0.2
@@ -6,6 +6,18 @@ libQt5MultimediaQuick_p.so.5 libqt5multimediaquick-p5 #MINVER#
  _ZN12QSGVideoNodeD0Ev@Base 5.0.2
  _ZN12QSGVideoNodeD1Ev@Base 5.0.2
  _ZN12QSGVideoNodeD2Ev@Base 5.0.2
+ _ZN25QSGVideoNodeFactoryPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0
+ _ZN25QSGVideoNodeFactoryPlugin11qt_metacastEPKc@Base 5.2.0
+ _ZN25QSGVideoNodeFactoryPlugin16staticMetaObjectE@Base 5.2.0
+ _ZN25QSGVideoNodeFactoryPluginD0Ev@Base 5.2.0
+ _ZN25QSGVideoNodeFactoryPluginD1Ev@Base 5.2.0
+ _ZN25QSGVideoNodeFactoryPluginD2Ev@Base 5.2.0
+ _ZNK25QSGVideoNodeFactoryPlugin10metaObjectEv@Base 5.2.0
  _ZTI12QSGVideoNode@Base 5.0.2
+ _ZTI25QSGVideoNodeFactoryPlugin@Base 5.2.0
+ _ZTI28QSGVideoNodeFactoryInterface@Base 5.2.0
  _ZTS12QSGVideoNode@Base 5.0.2
+ _ZTS25QSGVideoNodeFactoryPlugin@Base 5.2.0
+ _ZTS28QSGVideoNodeFactoryInterface@Base 5.2.0
  _ZTV12QSGVideoNode@Base 5.0.2
+ _ZTV25QSGVideoNodeFactoryPlugin@Base 5.2.0
