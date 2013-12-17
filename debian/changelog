@@ -11,6 +11,7 @@ qtmultimedia-opensource-src (5.2.0-1) UNRELEASED; urgency=low
   * Remove new private stuff we are not shipping.
   * Adjust install files.
   * Update symbols files with current build log.
+  * Regenerate the symbols that used to have the qreal subst.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Oct 2013 12:17:59 +0400
 

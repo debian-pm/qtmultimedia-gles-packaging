@@ -30,7 +30,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN11QAudioInput6notifyEv@Base 5.0.2
  _ZN11QAudioInput6resumeEv@Base 5.0.2
  _ZN11QAudioInput7suspendEv@Base 5.0.2
- (subst)_ZN11QAudioInput9setVolumeE{qreal}@Base 5.0.2
+ _ZN11QAudioInput9setVolumeEd@Base 5.2.0
  _ZN11QAudioInputC1ERK12QAudioFormatP7QObject@Base 5.0.2
  _ZN11QAudioInputC1ERK16QAudioDeviceInfoRK12QAudioFormatP7QObject@Base 5.0.2
  _ZN11QAudioInputC2ERK12QAudioFormatP7QObject@Base 5.0.2
@@ -155,7 +155,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN12QAudioOutput6notifyEv@Base 5.0.2
  _ZN12QAudioOutput6resumeEv@Base 5.0.2
  _ZN12QAudioOutput7suspendEv@Base 5.0.2
- (subst)_ZN12QAudioOutput9setVolumeE{qreal}@Base 5.0.2
+ _ZN12QAudioOutput9setVolumeEd@Base 5.2.0
  _ZN12QAudioOutputC1ERK12QAudioFormatP7QObject@Base 5.0.2
  _ZN12QAudioOutputC1ERK16QAudioDeviceInfoRK12QAudioFormatP7QObject@Base 5.0.2
  _ZN12QAudioOutputC2ERK12QAudioFormatP7QObject@Base 5.0.2
@@ -169,12 +169,12 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN12QCameraFocus16staticMetaObjectE@Base 5.0.2
  _ZN12QCameraFocus17focusZonesChangedEv@Base 5.0.2
  _ZN12QCameraFocus17setFocusPointModeENS_14FocusPointModeE@Base 5.0.2
- (subst)_ZN12QCameraFocus18digitalZoomChangedE{qreal}@Base 5.0.2
- (subst)_ZN12QCameraFocus18opticalZoomChangedE{qreal}@Base 5.0.2
+ _ZN12QCameraFocus18digitalZoomChangedEd@Base 5.2.0
+ _ZN12QCameraFocus18opticalZoomChangedEd@Base 5.2.0
  _ZN12QCameraFocus19setCustomFocusPointERK7QPointF@Base 5.0.2
- (subst)_ZN12QCameraFocus25maximumDigitalZoomChangedE{qreal}@Base 5.0.2
- (subst)_ZN12QCameraFocus25maximumOpticalZoomChangedE{qreal}@Base 5.0.2
- (subst)_ZN12QCameraFocus6zoomToE{qreal}{qreal}@Base 5.0.2
+ _ZN12QCameraFocus25maximumDigitalZoomChangedEd@Base 5.2.0
+ _ZN12QCameraFocus25maximumOpticalZoomChangedEd@Base 5.2.0
+ _ZN12QCameraFocus6zoomToEdd@Base 5.2.0
  _ZN12QCameraFocusC1EP7QCamera@Base 5.0.2
  _ZN12QCameraFocusC2EP7QCamera@Base 5.0.2
  _ZN12QCameraFocusD0Ev@Base 5.0.2
@@ -217,13 +217,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN12QMediaPlayer15durationChangedEx@Base 5.0.2
  _ZN12QMediaPlayer15positionChangedEx@Base 5.0.2
  _ZN12QMediaPlayer15seekableChangedEb@Base 5.0.2
- (subst)_ZN12QMediaPlayer15setPlaybackRateE{qreal}@Base 5.0.2
+ _ZN12QMediaPlayer15setPlaybackRateEd@Base 5.2.0
  _ZN12QMediaPlayer16staticMetaObjectE@Base 5.0.2
  _ZN12QMediaPlayer18mediaStatusChangedENS_11MediaStatusE@Base 5.0.2
  _ZN12QMediaPlayer18supportedMimeTypesE6QFlagsINS_4FlagEE@Base 5.0.2
  _ZN12QMediaPlayer19bufferStatusChangedEi@Base 5.0.2
  _ZN12QMediaPlayer19currentMediaChangedERK13QMediaContent@Base 5.0.2
- (subst)_ZN12QMediaPlayer19playbackRateChangedE{qreal}@Base 5.0.2
+ _ZN12QMediaPlayer19playbackRateChangedEd@Base 5.2.0
  _ZN12QMediaPlayer21audioAvailableChangedEb@Base 5.0.2
  _ZN12QMediaPlayer21videoAvailableChangedEb@Base 5.0.2
  _ZN12QMediaPlayer24setNetworkConfigurationsERK5QListI21QNetworkConfigurationE@Base 5.0.2
@@ -278,7 +278,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN12QSoundEffect4stopEv@Base 5.0.2
  _ZN12QSoundEffect8setMutedEb@Base 5.0.2
  _ZN12QSoundEffect9setSourceERK4QUrl@Base 5.0.2
- (subst)_ZN12QSoundEffect9setVolumeE{qreal}@Base 5.0.2
+ _ZN12QSoundEffect9setVolumeEd@Base 5.2.0
  _ZN12QSoundEffectC1EP7QObject@Base 5.0.2
  _ZN12QSoundEffectC2EP7QObject@Base 5.0.2
  _ZN12QSoundEffectD0Ev@Base 5.0.2
@@ -502,7 +502,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN14QMediaRecorder12mutedChangedEb@Base 5.0.2
  _ZN14QMediaRecorder12stateChangedENS_5StateE@Base 5.0.2
  _ZN14QMediaRecorder13statusChangedENS_6StatusE@Base 5.0.2
- (subst)_ZN14QMediaRecorder13volumeChangedE{qreal}@Base 5.0.2
+ _ZN14QMediaRecorder13volumeChangedEd@Base 5.2.0
  _ZN14QMediaRecorder14setMediaObjectEP12QMediaObject@Base 5.0.2
  _ZN14QMediaRecorder15durationChangedEx@Base 5.0.2
  _ZN14QMediaRecorder15metaDataChangedERK7QStringRK8QVariant@Base 5.0.2
@@ -523,7 +523,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN14QMediaRecorder5pauseEv@Base 5.0.2
  _ZN14QMediaRecorder6recordEv@Base 5.0.2
  _ZN14QMediaRecorder8setMutedEb@Base 5.0.2
- (subst)_ZN14QMediaRecorder9setVolumeE{qreal}@Base 5.0.2
+ _ZN14QMediaRecorder9setVolumeEd@Base 5.2.0
  _ZN14QMediaRecorderC1EP12QMediaObjectP7QObject@Base 5.0.2
  _ZN14QMediaRecorderC1ER21QMediaRecorderPrivateP12QMediaObjectP7QObject@Base 5.0.2
  _ZN14QMediaRecorderC2EP12QMediaObjectP7QObject@Base 5.0.2
@@ -556,23 +556,23 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN15QCameraExposure11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN15QCameraExposure11qt_metacastEPKc@Base 5.0.2
  _ZN15QCameraExposure12setFlashModeE6QFlagsINS_9FlashModeEE@Base 5.0.2
- (subst)_ZN15QCameraExposure15apertureChangedE{qreal}@Base 5.0.2
+ _ZN15QCameraExposure15apertureChangedEd@Base 5.2.0
  _ZN15QCameraExposure15setAutoApertureEv@Base 5.0.2
  _ZN15QCameraExposure15setExposureModeENS_12ExposureModeE@Base 5.0.2
  _ZN15QCameraExposure15setMeteringModeENS_12MeteringModeE@Base 5.0.2
  _ZN15QCameraExposure16staticMetaObjectE@Base 5.0.2
- (subst)_ZN15QCameraExposure17setManualApertureE{qreal}@Base 5.0.2
+ _ZN15QCameraExposure17setManualApertureEd@Base 5.2.0
  _ZN15QCameraExposure19setAutoShutterSpeedEv@Base 5.0.2
- (subst)_ZN15QCameraExposure19shutterSpeedChangedE{qreal}@Base 5.0.2
+ _ZN15QCameraExposure19shutterSpeedChangedEd@Base 5.2.0
  _ZN15QCameraExposure20apertureRangeChangedEv@Base 5.0.2
  _ZN15QCameraExposure20setSpotMeteringPointERK7QPointF@Base 5.0.2
  _ZN15QCameraExposure21isoSensitivityChangedEi@Base 5.0.2
  _ZN15QCameraExposure21setAutoIsoSensitivityEv@Base 5.0.2
- (subst)_ZN15QCameraExposure21setManualShutterSpeedE{qreal}@Base 5.0.2
- (subst)_ZN15QCameraExposure23setExposureCompensationE{qreal}@Base 5.0.2
+ _ZN15QCameraExposure21setManualShutterSpeedEd@Base 5.2.0
+ _ZN15QCameraExposure23setExposureCompensationEd@Base 5.2.0
  _ZN15QCameraExposure23setManualIsoSensitivityEi@Base 5.0.2
  _ZN15QCameraExposure24shutterSpeedRangeChangedEv@Base 5.0.2
- (subst)_ZN15QCameraExposure27exposureCompensationChangedE{qreal}@Base 5.0.2
+ _ZN15QCameraExposure27exposureCompensationChangedEd@Base 5.2.0
  _ZN15QCameraExposureC1EP7QCamera@Base 5.0.2
  _ZN15QCameraExposureC2EP7QCamera@Base 5.0.2
  _ZN15QCameraExposureD0Ev@Base 5.0.2
@@ -656,12 +656,12 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN18QCameraZoomControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18QCameraZoomControl11qt_metacastEPKc@Base 5.0.2
  _ZN18QCameraZoomControl16staticMetaObjectE@Base 5.0.2
- (subst)_ZN18QCameraZoomControl25currentDigitalZoomChangedE{qreal}@Base 5.0.2
- (subst)_ZN18QCameraZoomControl25currentOpticalZoomChangedE{qreal}@Base 5.0.2
- (subst)_ZN18QCameraZoomControl25maximumDigitalZoomChangedE{qreal}@Base 5.0.2
- (subst)_ZN18QCameraZoomControl25maximumOpticalZoomChangedE{qreal}@Base 5.0.2
- (subst)_ZN18QCameraZoomControl27requestedDigitalZoomChangedE{qreal}@Base 5.0.2
- (subst)_ZN18QCameraZoomControl27requestedOpticalZoomChangedE{qreal}@Base 5.0.2
+ _ZN18QCameraZoomControl25currentDigitalZoomChangedEd@Base 5.2.0
+ _ZN18QCameraZoomControl25currentOpticalZoomChangedEd@Base 5.2.0
+ _ZN18QCameraZoomControl25maximumDigitalZoomChangedEd@Base 5.2.0
+ _ZN18QCameraZoomControl25maximumOpticalZoomChangedEd@Base 5.2.0
+ _ZN18QCameraZoomControl27requestedDigitalZoomChangedEd@Base 5.2.0
+ _ZN18QCameraZoomControl27requestedOpticalZoomChangedEd@Base 5.2.0
  _ZN18QCameraZoomControlC1EP7QObject@Base 5.0.2
  _ZN18QCameraZoomControlC2EP7QObject@Base 5.0.2
  _ZN18QCameraZoomControlD0Ev@Base 5.0.2
@@ -780,7 +780,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN19QMediaPlayerControl16staticMetaObjectE@Base 5.0.2
  _ZN19QMediaPlayerControl18mediaStatusChangedEN12QMediaPlayer11MediaStatusE@Base 5.0.2
  _ZN19QMediaPlayerControl19bufferStatusChangedEi@Base 5.0.2
- (subst)_ZN19QMediaPlayerControl19playbackRateChangedE{qreal}@Base 5.0.2
+ _ZN19QMediaPlayerControl19playbackRateChangedEd@Base 5.2.0
  _ZN19QMediaPlayerControl21audioAvailableChangedEb@Base 5.0.2
  _ZN19QMediaPlayerControl21videoAvailableChangedEb@Base 5.0.2
  _ZN19QMediaPlayerControl30availablePlaybackRangesChangedERK15QMediaTimeRange@Base 5.0.2
@@ -806,7 +806,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN19QPlaylistFileParserD2Ev@Base 5.0.2
  _ZN19QVideoSurfaceFormat11setPropertyEPKcRK8QVariant@Base 5.0.2
  _ZN19QVideoSurfaceFormat11setViewportERK5QRect@Base 5.0.2
- (subst)_ZN19QVideoSurfaceFormat12setFrameRateE{qreal}@Base 5.0.2
+ _ZN19QVideoSurfaceFormat12setFrameRateEd@Base 5.2.0
  _ZN19QVideoSurfaceFormat12setFrameSizeERK5QSize@Base 5.0.2
  _ZN19QVideoSurfaceFormat12setFrameSizeEii@Base 5.0.2
  _ZN19QVideoSurfaceFormat18setYCbCrColorSpaceENS_15YCbCrColorSpaceE@Base 5.0.2
@@ -870,7 +870,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN20QAudioDecoderControlD0Ev@Base 5.0.2
  _ZN20QAudioDecoderControlD1Ev@Base 5.0.2
  _ZN20QAudioDecoderControlD2Ev@Base 5.0.2
- (subst)_ZN20QAudioHelperInternal16qMultiplySamplesE{qreal}RK12QAudioFormatPKvPvi@Base 5.0.2
+ _ZN20QAudioHelperInternal16qMultiplySamplesEdRK12QAudioFormatPKvPvi@Base 5.2.0
  _ZN20QImageEncoderControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN20QImageEncoderControl11qt_metacastEPKc@Base 5.0.2
  _ZN20QImageEncoderControl16staticMetaObjectE@Base 5.0.2
@@ -958,7 +958,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN21QMediaRecorderControl12mutedChangedEb@Base 5.0.2
  _ZN21QMediaRecorderControl12stateChangedEN14QMediaRecorder5StateE@Base 5.0.2
  _ZN21QMediaRecorderControl13statusChangedEN14QMediaRecorder6StatusE@Base 5.0.2
- (subst)_ZN21QMediaRecorderControl13volumeChangedE{qreal}@Base 5.0.2
+ _ZN21QMediaRecorderControl13volumeChangedEd@Base 5.2.0
  _ZN21QMediaRecorderControl15durationChangedEx@Base 5.0.2
  _ZN21QMediaRecorderControl16staticMetaObjectE@Base 5.0.2
  _ZN21QMediaRecorderControl21actualLocationChangedERK4QUrl@Base 5.0.2
@@ -979,7 +979,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN21QMediaServiceProviderD2Ev@Base 5.0.2
  _ZN21QVideoEncoderSettings10setBitRateEi@Base 5.0.2
  _ZN21QVideoEncoderSettings10setQualityEN11QMultimedia15EncodingQualityE@Base 5.0.2
- (subst)_ZN21QVideoEncoderSettings12setFrameRateE{qreal}@Base 5.0.2
+ _ZN21QVideoEncoderSettings12setFrameRateEd@Base 5.2.0
  _ZN21QVideoEncoderSettings13setResolutionERK5QSize@Base 5.0.2
  _ZN21QVideoEncoderSettings13setResolutionEii@Base 5.0.2
  _ZN21QVideoEncoderSettings15setEncodingModeEN11QMultimedia12EncodingModeE@Base 5.0.2
@@ -1022,13 +1022,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN22QCameraFeedbackControlD2Ev@Base 5.0.2
  _ZN22QCameraImageProcessing11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN22QCameraImageProcessing11qt_metacastEPKc@Base 5.0.2
- (subst)_ZN22QCameraImageProcessing11setContrastE{qreal}@Base 5.0.2
- (subst)_ZN22QCameraImageProcessing13setSaturationE{qreal}@Base 5.0.2
+ _ZN22QCameraImageProcessing11setContrastEd@Base 5.2.0
+ _ZN22QCameraImageProcessing13setSaturationEd@Base 5.2.0
  _ZN22QCameraImageProcessing16staticMetaObjectE@Base 5.0.2
- (subst)_ZN22QCameraImageProcessing17setDenoisingLevelE{qreal}@Base 5.0.2
- (subst)_ZN22QCameraImageProcessing18setSharpeningLevelE{qreal}@Base 5.0.2
+ _ZN22QCameraImageProcessing17setDenoisingLevelEd@Base 5.2.0
+ _ZN22QCameraImageProcessing18setSharpeningLevelEd@Base 5.2.0
  _ZN22QCameraImageProcessing19setWhiteBalanceModeENS_16WhiteBalanceModeE@Base 5.0.2
- (subst)_ZN22QCameraImageProcessing21setManualWhiteBalanceE{qreal}@Base 5.0.2
+ _ZN22QCameraImageProcessing21setManualWhiteBalanceEd@Base 5.2.0
  _ZN22QCameraImageProcessingC1EP7QCamera@Base 5.0.2
  _ZN22QCameraImageProcessingC2EP7QCamera@Base 5.0.2
  _ZN22QCameraImageProcessingD0Ev@Base 5.0.2
@@ -1264,7 +1264,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN28QMediaGaplessPlaybackControl16nextMediaChangedERK13QMediaContent@Base 5.0.2
  _ZN28QMediaGaplessPlaybackControl16staticMetaObjectE@Base 5.0.2
  _ZN28QMediaGaplessPlaybackControl19advancedToNextMediaEv@Base 5.0.2
- (subst)_ZN28QMediaGaplessPlaybackControl20crossfadeTimeChangedE{qreal}@Base 5.0.2
+ _ZN28QMediaGaplessPlaybackControl20crossfadeTimeChangedEd@Base 5.2.0
  _ZN28QMediaGaplessPlaybackControlC1EP7QObject@Base 5.0.2
  _ZN28QMediaGaplessPlaybackControlC2EP7QObject@Base 5.0.2
  _ZN28QMediaGaplessPlaybackControlD0Ev@Base 5.0.2
