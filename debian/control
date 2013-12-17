@@ -9,19 +9,18 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9.0.0),
-               qtbase5-dev (>= 5.2.0+dfsg~),
+               libasound2-dev [linux-any],
+               libgstreamer-plugins-base0.10-dev,
+               libgstreamer0.10-dev,
+               libopenal-dev,
+               libpulse-dev,
                libqt5opengl5-dev (>= 5.2.0+dfsg~),
+               pkg-kde-tools,
+               qtbase5-dev (>= 5.2.0+dfsg~),
                qtbase5-private-dev (>= 5.2.0+dfsg~),
                qtdeclarative5-private-dev (>= 5.2.0-1~),
-               libasound2-dev [linux-any],
-               libpulse-dev,
-               libgstreamer-plugins-base0.10-dev,
-               libopenal-dev,
-               libgstreamer0.10-dev,
-               zlib1g-dev,
-               pkg-kde-tools,
-Build-Depends-Indep: libqt5sql5-sqlite,
-                     qttools5-dev-tools (>= 5.2.0-1~)
+               zlib1g-dev
+Build-Depends-Indep: libqt5sql5-sqlite, qttools5-dev-tools (>= 5.2.0-1~)
 Standards-Version: 3.9.4
 Homepage: https://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtmultimedia.git
@@ -43,8 +42,9 @@ Package: libqt5multimedia5-plugins
 Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Depends: libqt5multimedia5 (= ${binary:Version}), ${misc:Depends},
- ${shlibs:Depends}
+Depends: libqt5multimedia5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Qt 5 Multimedia module plugins
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -115,9 +115,9 @@ Multi-Arch: same
 Section: x11
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: libqt5multimedia5-plugins (= ${binary:Version}),
+         qtdeclarative5-folderlistmodel-plugin,
          qtdeclarative5-qtmultimedia-plugin (= ${binary:Version}),
          qtdeclarative5-qtquick2-plugin,
-         qtdeclarative5-folderlistmodel-plugin,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Examples for Qt 5 Multimedia module
@@ -149,8 +149,7 @@ Priority: extra
 Architecture: any
 Multi-Arch: same
 Section: debug
-Depends: libqt5multimedia5 (= ${binary:Version}),
-         ${misc:Depends}
+Depends: libqt5multimedia5 (= ${binary:Version}), ${misc:Depends}
 Suggests: qtmultimedia5-examples (= ${binary:Version})
 Description: Qt 5 Multimedia library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature

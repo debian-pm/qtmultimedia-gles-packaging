@@ -1,5 +1,3 @@
-usr/include/qt5/QtMultimedia/QtMultimediaDepends
-usr/include/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends
 usr/include/qt5/QtMultimedia/QAbstractAudioDeviceInfo
 usr/include/qt5/QtMultimedia/QAbstractAudioInput
 usr/include/qt5/QtMultimedia/QAbstractAudioOutput
@@ -88,6 +86,7 @@ usr/include/qt5/QtMultimedia/QVideoRendererControl
 usr/include/qt5/QtMultimedia/QVideoSurfaceFormat
 usr/include/qt5/QtMultimedia/QVideoWindowControl
 usr/include/qt5/QtMultimedia/QtMultimedia
+usr/include/qt5/QtMultimedia/QtMultimediaDepends
 usr/include/qt5/QtMultimedia/QtMultimediaVersion
 usr/include/qt5/QtMultimedia/qabstractvideobuffer.h
 usr/include/qt5/QtMultimedia/qabstractvideosurface.h
@@ -173,6 +172,7 @@ usr/include/qt5/QtMultimediaWidgets/QGraphicsVideoItem
 usr/include/qt5/QtMultimediaWidgets/QVideoWidget
 usr/include/qt5/QtMultimediaWidgets/QVideoWidgetControl
 usr/include/qt5/QtMultimediaWidgets/QtMultimediaWidgets
+usr/include/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends
 usr/include/qt5/QtMultimediaWidgets/QtMultimediaWidgetsVersion
 usr/include/qt5/QtMultimediaWidgets/qcameraviewfinder.h
 usr/include/qt5/QtMultimediaWidgets/qgraphicsvideoitem.h
