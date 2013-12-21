@@ -1,5 +1,7 @@
 qtmultimedia-opensource-src (5.2.0-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Simplify qtmultimedia5-examples.install.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 21 Dec 2013 12:45:11 +0100
 
