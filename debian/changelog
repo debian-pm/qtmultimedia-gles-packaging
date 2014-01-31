@@ -1,4 +1,4 @@
-qtmultimedia-opensource-src (5.2.0-3) UNRELEASED; urgency=low
+qtmultimedia-opensource-src (5.2.0-3) unstable; urgency=low
 
   [ Pino Toscano ]
   * Simplify qtmultimedia5-examples.install.
@@ -6,12 +6,13 @@ qtmultimedia-opensource-src (5.2.0-3) UNRELEASED; urgency=low
     in Squeeze already.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upload to unstable.
   * Move mkspec files to their new location.
     - B-D on qtbase5-private-dev 5.2.0+dfsg-7 which changed the location.
   * Update symbols files with buildd's logs.
   * Update Standards-Version to 3.9.5, no changes required.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 21 Dec 2013 12:45:11 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 31 Jan 2014 20:06:31 -0300
 
 qtmultimedia-opensource-src (5.2.0-2) experimental; urgency=medium
 
