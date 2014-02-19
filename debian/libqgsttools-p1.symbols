@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 alpha amd64 armel i386 ia64 powerpc ppc64 s390x sparc
+# SymbolsHelper-Confirmed: 5.2.1 amd64
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst|arch=alpha armel ia64 powerpc ppc64 s390x sparc)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.2.0
  _ZN10QGstAppSrc11onDataReadyEv@Base 5.0.2
@@ -225,7 +225,9 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN33QGstreamerVideoInputDeviceControl16staticMetaObjectE@Base 5.0.2
  _ZN33QGstreamerVideoInputDeviceControl17setSelectedDeviceEi@Base 5.0.2
  _ZN33QGstreamerVideoInputDeviceControl6updateEv@Base 5.0.2
+ _ZN33QGstreamerVideoInputDeviceControlC1EP11_GstElementP7QObject@Base 5.2.1
  _ZN33QGstreamerVideoInputDeviceControlC1EP7QObject@Base 5.0.2
+ _ZN33QGstreamerVideoInputDeviceControlC2EP11_GstElementP7QObject@Base 5.2.1
  _ZN33QGstreamerVideoInputDeviceControlC2EP7QObject@Base 5.0.2
  _ZN33QGstreamerVideoInputDeviceControlD0Ev@Base 5.0.2
  _ZN33QGstreamerVideoInputDeviceControlD1Ev@Base 5.0.2
