@@ -79,7 +79,7 @@ Description: Qt 5 Multimedia Widgets module
 Package: qtdeclarative5-qtmultimedia-plugin
 Architecture: all
 Section: oldlibs
-Depends: ${misc:Depends}, qml-module-qtmultimedia
+Depends: qml-module-qtmultimedia, ${misc:Depends}
 Description: transitional dummy package for Qt 5 Multimedia QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -103,7 +103,7 @@ Description: Qt 5 Multimedia QML module
 Package: qtdeclarative5-qtaudioengine-plugin
 Architecture: all
 Section: oldlibs
-Depends: ${misc:Depends}, qml-module-qtaudioengine
+Depends: qml-module-qtaudioengine, ${misc:Depends}
 Description: transitional dummy package for Qt 5 AudioEngine QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
