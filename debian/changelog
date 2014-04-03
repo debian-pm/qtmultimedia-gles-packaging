@@ -1,12 +1,12 @@
 qtmultimedia-opensource-src (5.2.1-3) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Workaround https://bugreports.qt-project.org/browse/QTBUG-38061 in
-    kfreebsd-* by replacing linux/types.h with sys/types.h.
   * Rename QML packages with proper files renaming and Break+Replaces:
     - qtdeclarative5-qtaudioengine-plugin → qml-module-qtaudioengine
     - qtdeclarative5-qtmultimedia-plugin → qml-module-qtmultimedia
   * Add qml-module-qtquick2 as qml-module-qtmultimedia dependency.
+  * Backport gstreamer_cleanup_system_includes.patch to solve FTBFS in
+    kfreebsd-*.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Apr 2014 15:00:22 -0300
 

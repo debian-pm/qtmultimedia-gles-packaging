@@ -10,19 +10,11 @@ export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildfla
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
-# Workaround for https://bugreports.qt-project.org/browse/QTBUG-38061
-fix_types_archs := kfreebsd-amd64 kfreebsd-i386
-
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtmultimedia5-dbg
 
 override_dh_auto_configure:
-ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(fix_types_archs)))
-	# Use sys/types.h instead of linux/types.h
-	find src/ -type f -exec grep -l "linux/types.h" {} \; | xargs sed -i 's|<linux/types.h>|<sys/types.h>|'
-endif
 	qmake
-
 
 override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
