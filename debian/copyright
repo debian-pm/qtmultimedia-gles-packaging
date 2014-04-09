@@ -2,11 +2,6 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtmultimedia-opensource-src
 Source: http://releases.qt-project.org/qt5/*/submodules/
 
-Files: *
-Copyright: 2012-2013 Digia Plc and/or its subsidiary(-ies)
-           2012 Research In Motion
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
-
 Files: debian/*
 Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2012 Sune Vuorela <debian@pusling.com>
@@ -16,6 +11,15 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2012 Zoltán Balogh <zoltan.balogh@canonical.com>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
 License: LGPL-2.1
+
+Files: *
+Copyright: 2012-2013 Digia Plc and/or its subsidiary(-ies)
+           2012 Research In Motion
+License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+
+Files: config.tests/mmrenderer/*
+Copyright: 2013 BlackBerry Limited
+License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
 
 Files: examples/*
  src/multimedia/doc/snippets/multimedia-snippets/qsound.cpp
