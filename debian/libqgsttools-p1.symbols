@@ -1,6 +1,7 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst|arch=alpha armel ia64 powerpc ppc64 s390x sparc)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.2.0
+ _Z22qt_gst_object_ref_sinkPv@Base 5.3.0
  _ZN10QGstAppSrc11onDataReadyEv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacastEPKc@Base 5.0.2

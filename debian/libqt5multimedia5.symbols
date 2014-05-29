@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN10QRadioData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QRadioData11qt_metacastEPKc@Base 5.0.2
@@ -50,6 +50,17 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN11QAudioProbeD0Ev@Base 5.0.2
  _ZN11QAudioProbeD1Ev@Base 5.0.2
  _ZN11QAudioProbeD2Ev@Base 5.0.2
+ _ZN11QCameraInfo13defaultCameraEv@Base 5.3.0
+ _ZN11QCameraInfo16availableCamerasEN7QCamera8PositionE@Base 5.3.0
+ _ZN11QCameraInfoC1ERK10QByteArray@Base 5.3.0
+ _ZN11QCameraInfoC1ERK7QCamera@Base 5.3.0
+ _ZN11QCameraInfoC1ERKS_@Base 5.3.0
+ _ZN11QCameraInfoC2ERK10QByteArray@Base 5.3.0
+ _ZN11QCameraInfoC2ERK7QCamera@Base 5.3.0
+ _ZN11QCameraInfoC2ERKS_@Base 5.3.0
+ _ZN11QCameraInfoD1Ev@Base 5.3.0
+ _ZN11QCameraInfoD2Ev@Base 5.3.0
+ _ZN11QCameraInfoaSERKS_@Base 5.3.0
  _ZN11QRadioTuner11bandChangedENS_4BandE@Base 5.0.2
  _ZN11QRadioTuner11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN11QRadioTuner11qt_metacastEPKc@Base 5.0.2
@@ -653,6 +664,14 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN18QAudioSystemPluginD0Ev@Base 5.0.2
  _ZN18QAudioSystemPluginD1Ev@Base 5.0.2
  _ZN18QAudioSystemPluginD2Ev@Base 5.0.2
+ _ZN18QCameraInfoControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0
+ _ZN18QCameraInfoControl11qt_metacastEPKc@Base 5.3.0
+ _ZN18QCameraInfoControl16staticMetaObjectE@Base 5.3.0
+ _ZN18QCameraInfoControlC1EP7QObject@Base 5.3.0
+ _ZN18QCameraInfoControlC2EP7QObject@Base 5.3.0
+ _ZN18QCameraInfoControlD0Ev@Base 5.3.0
+ _ZN18QCameraInfoControlD1Ev@Base 5.3.0
+ _ZN18QCameraInfoControlD2Ev@Base 5.3.0
  _ZN18QCameraZoomControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18QCameraZoomControl11qt_metacastEPKc@Base 5.0.2
  _ZN18QCameraZoomControl16staticMetaObjectE@Base 5.0.2
@@ -1158,11 +1177,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN25QMediaAvailabilityControlD1Ev@Base 5.0.2
  _ZN25QMediaAvailabilityControlD2Ev@Base 5.0.2
  _ZN25QMediaServiceProviderHintC1E6QFlagsINS_7FeatureEE@Base 5.0.2
+ _ZN25QMediaServiceProviderHintC1EN7QCamera8PositionE@Base 5.3.0
  _ZN25QMediaServiceProviderHintC1ERK10QByteArray@Base 5.0.2
  _ZN25QMediaServiceProviderHintC1ERK7QStringRK11QStringList@Base 5.0.2
  _ZN25QMediaServiceProviderHintC1ERKS_@Base 5.0.2
  _ZN25QMediaServiceProviderHintC1Ev@Base 5.0.2
  _ZN25QMediaServiceProviderHintC2E6QFlagsINS_7FeatureEE@Base 5.0.2
+ _ZN25QMediaServiceProviderHintC2EN7QCamera8PositionE@Base 5.3.0
  _ZN25QMediaServiceProviderHintC2ERK10QByteArray@Base 5.0.2
  _ZN25QMediaServiceProviderHintC2ERK7QStringRK11QStringList@Base 5.0.2
  _ZN25QMediaServiceProviderHintC2ERKS_@Base 5.0.2
@@ -1394,10 +1415,14 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN7QCamera6unloadEv@Base 5.0.2
  _ZN7QCamera6unlockE6QFlagsINS_8LockTypeEE@Base 5.0.2
  _ZN7QCamera6unlockEv@Base 5.0.2
+ _ZN7QCameraC1ENS_8PositionEP7QObject@Base 5.3.0
  _ZN7QCameraC1EP7QObject@Base 5.0.2
  _ZN7QCameraC1ERK10QByteArrayP7QObject@Base 5.0.2
+ _ZN7QCameraC1ERK11QCameraInfoP7QObject@Base 5.3.0
+ _ZN7QCameraC2ENS_8PositionEP7QObject@Base 5.3.0
  _ZN7QCameraC2EP7QObject@Base 5.0.2
  _ZN7QCameraC2ERK10QByteArrayP7QObject@Base 5.0.2
+ _ZN7QCameraC2ERK11QCameraInfoP7QObject@Base 5.3.0
  _ZN7QCameraD0Ev@Base 5.0.2
  _ZN7QCameraD1Ev@Base 5.0.2
  _ZN7QCameraD2Ev@Base 5.0.2
@@ -1444,6 +1469,12 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK11QAudioInput6volumeEv@Base 5.0.2
  _ZNK11QAudioProbe10metaObjectEv@Base 5.0.2
  _ZNK11QAudioProbe8isActiveEv@Base 5.0.2
+ _ZNK11QCameraInfo10deviceNameEv@Base 5.3.0
+ _ZNK11QCameraInfo11descriptionEv@Base 5.3.0
+ _ZNK11QCameraInfo11orientationEv@Base 5.3.0
+ _ZNK11QCameraInfo6isNullEv@Base 5.3.0
+ _ZNK11QCameraInfo8positionEv@Base 5.3.0
+ _ZNK11QCameraInfoeqERKS_@Base 5.3.0
  _ZNK11QRadioTuner10metaObjectEv@Base 5.0.2
  _ZNK11QRadioTuner10stereoModeEv@Base 5.0.2
  _ZNK11QRadioTuner11errorStringEv@Base 5.0.2
@@ -1707,6 +1738,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK17QImageVideoBuffer7mapModeEv@Base 5.0.2
  _ZNK17QRadioDataControl10metaObjectEv@Base 5.0.2
  _ZNK18QAudioSystemPlugin10metaObjectEv@Base 5.0.2
+ _ZNK18QCameraInfoControl10metaObjectEv@Base 5.3.0
  _ZNK18QCameraZoomControl10metaObjectEv@Base 5.0.2
  _ZNK18QMediaPluginLoader4keysEv@Base 5.0.2
  _ZNK18QMediaTimeInterval10normalizedEv@Base 5.0.2
@@ -1791,6 +1823,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK21QMediaRecorderControl10metaObjectEv@Base 5.0.2
  _ZNK21QMediaServiceProvider10hasSupportERK10QByteArrayRK7QStringRK11QStringListi@Base 5.0.2
  _ZNK21QMediaServiceProvider10metaObjectEv@Base 5.0.2
+ _ZNK21QMediaServiceProvider13defaultDeviceERK10QByteArray@Base 5.3.0
+ _ZNK21QMediaServiceProvider14cameraPositionERK10QByteArray@Base 5.3.0
+ _ZNK21QMediaServiceProvider17cameraOrientationERK10QByteArray@Base 5.3.0
  _ZNK21QMediaServiceProvider18supportedMimeTypesERK10QByteArrayi@Base 5.0.2
  _ZNK21QMediaServiceProvider7devicesERK10QByteArray@Base 5.0.2
  _ZNK21QVideoEncoderSettings10resolutionEv@Base 5.0.2
@@ -1836,6 +1871,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK23QMediaVideoProbeControl10metaObjectEv@Base 5.0.2
  _ZNK24QAbstractAudioDeviceInfo10metaObjectEv@Base 5.0.2
  _ZNK25QMediaAvailabilityControl10metaObjectEv@Base 5.0.2
+ _ZNK25QMediaServiceProviderHint14cameraPositionEv@Base 5.3.0
  _ZNK25QMediaServiceProviderHint4typeEv@Base 5.0.2
  _ZNK25QMediaServiceProviderHint6codecsEv@Base 5.0.2
  _ZNK25QMediaServiceProviderHint6deviceEv@Base 5.0.2
@@ -1910,6 +1946,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI17QImageVideoBuffer@Base 5.0.2
  _ZTI17QRadioDataControl@Base 5.0.2
  _ZTI18QAudioSystemPlugin@Base 5.0.2
+ _ZTI18QCameraInfoControl@Base 5.3.0
  _ZTI18QCameraZoomControl@Base 5.0.2
  _ZTI18QMemoryVideoBuffer@Base 5.0.2
  _ZTI18QRadioTunerControl@Base 5.0.2
@@ -1995,6 +2032,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS17QImageVideoBuffer@Base 5.0.2
  _ZTS17QRadioDataControl@Base 5.0.2
  _ZTS18QAudioSystemPlugin@Base 5.0.2
+ _ZTS18QCameraInfoControl@Base 5.3.0
  _ZTS18QCameraZoomControl@Base 5.0.2
  _ZTS18QMemoryVideoBuffer@Base 5.0.2
  _ZTS18QRadioTunerControl@Base 5.0.2
@@ -2080,6 +2118,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV17QImageVideoBuffer@Base 5.0.2
  _ZTV17QRadioDataControl@Base 5.0.2
  _ZTV18QAudioSystemPlugin@Base 5.0.2
+ _ZTV18QCameraInfoControl@Base 5.3.0
  _ZTV18QCameraZoomControl@Base 5.0.2
  _ZTV18QMemoryVideoBuffer@Base 5.0.2
  _ZTV18QRadioTunerControl@Base 5.0.2
@@ -2156,6 +2195,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _Zls6QDebugN6QAudio4ModeE@Base 5.0.2
  _Zls6QDebugN6QAudio5ErrorE@Base 5.0.2
  _Zls6QDebugN6QAudio5StateE@Base 5.0.2
+ _Zls6QDebugRK11QCameraInfo@Base 5.3.0
  _Zls6QDebugRK11QVideoFrame@Base 5.0.2
  _Zls6QDebugRK12QAudioFormat@Base 5.0.2
  _Zls6QDebugRK15QMediaTimeRange@Base 5.0.2
