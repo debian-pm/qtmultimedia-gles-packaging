@@ -9,6 +9,7 @@ qtmultimedia-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
     Multi-Arch: same.
   * Remove transitional packages, they are no longer needed.
   * Fix path for removing private headers.
+  * Do not override dh_builddeb, xz is now the default method.
 
   [ Pino Toscano ]
   * Enable RPATH in the spectrum example also on kFreeBSD and Hurd; patch
