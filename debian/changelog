@@ -11,6 +11,7 @@ qtmultimedia-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Fix path for removing private headers.
   * Do not override dh_builddeb, xz is now the default method.
   * Remove gstreamer_cleanup_system_includes.patch, applied upstream.
+  * Do not install private stuff.
 
   [ Pino Toscano ]
   * Enable RPATH in the spectrum example also on kFreeBSD and Hurd; patch
