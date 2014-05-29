@@ -4,6 +4,7 @@ qtmultimedia-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Add config.tests/mmrenderer/* to debian/copyright. Thanks Scott Kitterman
     for noticing!
+  * Bump Qt build dependencies.
 
   [ Pino Toscano ]
   * Enable RPATH in the spectrum example also on kFreeBSD and Hurd; patch
