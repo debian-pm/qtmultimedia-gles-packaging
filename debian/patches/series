@@ -1,2 +1,1 @@
-gstreamer_cleanup_system_includes.patch
 rpath_nonlinux.diff
