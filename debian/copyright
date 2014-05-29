@@ -26,6 +26,10 @@ Files: examples/*
 Copyright: 2012-2013 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
 
+Files: examples/multimedia/spectrum/3rdparty/fftreal/*
+Copyright: 2005 Laurent de Soras
+License: LGPL-2.1
+
 Files: examples/multimedia/video/qmlvideofx/filereader.h
  examples/multimedia/video/qmlvideofx/images/titlebar.sci
  examples/multimedia/video/qmlvideofx/filereader.cpp
