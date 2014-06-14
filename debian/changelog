@@ -2,6 +2,8 @@ qtmultimedia-opensource-src (5.3.0-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Minor fixes for debian/copyright.
+  * Make gstreamer config test a bit stricter, to make sure it does
+    not pass on Hurd.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2014 12:38:23 +0400
 

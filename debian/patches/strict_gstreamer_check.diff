@@ -1,0 +1,15 @@
+Description: make gstreamer config test a bit stricter
+Author: Dmitry Shachnev <mitya57@gmail.com>
+Forwarded: no
+Last-Update: 2014-06-14
+
+--- a/config.tests/gstreamer/main.cpp
++++ b/config.tests/gstreamer/main.cpp
+@@ -42,6 +42,7 @@
+ #define GST_USE_UNSTABLE_API
+ 
+ #include <gst/gst.h>
++#include <linux/videodev2.h>
+ 
+ int main(int argc, char** argv)
+ {

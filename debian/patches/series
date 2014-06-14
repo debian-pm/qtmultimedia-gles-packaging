@@ -1,1 +1,2 @@
 rpath_nonlinux.diff
+strict_gstreamer_check.diff
