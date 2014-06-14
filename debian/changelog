@@ -1,5 +1,7 @@
 qtmultimedia-opensource-src (5.3.0-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Minor fixes for debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2014 12:38:23 +0400
 
