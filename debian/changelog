@@ -1,4 +1,4 @@
-qtmultimedia-opensource-src (5.3.0-3) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.3.0-3) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Minor fixes for debian/copyright.
@@ -8,7 +8,7 @@ qtmultimedia-opensource-src (5.3.0-3) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildd's and current logs (Closes: #746902).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2014 12:38:23 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 18 Jun 2014 00:44:07 -0300
 
 qtmultimedia-opensource-src (5.3.0-2) unstable; urgency=medium
 
