@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64 powerpc s390x
+# SymbolsHelper-Confirmed: 5.3.0 amd64 hppa powerpc s390x sparc
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
- (optional=templinst|arch=alpha armel ia64 powerpc ppc64 s390x sparc)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.2.0
+ (optional=templinst|arch=alpha armel hppa ia64 powerpc ppc64 s390x sparc)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.2.0
  _Z22qt_gst_object_ref_sinkPv@Base 5.3.0
  _ZN10QGstAppSrc11onDataReadyEv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -22,7 +22,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrcD0Ev@Base 5.0.2
  _ZN10QGstAppSrcD1Ev@Base 5.0.2
  _ZN10QGstAppSrcD2Ev@Base 5.0.2
- (optional=templinst)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.0.2-4~
+ (optional=templinst|arch=!sparc)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.0.2-4~
  (subst)_ZN14QGstCodecsInfo20supportedElementCapsE{uint64_t}7GstRank15GstPadDirection@Base 5.0.2
  _ZN14QGstCodecsInfoC1ENS_11ElementTypeE@Base 5.0.2
  _ZN14QGstCodecsInfoC2ENS_11ElementTypeE@Base 5.0.2
@@ -259,7 +259,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZN5QListIP23QGstBufferPoolInterfaceE18detach_helper_growEii@Base 5.0.2
  (optional=templinst)_ZN5QListIP23QGstBufferPoolInterfaceED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListIP23QGstBufferPoolInterfaceED2Ev@Base 5.0.2
- (optional=templinst|arch=alpha armel powerpc ppc64 s390x)_ZN5QListIP26QGstreamerBusMessageFilterE13detach_helperEi@Base 5.2.0
+ (optional=templinst|arch=alpha armel hppa powerpc ppc64 s390x)_ZN5QListIP26QGstreamerBusMessageFilterE13detach_helperEi@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZN5QListIP26QGstreamerBusMessageFilterE18detach_helper_growEii@Base 5.2.0
  (optional=templinst|arch=!ia64 !sparc)_ZN5QListIP26QGstreamerBusMessageFilterE6appendERKS1_@Base 5.0.2
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterE9removeAllERKS1_@Base 5.0.2
@@ -267,7 +267,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst|arch=sparc)_ZN5QListIP26QGstreamerBusMessageFilterEC2ERKS2_@Base 5.2.0
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterED2Ev@Base 5.0.2
- (optional=templinst|arch=alpha armel powerpc ppc64 s390x)_ZN5QListIP27QGstreamerSyncMessageFilterE13detach_helperEi@Base 5.2.0
+ (optional=templinst|arch=alpha armel hppa powerpc ppc64 s390x)_ZN5QListIP27QGstreamerSyncMessageFilterE13detach_helperEi@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZN5QListIP27QGstreamerSyncMessageFilterE18detach_helper_growEii@Base 5.2.0
  (optional=templinst|arch=!ia64 !sparc)_ZN5QListIP27QGstreamerSyncMessageFilterE6appendERKS1_@Base 5.0.2
  (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterE9removeAllERKS1_@Base 5.0.2
