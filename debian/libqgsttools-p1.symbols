@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.3.0 amd64 hppa powerpc s390x sparc
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
- (optional=templinst|arch=alpha armel hppa ia64 powerpc ppc64 s390x sparc)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.2.0
+ (optional=templinst)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.2.0
  _Z22qt_gst_object_ref_sinkPv@Base 5.3.0
  _ZN10QGstAppSrc11onDataReadyEv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -22,7 +22,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrcD0Ev@Base 5.0.2
  _ZN10QGstAppSrcD1Ev@Base 5.0.2
  _ZN10QGstAppSrcD2Ev@Base 5.0.2
- (optional=templinst|arch=!sparc)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.0.2-4~
+ (optional=templinst|arch=!amd64 !sparc)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.0.2-4~
  (subst)_ZN14QGstCodecsInfo20supportedElementCapsE{uint64_t}7GstRank15GstPadDirection@Base 5.0.2
  _ZN14QGstCodecsInfoC1ENS_11ElementTypeE@Base 5.0.2
  _ZN14QGstCodecsInfoC2ENS_11ElementTypeE@Base 5.0.2
@@ -64,9 +64,9 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN20QGstBufferPoolPlugin16staticMetaObjectE@Base 5.0.2
  _ZN20QGstBufferPoolPluginC1EP7QObject@Base 5.0.2
  _ZN20QGstBufferPoolPluginC2EP7QObject@Base 5.0.2
- _ZN20QGstBufferPoolPluginD0Ev@Base 5.0.2
- _ZN20QGstBufferPoolPluginD1Ev@Base 5.0.2
- _ZN20QGstBufferPoolPluginD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN20QGstBufferPoolPluginD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!amd64)_ZN20QGstBufferPoolPluginD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!amd64)_ZN20QGstBufferPoolPluginD2Ev@Base 5.3.0
  _ZN20QVideoSurfaceGstSink10class_initEPvS0_@Base 5.0.2
  _ZN20QVideoSurfaceGstSink10createSinkEP21QAbstractVideoSurface@Base 5.0.2
  (subst)_ZN20QVideoSurfaceGstSink12buffer_allocEP12_GstBaseSink{uint64_t}jP8_GstCapsPP10_GstBuffer@Base 5.0.2
@@ -115,9 +115,9 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN21QGstreamerVideoWindowD0Ev@Base 5.2.0
  _ZN21QGstreamerVideoWindowD1Ev@Base 5.2.0
  _ZN21QGstreamerVideoWindowD2Ev@Base 5.2.0
- _ZN23QGstBufferPoolInterfaceD0Ev@Base 5.0.2
- _ZN23QGstBufferPoolInterfaceD1Ev@Base 5.0.2
- _ZN23QGstBufferPoolInterfaceD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN23QGstBufferPoolInterfaceD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!amd64)_ZN23QGstBufferPoolInterfaceD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!amd64)_ZN23QGstBufferPoolInterfaceD2Ev@Base 5.3.0
  _ZN23QGstreamerVideoRenderer10setSurfaceEP21QAbstractVideoSurface@Base 5.0.2
  _ZN23QGstreamerVideoRenderer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN23QGstreamerVideoRenderer11qt_metacastEPKc@Base 5.0.2
@@ -249,9 +249,9 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZN5QListI9QFileInfoEC2ERKS1_@Base 5.2.0
  (optional=templinst)_ZN5QListI9QFileInfoED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListI9QFileInfoED2Ev@Base 5.0.2
- (optional=templinst|arch=ia64 sparc)_ZN5QListIN11QVideoFrame11PixelFormatEE18detach_helper_growEii@Base 5.2.0
+ (optional=templinst|arch=amd64 ia64 sparc)_ZN5QListIN11QVideoFrame11PixelFormatEE18detach_helper_growEii@Base 5.2.0
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEE5clearEv@Base 5.0.2
- (optional=templinst|arch=!ia64 !sparc)_ZN5QListIN11QVideoFrame11PixelFormatEE6appendERKS1_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZN5QListIN11QVideoFrame11PixelFormatEE6appendERKS1_@Base 5.0.2
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEEC1ERKS2_@Base 5.0.2
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEEC2ERKS2_@Base 5.0.2
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEED1Ev@Base 5.0.2
@@ -260,16 +260,16 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZN5QListIP23QGstBufferPoolInterfaceED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListIP23QGstBufferPoolInterfaceED2Ev@Base 5.0.2
  (optional=templinst|arch=alpha armel hppa powerpc ppc64 s390x)_ZN5QListIP26QGstreamerBusMessageFilterE13detach_helperEi@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZN5QListIP26QGstreamerBusMessageFilterE18detach_helper_growEii@Base 5.2.0
- (optional=templinst|arch=!ia64 !sparc)_ZN5QListIP26QGstreamerBusMessageFilterE6appendERKS1_@Base 5.0.2
+ (optional=templinst|arch=amd64 ia64 sparc)_ZN5QListIP26QGstreamerBusMessageFilterE18detach_helper_growEii@Base 5.2.0
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZN5QListIP26QGstreamerBusMessageFilterE6appendERKS1_@Base 5.0.2
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterE9removeAllERKS1_@Base 5.0.2
  (optional=templinst|arch=sparc)_ZN5QListIP26QGstreamerBusMessageFilterEC1ERKS2_@Base 5.2.0
  (optional=templinst|arch=sparc)_ZN5QListIP26QGstreamerBusMessageFilterEC2ERKS2_@Base 5.2.0
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterED1Ev@Base 5.0.2
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterED2Ev@Base 5.0.2
  (optional=templinst|arch=alpha armel hppa powerpc ppc64 s390x)_ZN5QListIP27QGstreamerSyncMessageFilterE13detach_helperEi@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZN5QListIP27QGstreamerSyncMessageFilterE18detach_helper_growEii@Base 5.2.0
- (optional=templinst|arch=!ia64 !sparc)_ZN5QListIP27QGstreamerSyncMessageFilterE6appendERKS1_@Base 5.0.2
+ (optional=templinst|arch=amd64 ia64 sparc)_ZN5QListIP27QGstreamerSyncMessageFilterE18detach_helper_growEii@Base 5.2.0
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZN5QListIP27QGstreamerSyncMessageFilterE6appendERKS1_@Base 5.0.2
  (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterE9removeAllERKS1_@Base 5.0.2
  (optional=templinst|arch=sparc)_ZN5QListIP27QGstreamerSyncMessageFilterEC1ERKS2_@Base 5.2.0
  (optional=templinst|arch=sparc)_ZN5QListIP27QGstreamerSyncMessageFilterEC2ERKS2_@Base 5.2.0
@@ -402,7 +402,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZTV33QGstreamerVideoInputDeviceControl@Base 5.0.2
  (optional=templinst)_ZZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEvE11metatype_id@Base 5.0.2
  gst_video_connector_get_type@Base 5.0.2
- (c++)"non-virtual thunk to QGstBufferPoolPlugin::~QGstBufferPoolPlugin()@Base" 5.0.2
+ (c++|optional=gccinternal|arch=!amd64)"non-virtual thunk to QGstBufferPoolPlugin::~QGstBufferPoolPlugin()@Base" 5.3.0
  (c++)"non-virtual thunk to QGstreamerVideoRenderer::isReady() const@Base" 5.0.2
  (c++)"non-virtual thunk to QGstreamerVideoRenderer::stopRenderer()@Base" 5.0.2
  (c++)"non-virtual thunk to QGstreamerVideoRenderer::videoSink()@Base" 5.0.2
