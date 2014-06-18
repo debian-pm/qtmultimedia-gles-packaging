@@ -3,9 +3,6 @@ libQt5MultimediaQuick_p.so.5 libqt5multimediaquick-p5 #MINVER#
  _ZN12QSGVideoNode23setTexturedRectGeometryERK6QRectFS2_i@Base 5.0.2
  _ZN12QSGVideoNodeC1Ev@Base 5.0.2
  _ZN12QSGVideoNodeC2Ev@Base 5.0.2
- _ZN12QSGVideoNodeD0Ev@Base 5.0.2
- _ZN12QSGVideoNodeD1Ev@Base 5.0.2
- _ZN12QSGVideoNodeD2Ev@Base 5.0.2
  _ZN23QDeclarativeVideoOutput10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Base 5.3.0
  _ZN23QDeclarativeVideoOutput11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0
  _ZN23QDeclarativeVideoOutput11qt_metacastEPKc@Base 5.3.0
@@ -35,9 +32,6 @@ libQt5MultimediaQuick_p.so.5 libqt5multimediaquick-p5 #MINVER#
  _ZN25QSGVideoNodeFactoryPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0
  _ZN25QSGVideoNodeFactoryPlugin11qt_metacastEPKc@Base 5.2.0
  _ZN25QSGVideoNodeFactoryPlugin16staticMetaObjectE@Base 5.2.0
- _ZN25QSGVideoNodeFactoryPluginD0Ev@Base 5.2.0
- _ZN25QSGVideoNodeFactoryPluginD1Ev@Base 5.2.0
- _ZN25QSGVideoNodeFactoryPluginD2Ev@Base 5.2.0
  _ZNK23QDeclarativeVideoOutput10metaObjectEv@Base 5.3.0
  _ZNK23QDeclarativeVideoOutput10sourceRectEv@Base 5.3.0
  _ZNK23QDeclarativeVideoOutput10sourceTypeEv@Base 5.3.0
@@ -68,4 +62,5 @@ libQt5MultimediaQuick_p.so.5 libqt5multimediaquick-p5 #MINVER#
  _ZTV23QDeclarativeVideoOutput@Base 5.3.0
  _ZTV24QDeclarativeVideoBackend@Base 5.3.0
  _ZTV25QSGVideoNodeFactoryPlugin@Base 5.2.0
+ _ZTV28QSGVideoNodeFactoryInterface@Base 5.3.0
  (c++)"non-virtual thunk to QDeclarativeVideoOutput::~QDeclarativeVideoOutput()@Base" 5.3.0
