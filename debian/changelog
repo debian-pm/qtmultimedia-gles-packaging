@@ -6,7 +6,7 @@ qtmultimedia-opensource-src (5.3.0-3) UNRELEASED; urgency=medium
     not pass on Hurd.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Update symbols files with buildd's logs.
+  * Update symbols files with buildd's and current logs (Closes: #746902).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2014 12:38:23 +0400
 
