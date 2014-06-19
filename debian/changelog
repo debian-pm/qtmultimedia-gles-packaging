@@ -4,6 +4,9 @@ qtmultimedia-opensource-src (5.3.0-4) UNRELEASED; urgency=medium
   * Do not install gstreamer libraries on Hurd. We are currently not building
     them until QTBUG-39762 gets solved.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildds' logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Jun 2014 20:40:23 +0400
 
 qtmultimedia-opensource-src (5.3.0-3) unstable; urgency=medium
