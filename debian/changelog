@@ -1,5 +1,8 @@
 qtmultimedia-opensource-src (5.3.0-5) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Third try to fix building on Hurd: make some files in
+    qtmultimedia5-dev.install Linux/kFreeBSD-specific.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Jun 2014 10:06:42 +0400
 
