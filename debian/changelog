@@ -1,3 +1,7 @@
+qtmultimedia-opensource-src (5.3.0-6) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Jun 2014 21:43:59 -0300
+
 qtmultimedia-opensource-src (5.3.0-5) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
