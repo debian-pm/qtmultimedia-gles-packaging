@@ -195,8 +195,6 @@ usr/lib/*/libQt5MultimediaQuick_p.prl
 usr/lib/*/libQt5MultimediaQuick_p.so
 usr/lib/*/libQt5MultimediaWidgets.prl
 usr/lib/*/libQt5MultimediaWidgets.so
-usr/lib/*/libqgsttools_p.prl
-usr/lib/*/libqgsttools_p.so
 usr/lib/*/pkgconfig/Qt5Multimedia.pc
 usr/lib/*/pkgconfig/Qt5MultimediaQuick_p.pc
 usr/lib/*/pkgconfig/Qt5MultimediaWidgets.pc
