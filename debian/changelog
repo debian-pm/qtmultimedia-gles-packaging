@@ -1,9 +1,8 @@
-qtmultimedia-opensource-src (5.3.0-6) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.3.0-6) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Only install development files for gstreamer stuff on Linux and KFreeBSD.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Jun 2014 21:43:59 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 20 Jun 2014 22:08:02 -0300
 
 qtmultimedia-opensource-src (5.3.0-5) unstable; urgency=medium
 
