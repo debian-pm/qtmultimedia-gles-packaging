@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc sparc64
+# SymbolsHelper-Confirmed: 5.3.1 amd64
 libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN10QRadioData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QRadioData11qt_metacastEPKc@Base 5.0.2
@@ -996,6 +996,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN21QMediaServiceProviderD0Ev@Base 5.3.0
  (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN21QMediaServiceProviderD1Ev@Base 5.3.0
  (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN21QMediaServiceProviderD2Ev@Base 5.3.0
+ _ZN21QMediaStorageLocation18addStorageLocationENS_9MediaTypeERK7QString@Base 5.3.1
+ _ZN21QMediaStorageLocationC1Ev@Base 5.3.1
+ _ZN21QMediaStorageLocationC2Ev@Base 5.3.1
  _ZN21QVideoEncoderSettings10setBitRateEi@Base 5.0.2
  _ZN21QVideoEncoderSettings10setQualityEN11QMultimedia15EncodingQualityE@Base 5.0.2
  _ZN21QVideoEncoderSettings12setFrameRateEd@Base 5.2.0
@@ -1828,6 +1831,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK21QMediaServiceProvider17cameraOrientationERK10QByteArray@Base 5.3.0
  _ZNK21QMediaServiceProvider18supportedMimeTypesERK10QByteArrayi@Base 5.0.2
  _ZNK21QMediaServiceProvider7devicesERK10QByteArray@Base 5.0.2
+ _ZNK21QMediaStorageLocation15defaultLocationENS_9MediaTypeE@Base 5.3.1
+ _ZNK21QMediaStorageLocation16generateFileNameERK7QStringNS_9MediaTypeES2_S2_@Base 5.3.1
+ _ZNK21QMediaStorageLocation16generateFileNameERK7QStringRK4QDirS2_@Base 5.3.1
  _ZNK21QVideoEncoderSettings10resolutionEv@Base 5.0.2
  _ZNK21QVideoEncoderSettings12encodingModeEv@Base 5.0.2
  _ZNK21QVideoEncoderSettings14encodingOptionERK7QString@Base 5.0.2
