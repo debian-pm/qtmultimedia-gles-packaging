@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 amd64
+# SymbolsHelper-Confirmed: 5.3.1 amd64 armhf hurd-i386 kfreebsd-amd64 mips64el
 libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN10QRadioData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QRadioData11qt_metacastEPKc@Base 5.0.2
@@ -731,9 +731,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN19QAbstractAudioInput12stateChangedEN6QAudio5StateE@Base 5.0.2
  _ZN19QAbstractAudioInput16staticMetaObjectE@Base 5.0.2
  _ZN19QAbstractAudioInput6notifyEv@Base 5.0.2
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN19QAbstractAudioInputD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN19QAbstractAudioInputD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN19QAbstractAudioInputD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN19QAbstractAudioInputD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN19QAbstractAudioInputD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN19QAbstractAudioInputD2Ev@Base 5.3.0
  _ZN19QCameraFlashControl10flashReadyEb@Base 5.0.2
  _ZN19QCameraFlashControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN19QCameraFlashControl11qt_metacastEPKc@Base 5.0.2
@@ -861,9 +861,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN20QAbstractAudioOutput12stateChangedEN6QAudio5StateE@Base 5.0.2
  _ZN20QAbstractAudioOutput16staticMetaObjectE@Base 5.0.2
  _ZN20QAbstractAudioOutput6notifyEv@Base 5.0.2
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN20QAbstractAudioOutputD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN20QAbstractAudioOutputD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN20QAbstractAudioOutputD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN20QAbstractAudioOutputD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN20QAbstractAudioOutputD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN20QAbstractAudioOutputD2Ev@Base 5.3.0
  _ZN20QAbstractVideoBuffer7releaseEv@Base 5.0.2
  _ZN20QAbstractVideoBufferC1ENS_10HandleTypeE@Base 5.0.2
  _ZN20QAbstractVideoBufferC1ER27QAbstractVideoBufferPrivateNS_10HandleTypeE@Base 5.0.2
@@ -993,9 +993,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN21QMediaServiceProvider17deviceDescriptionERK10QByteArrayS2_@Base 5.0.2
  _ZN21QMediaServiceProvider22defaultServiceProviderEv@Base 5.0.2
  _ZN21QMediaServiceProvider25setDefaultServiceProviderEPS_@Base 5.0.2
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN21QMediaServiceProviderD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN21QMediaServiceProviderD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN21QMediaServiceProviderD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN21QMediaServiceProviderD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN21QMediaServiceProviderD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN21QMediaServiceProviderD2Ev@Base 5.3.0
  _ZN21QMediaStorageLocation18addStorageLocationENS_9MediaTypeERK7QString@Base 5.3.1
  _ZN21QMediaStorageLocationC1Ev@Base 5.3.1
  _ZN21QMediaStorageLocationC2Ev@Base 5.3.1
@@ -1167,9 +1167,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN24QAbstractAudioDeviceInfo11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN24QAbstractAudioDeviceInfo11qt_metacastEPKc@Base 5.0.2
  _ZN24QAbstractAudioDeviceInfo16staticMetaObjectE@Base 5.0.2
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN24QAbstractAudioDeviceInfoD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN24QAbstractAudioDeviceInfoD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN24QAbstractAudioDeviceInfoD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN24QAbstractAudioDeviceInfoD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN24QAbstractAudioDeviceInfoD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN24QAbstractAudioDeviceInfoD2Ev@Base 5.3.0
  _ZN25QMediaAvailabilityControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN25QMediaAvailabilityControl11qt_metacastEPKc@Base 5.0.2
  _ZN25QMediaAvailabilityControl16staticMetaObjectE@Base 5.0.2
@@ -1258,9 +1258,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN27QMediaServiceProviderPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN27QMediaServiceProviderPlugin11qt_metacastEPKc@Base 5.0.2
  _ZN27QMediaServiceProviderPlugin16staticMetaObjectE@Base 5.0.2
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN27QMediaServiceProviderPluginD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN27QMediaServiceProviderPluginD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN27QMediaServiceProviderPluginD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN27QMediaServiceProviderPluginD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN27QMediaServiceProviderPluginD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN27QMediaServiceProviderPluginD2Ev@Base 5.3.0
  _ZN27QVideoDeviceSelectorControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN27QVideoDeviceSelectorControl11qt_metacastEPKc@Base 5.0.2
  _ZN27QVideoDeviceSelectorControl14devicesChangedEv@Base 5.0.2
@@ -1365,9 +1365,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN32QMediaPlayerResourceSetInterface3iidEv@Base 5.0.2
  _ZN32QMediaPlayerResourceSetInterfaceC1EP7QObject@Base 5.0.2
  _ZN32QMediaPlayerResourceSetInterfaceC2EP7QObject@Base 5.0.2
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN32QMediaPlayerResourceSetInterfaceD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN32QMediaPlayerResourceSetInterfaceD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN32QMediaPlayerResourceSetInterfaceD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN32QMediaPlayerResourceSetInterfaceD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN32QMediaPlayerResourceSetInterfaceD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN32QMediaPlayerResourceSetInterfaceD2Ev@Base 5.3.0
  _ZN33QCameraCaptureBufferFormatControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN33QCameraCaptureBufferFormatControl11qt_metacastEPKc@Base 5.0.2
  _ZN33QCameraCaptureBufferFormatControl16staticMetaObjectE@Base 5.0.2
@@ -2222,7 +2222,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  (c++)"non-virtual thunk to QMediaRecorder::mediaObject() const@Base" 5.0.2
  (c++)"non-virtual thunk to QMediaRecorder::setMediaObject(QMediaObject*)@Base" 5.0.2
  (c++)"non-virtual thunk to QMediaRecorder::~QMediaRecorder()@Base" 5.0.2
- (c++|optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)"non-virtual thunk to QMediaServiceProviderPlugin::~QMediaServiceProviderPlugin()@Base" 5.3.0
+ (c++|optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)"non-virtual thunk to QMediaServiceProviderPlugin::~QMediaServiceProviderPlugin()@Base" 5.3.0
  (c++)"non-virtual thunk to QRadioData::mediaObject() const@Base" 5.0.2
  (c++)"non-virtual thunk to QRadioData::setMediaObject(QMediaObject*)@Base" 5.0.2
  (c++)"non-virtual thunk to QRadioData::~QRadioData()@Base" 5.0.2
