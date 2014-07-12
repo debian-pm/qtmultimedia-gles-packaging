@@ -1,7 +1,7 @@
 qtmultimedia-opensource-src (5.3.1-3) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Make qtmultimedia5-dev do not requiere libqgsttools-p1 on Hurd
+  * Backport test_v4l.patch to allow GStreamer stuff to be built on Hurd
     (Closes: #753835).
   * Update symbols files with buildds' logs.
 

@@ -1,0 +1,223 @@
+Description: Do not build V4L stuff if there is no V4L support
+Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Forwarded-Upstream: https://codereview.qt-project.org/89649
+
+diff --git a/config.tests/linux_v4l/linux_v4l.pro b/config.tests/linux_v4l/linux_v4l.pro
+new file mode 100644
+index 0000000..28dcadc
+--- /dev/null
++++ b/config.tests/linux_v4l/linux_v4l.pro
+@@ -0,0 +1 @@
++SOURCES += main.cpp
+diff --git a/config.tests/linux_v4l/main.cpp b/config.tests/linux_v4l/main.cpp
+new file mode 100644
+index 0000000..3fcca4f
+--- /dev/null
++++ b/config.tests/linux_v4l/main.cpp
+@@ -0,0 +1,47 @@
++/****************************************************************************
++**
++** Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).
++** Contact: http://www.qt-project.org/legal
++**
++** This file is part of the Qt Toolkit.
++**
++** $QT_BEGIN_LICENSE:LGPL$
++** Commercial License Usage
++** Licensees holding valid commercial Qt licenses may use this file in
++** accordance with the commercial license agreement provided with the
++** Software or, alternatively, in accordance with the terms contained in
++** a written agreement between you and Digia.  For licensing terms and
++** conditions see http://qt.digia.com/licensing.  For further information
++** use the contact form at http://qt.digia.com/contact-us.
++**
++** GNU Lesser General Public License Usage
++** Alternatively, this file may be used under the terms of the GNU Lesser
++** General Public License version 2.1 as published by the Free Software
++** Foundation and appearing in the file LICENSE.LGPL included in the
++** packaging of this file.  Please review the following information to
++** ensure the GNU Lesser General Public License version 2.1 requirements
++** will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
++**
++** In addition, as a special exception, Digia gives you certain additional
++** rights.  These rights are described in the Digia Qt LGPL Exception
++** version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
++**
++** GNU General Public License Usage
++** Alternatively, this file may be used under the terms of the GNU
++** General Public License version 3.0 as published by the Free Software
++** Foundation and appearing in the file LICENSE.GPL included in the
++** packaging of this file.  Please review the following information to
++** ensure the GNU General Public License version 3.0 requirements will be
++** met: http://www.gnu.org/copyleft/gpl.html.
++**
++**
++** $QT_END_LICENSE$
++**
++****************************************************************************/
++
++#include <linux/videodev2.h>
++
++int main(int argc, char** argv)
++{
++    return 0;
++}
+diff --git a/qtmultimedia.pro b/qtmultimedia.pro
+index c7f093c..bec5925 100644
+--- a/qtmultimedia.pro
++++ b/qtmultimedia.pro
+@@ -25,6 +25,7 @@ win32 {
+         qtCompileTest(gstreamer_photography)
+         qtCompileTest(gstreamer_encodingprofiles)
+         qtCompileTest(gstreamer_appsrc)
++        qtCompileTest(linux_v4l)
+     }
+     qtCompileTest(resourcepolicy)
+     qtCompileTest(gpu_vivante)
+diff --git a/src/gsttools/gsttools.pro b/src/gsttools/gsttools.pro
+index 15edd04..c8519db 100644
+--- a/src/gsttools/gsttools.pro
++++ b/src/gsttools/gsttools.pro
+@@ -45,7 +45,6 @@ PRIVATE_HEADERS += \
+     qgstreamervideorendererinterface_p.h \
+     qgstreameraudioinputselector_p.h \
+     qgstreamervideorenderer_p.h \
+-    qgstreamervideoinputdevicecontrol_p.h \
+     gstvideoconnector_p.h \
+     qgstcodecsinfo_p.h \
+     qgstreamervideoprobecontrol_p.h \
+@@ -62,7 +61,6 @@ SOURCES += \
+     qgstreamervideorendererinterface.cpp \
+     qgstreameraudioinputselector.cpp \
+     qgstreamervideorenderer.cpp \
+-    qgstreamervideoinputdevicecontrol.cpp \
+     qgstcodecsinfo.cpp \
+     gstvideoconnector.c \
+     qgstreamervideoprobecontrol.cpp \
+@@ -100,6 +98,11 @@ config_gstreamer_appsrc {
+     LIBS_PRIVATE += -lgstapp-0.10
+ }
+ 
++config_linux_v4l {
++    HEADERS += qgstreamervideoinputdevicecontrol_p.h
++    SOURCES += qgstreamervideoinputdevicecontrol.cpp
++}
++
+ HEADERS += $$PRIVATE_HEADERS
+ 
+ DESTDIR = $$QT.multimedia.libs
+diff --git a/src/plugins/gstreamer/gstreamer.pro b/src/plugins/gstreamer/gstreamer.pro
+index 7649010..5419007 100644
+--- a/src/plugins/gstreamer/gstreamer.pro
++++ b/src/plugins/gstreamer/gstreamer.pro
+@@ -5,7 +5,7 @@ SUBDIRS += \
+     mediacapture \
+     mediaplayer
+ 
+-config_gstreamer_encodingprofiles {
++config_gstreamer_encodingprofiles:config_linux_v4l {
+     SUBDIRS += camerabin
+ }
+ 
+diff --git a/src/plugins/gstreamer/mediacapture/mediacapture.pro b/src/plugins/gstreamer/mediacapture/mediacapture.pro
+index e8d039f..8c05552 100644
+--- a/src/plugins/gstreamer/mediacapture/mediacapture.pro
++++ b/src/plugins/gstreamer/mediacapture/mediacapture.pro
+@@ -15,11 +15,9 @@ HEADERS += $$PWD/qgstreamercaptureservice.h \
+     $$PWD/qgstreamerrecordercontrol.h \
+     $$PWD/qgstreamermediacontainercontrol.h \
+     $$PWD/qgstreamercameracontrol.h \
+-    $$PWD/qgstreamerv4l2input.h \
+     $$PWD/qgstreamercapturemetadatacontrol.h \
+     $$PWD/qgstreamerimagecapturecontrol.h \
+-    $$PWD/qgstreamerimageencode.h \
+-    $$PWD/qgstreamercaptureserviceplugin.h
++    $$PWD/qgstreamerimageencode.h
+ 
+ SOURCES += $$PWD/qgstreamercaptureservice.cpp \
+     $$PWD/qgstreamercapturesession.cpp \
+@@ -28,11 +26,9 @@ SOURCES += $$PWD/qgstreamercaptureservice.cpp \
+     $$PWD/qgstreamerrecordercontrol.cpp \
+     $$PWD/qgstreamermediacontainercontrol.cpp \
+     $$PWD/qgstreamercameracontrol.cpp \
+-    $$PWD/qgstreamerv4l2input.cpp \
+     $$PWD/qgstreamercapturemetadatacontrol.cpp \
+     $$PWD/qgstreamerimagecapturecontrol.cpp \
+-    $$PWD/qgstreamerimageencode.cpp \
+-    $$PWD/qgstreamercaptureserviceplugin.cpp
++    $$PWD/qgstreamerimageencode.cpp
+ 
+ # Camera usage with gstreamer needs to have
+ #CONFIG += use_gstreamer_camera
+@@ -47,3 +43,15 @@ OTHER_FILES += \
+     mediacapture.json
+ }
+ 
++config_linux_v4l {
++DEFINES += USE_V4L
++
++HEADERS += \
++    $$PWD/qgstreamerv4l2input.h \
++    $$PWD/qgstreamercaptureserviceplugin.h
++
++SOURCES += \
++    $$PWD/qgstreamerv4l2input.cpp \
++    $$PWD/qgstreamercaptureserviceplugin.cpp
++}
++
+diff --git a/src/plugins/gstreamer/mediacapture/qgstreamercaptureservice.cpp b/src/plugins/gstreamer/mediacapture/qgstreamercaptureservice.cpp
+index 92b362f..b8a73e7 100644
+--- a/src/plugins/gstreamer/mediacapture/qgstreamercaptureservice.cpp
++++ b/src/plugins/gstreamer/mediacapture/qgstreamercaptureservice.cpp
+@@ -48,9 +48,12 @@
+ #include "qgstreamerimageencode.h"
+ #include "qgstreamercameracontrol.h"
+ #include <private/qgstreamerbushelper_p.h>
+-#include "qgstreamerv4l2input.h"
+ #include "qgstreamercapturemetadatacontrol.h"
+ 
++#ifdef USE_V4L
++#include "qgstreamerv4l2input.h"
++#endif
++
+ #include "qgstreamerimagecapturecontrol.h"
+ #include <private/qgstreameraudioinputselector_p.h>
+ #include <private/qgstreamervideoinputdevicecontrol_p.h>
+@@ -90,6 +93,7 @@ QGstreamerCaptureService::QGstreamerCaptureService(const QString &service, QObje
+         m_captureSession = new QGstreamerCaptureSession(QGstreamerCaptureSession::Audio, this);
+     }
+ 
++#ifdef USE_V4L
+    if (service == Q_MEDIASERVICE_CAMERA) {
+         m_captureSession = new QGstreamerCaptureSession(QGstreamerCaptureSession::AudioAndVideo, this);
+         m_cameraControl = new QGstreamerCameraControl(m_captureSession);
+@@ -111,6 +115,7 @@ QGstreamerCaptureService::QGstreamerCaptureService(const QString &service, QObje
+ #endif
+         m_imageCaptureControl = new QGstreamerImageCaptureControl(m_captureSession);
+     }
++#endif
+ 
+     m_audioInputSelector = new QGstreamerAudioInputSelector(this);
+     connect(m_audioInputSelector, SIGNAL(activeInputChanged(QString)), m_captureSession, SLOT(setCaptureDevice(QString)));
+diff --git a/src/plugins/v4l/radio/radio.pri b/src/plugins/v4l/radio/radio.pri
+index b8a9f75..af857cd 100644
+--- a/src/plugins/v4l/radio/radio.pri
++++ b/src/plugins/v4l/radio/radio.pri
+@@ -1,9 +1,11 @@
+ INCLUDEPATH += $$PWD
+ 
+-HEADERS += \
+-    $$PWD/v4lradiocontrol.h \
+-    $$PWD/v4lradioservice.h
++config_linux_v4l {
++    HEADERS += \
++        $$PWD/v4lradiocontrol.h \
++        $$PWD/v4lradioservice.h
+ 
+-SOURCES += \
+-    $$PWD/v4lradiocontrol.cpp \
+-    $$PWD/v4lradioservice.cpp
++    SOURCES += \
++        $$PWD/v4lradiocontrol.cpp \
++        $$PWD/v4lradioservice.cpp
++}

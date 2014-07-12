@@ -1,2 +1,2 @@
 rpath_nonlinux.diff
-strict_gstreamer_check.diff
+test_v4l.patch
