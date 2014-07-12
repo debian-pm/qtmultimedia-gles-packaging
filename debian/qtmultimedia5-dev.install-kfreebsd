@@ -1,6 +1,1 @@
 usr/lib/*/cmake/Qt5Multimedia/Qt5Multimedia_CameraBinServicePlugin.cmake
-usr/lib/*/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerAudioDecoderServicePlugin.cmake
-usr/lib/*/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerCaptureServicePlugin.cmake
-usr/lib/*/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerPlayerServicePlugin.cmake
-usr/lib/*/libqgsttools_p.prl
-usr/lib/*/libqgsttools_p.so
