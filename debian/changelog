@@ -1,3 +1,7 @@
+qtmultimedia-opensource-src (5.3.1-4) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Jul 2014 21:08:23 -0300
+
 qtmultimedia-opensource-src (5.3.1-3) unstable; urgency=medium
 
   * Backport test_v4l.patch to allow GStreamer stuff to be built on Hurd
