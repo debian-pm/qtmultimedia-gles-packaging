@@ -5,6 +5,8 @@ qtmultimedia-opensource-src (5.3.1-4) UNRELEASED; urgency=medium
   * Use a better version of test_v4l.patch.
     - Fix install files, we now do not have exceptions for Hurd.
   * Update symbols files with Hurd's log.
+  * This upload will get rebuilt against a fixed pkg-kde-tools' symbolshelper,
+    thus fixing the FTBFS in kfreebsd-amd64 (Closes: #754750).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Jul 2014 21:08:23 -0300
 
