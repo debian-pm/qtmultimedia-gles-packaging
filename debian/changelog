@@ -4,6 +4,7 @@ qtmultimedia-opensource-src (5.3.1-4) UNRELEASED; urgency=medium
   * Make libqgsttools-p1 Architecture: any, as it now builds on Hurd.
   * Use a better version of test_v4l.patch.
     - Fix install files, we now do not have exceptions for Hurd.
+  * Update symbols files with Hurd's log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Jul 2014 21:08:23 -0300
 
