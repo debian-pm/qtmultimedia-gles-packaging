@@ -1,6 +1,5 @@
-qtmultimedia-opensource-src (5.3.1-4) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.3.1-4) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make libqgsttools-p1 Architecture: any, as it now builds on Hurd.
   * Use a better version of test_v4l.patch.
     - Fix install files, we now do not have exceptions for Hurd.
@@ -8,7 +7,7 @@ qtmultimedia-opensource-src (5.3.1-4) UNRELEASED; urgency=medium
   * This upload will get rebuilt against a fixed pkg-kde-tools' symbolshelper,
     thus fixing the FTBFS in kfreebsd-amd64 (Closes: #754750).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Jul 2014 21:08:23 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 24 Jul 2014 11:11:08 -0300
 
 qtmultimedia-opensource-src (5.3.1-3) unstable; urgency=medium
 
