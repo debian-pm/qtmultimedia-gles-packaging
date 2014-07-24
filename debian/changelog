@@ -2,7 +2,6 @@ qtmultimedia-opensource-src (5.3.1-4) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make libqgsttools-p1 Architecture: any, as it now builds on Hurd.
-  * Build depend on pkg-kde-tools to fix a FTBFS (Closes: #754750).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Jul 2014 21:08:23 -0300
 
