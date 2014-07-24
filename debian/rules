@@ -10,11 +10,6 @@ export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildfla
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
-# Retrieve packages that have a .install-common file
-pkgs_with_common = $(patsubst debian/%.install-common,%,$(wildcard debian/*.install-common))
-# Retrieve packages that have a .install-$DEB_HOST_ARCH_OS file
-pkgs_with_os = $(patsubst debian/%.install-$(DEB_HOST_ARCH_OS),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH_OS)))
-
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtmultimedia5-dbg
 
@@ -46,22 +41,5 @@ override_dh_auto_install-arch:
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
-override_dh_clean:
-	# Don't forget to remove the .install files we generated.
-	for pkg in $(pkgs_with_common); do \
-		rm -f debian/$$pkg.install ; \
-	done
-	for pkg in $(pkgs_with_os); do \
-		rm -f debian/$$pkg.install ; \
-	done
-	dh_clean
-
 override_dh_install:
-	# Now flush all the .install-* files as .install files.
-	set -e; for pkg in $(pkgs_with_common); do \
-		cat debian/$$pkg.install-common >> debian/$$pkg.install ; \
-	done
-	set -e; for pkg in $(pkgs_with_os); do \
-		cat debian/$$pkg.install-$(DEB_HOST_ARCH_OS) >> debian/$$pkg.install ; \
-	done
 	dh_install --fail-missing
