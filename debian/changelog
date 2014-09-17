@@ -1,12 +1,11 @@
-qtmultimedia-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.3.2-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Bump Qt build dependencies.
   * Update symbols files with buildds' logs.
   * Remove test_v4l.patch, applied upstream.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Sep 2014 19:56:17 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 17 Sep 2014 20:11:40 -0300
 
 qtmultimedia-opensource-src (5.3.1-4) unstable; urgency=medium
 
