@@ -4,6 +4,7 @@ qtmultimedia-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build dependencies.
   * Update symbols files with buildds' logs.
+  * Remove test_v4l.patch, applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Sep 2014 19:56:17 -0300
 
