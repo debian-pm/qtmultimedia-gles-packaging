@@ -1,3 +1,7 @@
+qtmultimedia-opensource-src (5.3.1-5) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Sep 2014 19:56:17 -0300
+
 qtmultimedia-opensource-src (5.3.1-4) unstable; urgency=medium
 
   * Make libqgsttools-p1 Architecture: any, as it now builds on Hurd.
