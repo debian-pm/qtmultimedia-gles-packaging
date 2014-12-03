@@ -1,1 +1,2 @@
+also_build_alsa_plugin.patch
 rpath_nonlinux.diff

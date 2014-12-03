@@ -1,5 +1,9 @@
 qtmultimedia-opensource-src (5.3.2-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add a patch from Chris Ruvolo to also build the ALSA plugin even if we
+    are building with pulseaudio support (Closes: #771391).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Dec 2014 10:07:57 -0300
 
 qtmultimedia-opensource-src (5.3.2-3) unstable; urgency=medium

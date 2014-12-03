@@ -1,0 +1,27 @@
+Description: Build alsa plugin in addition to pulseaudio.
+ Even if pulse audio is present, we still want to build the alsa plugin.
+ .
+ qtmultimedia-opensource-src (5.3.2-2~bpo70+2.1) wheezy-backports; urgency=medium
+ .
+   * Build alsa plugin in addition to pulseaudio.
+Author: Chris Ruvolo <cruvolo+deb@gmail.com>
+Bug-Debian: http://bugs.debian.org/771391
+Last-Update: 2014-12-02
+
+---
+ src/plugins/plugins.pro |    4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+--- a/src/plugins/plugins.pro
++++ b/src/plugins/plugins.pro
+@@ -38,7 +38,9 @@ unix:!mac:!android {
+ 
+     config_pulseaudio {
+         SUBDIRS += pulseaudio
+-    } else:config_alsa {
++    }
++
++    config_alsa {
+         SUBDIRS += alsa
+     }
+ 
