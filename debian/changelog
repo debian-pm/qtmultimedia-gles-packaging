@@ -2,6 +2,7 @@ qtmultimedia-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
 
   [ Timo Jyrinki ]
   * New upstream release.
+  * Bump build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Dec 2014 07:55:37 +0000
 
