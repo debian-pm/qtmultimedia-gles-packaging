@@ -1,6 +1,7 @@
 usr/include/*/qt5/QtMultimedia/QAbstractAudioDeviceInfo
 usr/include/*/qt5/QtMultimedia/QAbstractAudioInput
 usr/include/*/qt5/QtMultimedia/QAbstractAudioOutput
+usr/include/*/qt5/QtMultimedia/QAbstractPlanarVideoBuffer
 usr/include/*/qt5/QtMultimedia/QAbstractVideoBuffer
 usr/include/*/qt5/QtMultimedia/QAbstractVideoSurface
 usr/include/*/qt5/QtMultimedia/QAudio
