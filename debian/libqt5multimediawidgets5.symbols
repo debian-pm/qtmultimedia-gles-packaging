@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.4.0 amd64
 libQt5MultimediaWidgets.so.5 libqt5multimediawidgets5 #MINVER#
  _ZN12QVideoWidget10hueChangedEi@Base 5.0.2
  _ZN12QVideoWidget10paintEventEP11QPaintEvent@Base 5.0.2
@@ -85,10 +85,12 @@ libQt5MultimediaWidgets.so.5 libqt5multimediawidgets5 #MINVER#
  _ZNK18QGraphicsVideoItem6offsetEv@Base 5.0.2
  _ZNK19QVideoWidgetControl10metaObjectEv@Base 5.0.2
  _ZTI12QVideoWidget@Base 5.0.2
+ _ZTI16QOpenGLFunctions@Base 5.4.0
  _ZTI17QCameraViewfinder@Base 5.0.2
  _ZTI18QGraphicsVideoItem@Base 5.0.2
  _ZTI19QVideoWidgetControl@Base 5.0.2
  _ZTS12QVideoWidget@Base 5.0.2
+ _ZTS16QOpenGLFunctions@Base 5.4.0
  _ZTS17QCameraViewfinder@Base 5.0.2
  _ZTS18QGraphicsVideoItem@Base 5.0.2
  _ZTS19QVideoWidgetControl@Base 5.0.2

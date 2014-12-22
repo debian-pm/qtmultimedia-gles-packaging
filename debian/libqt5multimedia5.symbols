@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 amd64 armhf hurd-i386 kfreebsd-amd64 mips64el powerpc ppc64el
+# SymbolsHelper-Confirmed: 5.4.0 amd64
 libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN10QRadioData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QRadioData11qt_metacastEPKc@Base 5.0.2
@@ -98,6 +98,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN11QVideoFrame26imageFormatFromPixelFormatENS_11PixelFormatE@Base 5.0.2
  _ZN11QVideoFrame26pixelFormatFromImageFormatEN6QImage6FormatE@Base 5.0.2
  _ZN11QVideoFrame3mapEN20QAbstractVideoBuffer7MapModeE@Base 5.0.2
+ _ZN11QVideoFrame4bitsEi@Base 5.4.0
  _ZN11QVideoFrame4bitsEv@Base 5.0.2
  _ZN11QVideoFrame5unmapEv@Base 5.0.2
  _ZN11QVideoFrameC1EP20QAbstractVideoBufferRK5QSizeNS_11PixelFormatE@Base 5.0.2
@@ -859,6 +860,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN20QAbstractAudioOutput16staticMetaObjectE@Base 5.0.2
  _ZN20QAbstractAudioOutput6notifyEv@Base 5.0.2
  _ZN20QAbstractVideoBuffer7releaseEv@Base 5.0.2
+ _ZN20QAbstractVideoBuffer9mapPlanesENS_7MapModeEPiS1_PPh@Base 5.4.0
  _ZN20QAbstractVideoBufferC1ENS_10HandleTypeE@Base 5.0.2
  _ZN20QAbstractVideoBufferC1ER27QAbstractVideoBufferPrivateNS_10HandleTypeE@Base 5.0.2
  _ZN20QAbstractVideoBufferC2ENS_10HandleTypeE@Base 5.0.2
@@ -1182,6 +1184,14 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN25QMediaServiceProviderHintD1Ev@Base 5.0.2
  _ZN25QMediaServiceProviderHintD2Ev@Base 5.0.2
  _ZN25QMediaServiceProviderHintaSERKS_@Base 5.0.2
+ _ZN26QAbstractPlanarVideoBuffer3mapEN20QAbstractVideoBuffer7MapModeEPiS2_@Base 5.4.0
+ _ZN26QAbstractPlanarVideoBufferC1EN20QAbstractVideoBuffer10HandleTypeE@Base 5.4.0
+ _ZN26QAbstractPlanarVideoBufferC1ER33QAbstractPlanarVideoBufferPrivateN20QAbstractVideoBuffer10HandleTypeE@Base 5.4.0
+ _ZN26QAbstractPlanarVideoBufferC2EN20QAbstractVideoBuffer10HandleTypeE@Base 5.4.0
+ _ZN26QAbstractPlanarVideoBufferC2ER33QAbstractPlanarVideoBufferPrivateN20QAbstractVideoBuffer10HandleTypeE@Base 5.4.0
+ _ZN26QAbstractPlanarVideoBufferD0Ev@Base 5.4.0
+ _ZN26QAbstractPlanarVideoBufferD1Ev@Base 5.4.0
+ _ZN26QAbstractPlanarVideoBufferD2Ev@Base 5.4.0
  _ZN26QAudioInputSelectorControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN26QAudioInputSelectorControl11qt_metacastEPKc@Base 5.0.2
  _ZN26QAudioInputSelectorControl16staticMetaObjectE@Base 5.0.2
@@ -1481,10 +1491,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK11QVideoFrame10handleTypeEv@Base 5.0.2
  _ZNK11QVideoFrame10isReadableEv@Base 5.0.2
  _ZNK11QVideoFrame10isWritableEv@Base 5.0.2
+ _ZNK11QVideoFrame10planeCountEv@Base 5.4.0
  _ZNK11QVideoFrame11mappedBytesEv@Base 5.0.2
  _ZNK11QVideoFrame11pixelFormatEv@Base 5.0.2
+ _ZNK11QVideoFrame12bytesPerLineEi@Base 5.4.0
  _ZNK11QVideoFrame12bytesPerLineEv@Base 5.0.2
  _ZNK11QVideoFrame17availableMetaDataEv@Base 5.0.2
+ _ZNK11QVideoFrame4bitsEi@Base 5.4.0
  _ZNK11QVideoFrame4bitsEv@Base 5.0.2
  _ZNK11QVideoFrame4sizeEv@Base 5.0.2
  _ZNK11QVideoFrame5widthEv@Base 5.0.2
@@ -1974,6 +1987,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI24QAbstractAudioDeviceInfo@Base 5.0.2
  _ZTI25QMediaAvailabilityControl@Base 5.0.2
  _ZTI25QMediaPlaylistIOInterface@Base 5.0.2
+ _ZTI26QAbstractPlanarVideoBuffer@Base 5.4.0
  _ZTI26QAudioInputSelectorControl@Base 5.0.2
  _ZTI26QCameraImageCaptureControl@Base 5.0.2
  _ZTI26QMediaNetworkAccessControl@Base 5.0.2
@@ -2060,6 +2074,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS24QAbstractAudioDeviceInfo@Base 5.0.2
  _ZTS25QMediaAvailabilityControl@Base 5.0.2
  _ZTS25QMediaPlaylistIOInterface@Base 5.0.2
+ _ZTS26QAbstractPlanarVideoBuffer@Base 5.4.0
  _ZTS26QAudioInputSelectorControl@Base 5.0.2
  _ZTS26QCameraImageCaptureControl@Base 5.0.2
  _ZTS26QMediaNetworkAccessControl@Base 5.0.2
@@ -2146,6 +2161,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV24QAbstractAudioDeviceInfo@Base 5.0.2
  _ZTV25QMediaAvailabilityControl@Base 5.0.2
  _ZTV25QMediaPlaylistIOInterface@Base 5.0.2
+ _ZTV26QAbstractPlanarVideoBuffer@Base 5.4.0
  _ZTV26QAudioInputSelectorControl@Base 5.0.2
  _ZTV26QCameraImageCaptureControl@Base 5.0.2
  _ZTV26QMediaNetworkAccessControl@Base 5.0.2
