@@ -13,6 +13,7 @@ qtmultimedia-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Update Vcs-Browser field to point to cgit interface.
   * Add qtbase5-doc-html to Build-Depends-Indep to make sure docs
     are properly linked with qtbase.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Dec 2014 07:55:37 +0000
 
