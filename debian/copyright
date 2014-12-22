@@ -56,7 +56,7 @@ License: LGPL-2.1
 
 Files: examples/multimedia/spectrum/3rdparty/fftreal/fftreal.pas
 Copyright: 1999 Laurent de Soras
-License: Custom BSD like
+License: custom-fftreal
  Source code may be freely used for any purpose, including commercial
  applications. Programs must display in their "About" dialog-box (or
  documentation) a text telling they use these routines by Laurent de Soras.
