@@ -10,7 +10,7 @@ qtmultimedia-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Drop also_build_alsa_plugin.patch, applied upstream.
-  * Update debian/copyright to reflect LGPL v3 addition.
+  * Update debian/copyright.
   * Update Vcs-Browser field to point to cgit interface.
   * Add qtbase5-doc-html to Build-Depends-Indep to make sure docs
     are properly linked with qtbase.
