@@ -11,6 +11,8 @@ qtmultimedia-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Update debian/copyright to reflect LGPL v3 addition.
   * Update Vcs-Browser field to point to cgit interface.
+  * Add qtbase5-doc-html to Build-Depends-Indep to make sure docs
+    are properly linked with qtbase.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Dec 2014 07:55:37 +0000
 
