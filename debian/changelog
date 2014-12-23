@@ -1,5 +1,7 @@
 qtmultimedia-opensource-src (5.4.0-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Install Qt5Quick_QSGVideoNodeFactory_EGL.cmake on armel as well.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Dec 2014 14:24:41 +0300
 
