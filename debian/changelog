@@ -1,6 +1,5 @@
-qtmultimedia-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.4.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.1.
   * Update debian/watch to point to https://download.qt.io/.
@@ -9,7 +8,7 @@ qtmultimedia-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
     (closes: #778091).
   * Also add one new symbol to libqt5multimediaquick-p5.symbols.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 11:38:44 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 05 Mar 2015 14:45:17 +0300
 
 qtmultimedia-opensource-src (5.4.0-2) experimental; urgency=medium
 
