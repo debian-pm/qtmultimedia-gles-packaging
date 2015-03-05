@@ -4,6 +4,7 @@ qtmultimedia-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.1.
   * Update debian/watch to point to https://download.qt.io/.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 11:38:44 +0300
 
