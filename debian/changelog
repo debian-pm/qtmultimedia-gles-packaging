@@ -7,6 +7,7 @@ qtmultimedia-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Mark destructors symbols missing with GCC 5 as optional
     (closes: #778091).
+  * Also add one new symbol to libqt5multimediaquick-p5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 11:38:44 +0300
 
