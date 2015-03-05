@@ -818,9 +818,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN19QPlaylistFileParser8finishedEv@Base 5.0.2
  _ZN19QPlaylistFileParserC1EP7QObject@Base 5.0.2
  _ZN19QPlaylistFileParserC2EP7QObject@Base 5.0.2
- _ZN19QPlaylistFileParserD0Ev@Base 5.0.2
- _ZN19QPlaylistFileParserD1Ev@Base 5.0.2
- _ZN19QPlaylistFileParserD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN19QPlaylistFileParserD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN19QPlaylistFileParserD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN19QPlaylistFileParserD2Ev@Base 5.0.2
  _ZN19QVideoSurfaceFormat11setPropertyEPKcRK8QVariant@Base 5.0.2
  _ZN19QVideoSurfaceFormat11setViewportERK5QRect@Base 5.0.2
  _ZN19QVideoSurfaceFormat12setFrameRateEd@Base 5.2.0
@@ -1329,9 +1329,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN30QVideoOutputOrientationHandler24screenOrientationChangedEN2Qt17ScreenOrientationE@Base 5.2.0
  _ZN30QVideoOutputOrientationHandlerC1EP7QObject@Base 5.2.0
  _ZN30QVideoOutputOrientationHandlerC2EP7QObject@Base 5.2.0
- _ZN30QVideoOutputOrientationHandlerD0Ev@Base 5.2.0
- _ZN30QVideoOutputOrientationHandlerD1Ev@Base 5.2.0
- _ZN30QVideoOutputOrientationHandlerD2Ev@Base 5.2.0
+ (optional=gccinternal)_ZN30QVideoOutputOrientationHandlerD0Ev@Base 5.2.0
+ (optional=gccinternal)_ZN30QVideoOutputOrientationHandlerD1Ev@Base 5.2.0
+ (optional=gccinternal)_ZN30QVideoOutputOrientationHandlerD2Ev@Base 5.2.0
  _ZN32QCameraCaptureDestinationControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN32QCameraCaptureDestinationControl11qt_metacastEPKc@Base 5.0.2
  _ZN32QCameraCaptureDestinationControl16staticMetaObjectE@Base 5.0.2
