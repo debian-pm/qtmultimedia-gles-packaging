@@ -1,5 +1,10 @@
 qtmultimedia-opensource-src (5.4.1-2) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Clear up the list in Uploaders removing people who hasn't commited to the
+    repo in more than a year. They can re add themselves whenever they want
+    (and we really hope to see you back really soon!).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 May 2015 21:02:30 -0300
 
 qtmultimedia-opensource-src (5.4.1-1) experimental; urgency=medium
