@@ -7,6 +7,7 @@ qtmultimedia-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
     repo in more than a year. They can re add themselves whenever they want
     (and we really hope to see you back really soon!).
   * Update symbols files with buildds' logs.
+  * Expose HTML documentation (Closes: #751178).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 May 2015 21:02:30 -0300
 
