@@ -1,5 +1,8 @@
 qtmultimedia-opensource-src (5.4.2-3) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildds' logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Aug 2015 12:11:58 -0300
 
 qtmultimedia-opensource-src (5.4.2-2) unstable; urgency=medium

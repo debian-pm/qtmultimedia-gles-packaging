@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.4.2 alpha amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.4.2 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
- (optional=templinst|arch=!amd64 !armhf !i386 !mips !mipsel !x32)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.4.2
+ (optional=templinst|arch=!amd64 !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !x32)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.4.2
  _Z22qt_gst_object_ref_sinkPv@Base 5.3.0
  _ZN10QGstAppSrc11onDataReadyEv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -22,7 +22,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrcD0Ev@Base 5.0.2
  _ZN10QGstAppSrcD1Ev@Base 5.0.2
  _ZN10QGstAppSrcD2Ev@Base 5.0.2
- (optional=templinst|arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.4.1
+ (optional=templinst)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.4.1
  (subst)_ZN14QGstCodecsInfo20supportedElementCapsE{uint64_t}7GstRank15GstPadDirection@Base 5.0.2
  _ZN14QGstCodecsInfoC1ENS_11ElementTypeE@Base 5.0.2
  _ZN14QGstCodecsInfoC2ENS_11ElementTypeE@Base 5.0.2
@@ -241,7 +241,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZN5QListI9QFileInfoED2Ev@Base 5.0.2
  (optional=templinst|arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel x32)_ZN5QListIN11QVideoFrame11PixelFormatEE18detach_helper_growEii@Base 5.2.0
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEE5clearEv@Base 5.0.2
- (optional=templinst|arch=alpha arm64 armel powerpc ppc64 ppc64el s390x)_ZN5QListIN11QVideoFrame11PixelFormatEE6appendERKS1_@Base 5.4.2
+ (optional=templinst|arch=alpha arm64 armel hppa powerpc ppc64 ppc64el s390x)_ZN5QListIN11QVideoFrame11PixelFormatEE6appendERKS1_@Base 5.4.2
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEEC1ERKS2_@Base 5.0.2
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEEC2ERKS2_@Base 5.0.2
  (optional=templinst)_ZN5QListIN11QVideoFrame11PixelFormatEED1Ev@Base 5.0.2
