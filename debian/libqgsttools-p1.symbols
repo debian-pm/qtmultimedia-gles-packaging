@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
 | libqgsttools-p1 #MINVER#
  (optional=templinst)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.4.2
@@ -7,8 +7,8 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _Z22qt_gst_object_ref_sinkPv@Base 5.3.0
  _Z26qt_gst_structure_new_emptyPKc@Base 5.5.0
  _Z27qt_gst_pad_get_current_capsP7_GstPad@Base 5.5.0
- _Z29qt_gst_element_query_durationP11_GstElement9GstFormatPl@Base 5.5.0
- _Z29qt_gst_element_query_positionP11_GstElement9GstFormatPl@Base 5.5.0
+ (subst)_Z29qt_gst_element_query_durationP11_GstElement9GstFormatP{int64_t}@Base 5.5.0
+ (subst)_Z29qt_gst_element_query_positionP11_GstElement9GstFormatP{int64_t}@Base 5.5.0
  _ZN10QGstAppSrc11onDataReadyEv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QGstAppSrc11qt_metacastEPKc@Base 5.0.2
@@ -279,8 +279,6 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZN5QListIP17QGstVideoRendererE6appendERKS1_@Base 5.5.0
  (optional=templinst)_ZN5QListIP17QGstVideoRendererED1Ev@Base 5.5.0
  (optional=templinst)_ZN5QListIP17QGstVideoRendererED2Ev@Base 5.5.0
- (optional=templinst|arch=armhf mips mipsel)_ZN5QListIP23QGstBufferPoolInterfaceEC1ERKS2_@Base 5.4.2
- (optional=templinst|arch=armhf mips mipsel)_ZN5QListIP23QGstBufferPoolInterfaceEC2ERKS2_@Base 5.4.2
  (optional=templinst|arch=amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32)_ZN5QListIP26QGstreamerBusMessageFilterE13detach_helperEi@Base 5.4.2
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterE18detach_helper_growEii@Base 5.2.0
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterE9removeAllERKS1_@Base 5.0.2
@@ -440,7 +438,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZTV26QGstreamerBusHelperPrivate@Base 5.0.2
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZTV26QGstreamerBusMessageFilter@Base 5.4.2
  _ZTV27QGstreamerAudioProbeControl@Base 5.0.2
- (optional=gccinternal|arch=!arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZTV27QGstreamerSyncMessageFilter@Base 5.4.2
+ (optional=gccinternal)_ZTV27QGstreamerSyncMessageFilter@Base 5.4.2
  _ZTV27QGstreamerVideoProbeControl@Base 5.0.2
  _ZTV28QGstreamerAudioInputSelector@Base 5.0.2
  _ZTV28QGstreamerVideoWidgetControl@Base 5.2.0
