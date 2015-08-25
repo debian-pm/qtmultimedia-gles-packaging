@@ -50,7 +50,7 @@ override_dh_auto_install-arch:
 	# Remove libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
-	# Remove CMake files for plugin, we don't need them.
+	# Remove CMake files for plugins, we don't need them.
 	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt5Multimedia/*Plugin.cmake
 
 override_dh_auto_install-indep:
