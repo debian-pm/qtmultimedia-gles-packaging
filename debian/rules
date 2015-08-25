@@ -53,6 +53,9 @@ override_dh_auto_install-arch:
 	# Remove CMake files for plugins, we don't need them.
 	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt5Multimedia/*Plugin.cmake
 
+	# Remove empty directories.
+	find debian/tmp -type d -empty -delete
+
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
