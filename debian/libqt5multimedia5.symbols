@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.2 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN10QRadioData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QRadioData11qt_metacastEPKc@Base 5.0.2
@@ -868,6 +868,16 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN20QAbstractVideoBufferD0Ev@Base 5.0.2
  _ZN20QAbstractVideoBufferD1Ev@Base 5.0.2
  _ZN20QAbstractVideoBufferD2Ev@Base 5.0.2
+ _ZN20QAbstractVideoFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN20QAbstractVideoFilter11qt_metacastEPKc@Base 5.5.0
+ _ZN20QAbstractVideoFilter13activeChangedEv@Base 5.5.0
+ _ZN20QAbstractVideoFilter16staticMetaObjectE@Base 5.5.0
+ _ZN20QAbstractVideoFilter9setActiveEb@Base 5.5.0
+ _ZN20QAbstractVideoFilterC1EP7QObject@Base 5.5.0
+ _ZN20QAbstractVideoFilterC2EP7QObject@Base 5.5.0
+ _ZN20QAbstractVideoFilterD0Ev@Base 5.5.0
+ _ZN20QAbstractVideoFilterD1Ev@Base 5.5.0
+ _ZN20QAbstractVideoFilterD2Ev@Base 5.5.0
  _ZN20QAudioDecoderControl11bufferReadyEv@Base 5.0.2
  _ZN20QAudioDecoderControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN20QAudioDecoderControl11qt_metacastEPKc@Base 5.0.2
@@ -912,6 +922,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN20QMediaStreamsControlD0Ev@Base 5.0.2
  _ZN20QMediaStreamsControlD1Ev@Base 5.0.2
  _ZN20QMediaStreamsControlD2Ev@Base 5.0.2
+ _ZN20QVideoFilterRunnableD0Ev@Base 5.5.0
+ _ZN20QVideoFilterRunnableD1Ev@Base 5.5.0
+ _ZN20QVideoFilterRunnableD2Ev@Base 5.5.0
  _ZN21QAbstractVideoSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN21QAbstractVideoSurface11qt_metacastEPKc@Base 5.0.2
  _ZN21QAbstractVideoSurface13activeChangedEb@Base 5.0.2
@@ -1039,6 +1052,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN22QCameraImageProcessing11qt_metacastEPKc@Base 5.0.2
  _ZN22QCameraImageProcessing11setContrastEd@Base 5.2.0
  _ZN22QCameraImageProcessing13setSaturationEd@Base 5.2.0
+ _ZN22QCameraImageProcessing14setColorFilterENS_11ColorFilterE@Base 5.5.0
  _ZN22QCameraImageProcessing16staticMetaObjectE@Base 5.0.2
  _ZN22QCameraImageProcessing17setDenoisingLevelEd@Base 5.2.0
  _ZN22QCameraImageProcessing18setSharpeningLevelEd@Base 5.2.0
@@ -1160,6 +1174,18 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN24QAbstractAudioDeviceInfo11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN24QAbstractAudioDeviceInfo11qt_metacastEPKc@Base 5.0.2
  _ZN24QAbstractAudioDeviceInfo16staticMetaObjectE@Base 5.0.2
+ _ZN25QCameraViewfinderSettings13setResolutionERK5QSize@Base 5.5.0
+ _ZN25QCameraViewfinderSettings14setPixelFormatEN11QVideoFrame11PixelFormatE@Base 5.5.0
+ _ZN25QCameraViewfinderSettings19setMaximumFrameRateEd@Base 5.5.0
+ _ZN25QCameraViewfinderSettings19setMinimumFrameRateEd@Base 5.5.0
+ _ZN25QCameraViewfinderSettings19setPixelAspectRatioERK5QSize@Base 5.5.0
+ _ZN25QCameraViewfinderSettingsC1ERKS_@Base 5.5.0
+ _ZN25QCameraViewfinderSettingsC1Ev@Base 5.5.0
+ _ZN25QCameraViewfinderSettingsC2ERKS_@Base 5.5.0
+ _ZN25QCameraViewfinderSettingsC2Ev@Base 5.5.0
+ _ZN25QCameraViewfinderSettingsD1Ev@Base 5.5.0
+ _ZN25QCameraViewfinderSettingsD2Ev@Base 5.5.0
+ _ZN25QCameraViewfinderSettingsaSERKS_@Base 5.5.0
  _ZN25QMediaAvailabilityControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN25QMediaAvailabilityControl11qt_metacastEPKc@Base 5.0.2
  _ZN25QMediaAvailabilityControl16staticMetaObjectE@Base 5.0.2
@@ -1369,6 +1395,14 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN33QCameraCaptureBufferFormatControlD0Ev@Base 5.0.2
  _ZN33QCameraCaptureBufferFormatControlD1Ev@Base 5.0.2
  _ZN33QCameraCaptureBufferFormatControlD2Ev@Base 5.0.2
+ _ZN33QCameraViewfinderSettingsControl211qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN33QCameraViewfinderSettingsControl211qt_metacastEPKc@Base 5.5.0
+ _ZN33QCameraViewfinderSettingsControl216staticMetaObjectE@Base 5.5.0
+ _ZN33QCameraViewfinderSettingsControl2C1EP7QObject@Base 5.5.0
+ _ZN33QCameraViewfinderSettingsControl2C2EP7QObject@Base 5.5.0
+ _ZN33QCameraViewfinderSettingsControl2D0Ev@Base 5.5.0
+ _ZN33QCameraViewfinderSettingsControl2D1Ev@Base 5.5.0
+ _ZN33QCameraViewfinderSettingsControl2D2Ev@Base 5.5.0
  _ZN37QMediaServiceProviderFactoryInterfaceD0Ev@Base 5.0.2
  _ZN37QMediaServiceProviderFactoryInterfaceD1Ev@Base 5.0.2
  _ZN37QMediaServiceProviderFactoryInterfaceD2Ev@Base 5.0.2
@@ -1402,6 +1436,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN7QCamera17lockStatusChangedENS_10LockStatusENS_16LockChangeReasonE@Base 5.0.2
  _ZN7QCamera17lockStatusChangedENS_8LockTypeENS_10LockStatusENS_16LockChangeReasonE@Base 5.0.2
  _ZN7QCamera18captureModeChangedE6QFlagsINS_11CaptureModeEE@Base 5.0.2
+ _ZN7QCamera21setViewfinderSettingsERK25QCameraViewfinderSettings@Base 5.5.0
  _ZN7QCamera4loadEv@Base 5.0.2
  _ZN7QCamera4stopEv@Base 5.0.2
  _ZN7QCamera5errorENS_5ErrorE@Base 5.0.2
@@ -1510,6 +1545,8 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK11QVideoFrame8metaDataERK7QString@Base 5.0.2
  _ZNK11QVideoFrame9fieldTypeEv@Base 5.0.2
  _ZNK11QVideoFrame9startTimeEv@Base 5.0.2
+ _ZNK11QVideoFrameeqERKS_@Base 5.5.0
+ _ZNK11QVideoFrameneERKS_@Base 5.5.0
  _ZNK11QVideoProbe10metaObjectEv@Base 5.0.2
  _ZNK11QVideoProbe8isActiveEv@Base 5.0.2
  _ZNK12QAudioBuffer10frameCountEv@Base 5.0.2
@@ -1788,6 +1825,8 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK20QAbstractAudioOutput10metaObjectEv@Base 5.0.2
  _ZNK20QAbstractVideoBuffer10handleTypeEv@Base 5.0.2
  _ZNK20QAbstractVideoBuffer6handleEv@Base 5.0.2
+ _ZNK20QAbstractVideoFilter10metaObjectEv@Base 5.5.0
+ _ZNK20QAbstractVideoFilter8isActiveEv@Base 5.5.0
  _ZNK20QAudioDecoderControl10metaObjectEv@Base 5.0.2
  _ZNK20QImageEncoderControl10metaObjectEv@Base 5.0.2
  _ZNK20QMediaStreamsControl10metaObjectEv@Base 5.0.2
@@ -1824,6 +1863,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK21QMediaServiceProvider13defaultDeviceERK10QByteArray@Base 5.3.0
  _ZNK21QMediaServiceProvider14cameraPositionERK10QByteArray@Base 5.3.0
  _ZNK21QMediaServiceProvider17cameraOrientationERK10QByteArray@Base 5.3.0
+ _ZNK21QMediaServiceProvider17supportedFeaturesEPK13QMediaService@Base 5.5.0
  _ZNK21QMediaServiceProvider18supportedMimeTypesERK10QByteArrayi@Base 5.0.2
  _ZNK21QMediaServiceProvider7devicesERK10QByteArray@Base 5.0.2
  _ZNK21QMediaStorageLocation15defaultLocationENS_9MediaTypeE@Base 5.3.1
@@ -1845,11 +1885,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK22QCameraFeedbackControl10metaObjectEv@Base 5.0.2
  _ZNK22QCameraImageProcessing10metaObjectEv@Base 5.0.2
  _ZNK22QCameraImageProcessing10saturationEv@Base 5.0.2
+ _ZNK22QCameraImageProcessing11colorFilterEv@Base 5.5.0
  _ZNK22QCameraImageProcessing11isAvailableEv@Base 5.0.2
  _ZNK22QCameraImageProcessing14denoisingLevelEv@Base 5.0.2
  _ZNK22QCameraImageProcessing15sharpeningLevelEv@Base 5.0.2
  _ZNK22QCameraImageProcessing16whiteBalanceModeEv@Base 5.0.2
  _ZNK22QCameraImageProcessing18manualWhiteBalanceEv@Base 5.0.2
+ _ZNK22QCameraImageProcessing22isColorFilterSupportedENS_11ColorFilterE@Base 5.5.0
  _ZNK22QCameraImageProcessing27isWhiteBalanceModeSupportedENS_16WhiteBalanceModeE@Base 5.0.2
  _ZNK22QCameraImageProcessing8contrastEv@Base 5.0.2
  _ZNK22QMediaContainerControl10metaObjectEv@Base 5.0.2
@@ -1871,6 +1913,12 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK23QMediaPlaylistNavigator9nextIndexEi@Base 5.0.2
  _ZNK23QMediaVideoProbeControl10metaObjectEv@Base 5.0.2
  _ZNK24QAbstractAudioDeviceInfo10metaObjectEv@Base 5.0.2
+ _ZNK25QCameraViewfinderSettings10resolutionEv@Base 5.5.0
+ _ZNK25QCameraViewfinderSettings11pixelFormatEv@Base 5.5.0
+ _ZNK25QCameraViewfinderSettings16maximumFrameRateEv@Base 5.5.0
+ _ZNK25QCameraViewfinderSettings16minimumFrameRateEv@Base 5.5.0
+ _ZNK25QCameraViewfinderSettings16pixelAspectRatioEv@Base 5.5.0
+ _ZNK25QCameraViewfinderSettings6isNullEv@Base 5.5.0
  _ZNK25QMediaAvailabilityControl10metaObjectEv@Base 5.0.2
  _ZNK25QMediaServiceProviderHint14cameraPositionEv@Base 5.3.0
  _ZNK25QMediaServiceProviderHint4typeEv@Base 5.0.2
@@ -1903,6 +1951,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK32QCameraViewfinderSettingsControl10metaObjectEv@Base 5.0.2
  _ZNK32QMediaPlayerResourceSetInterface10metaObjectEv@Base 5.0.2
  _ZNK33QCameraCaptureBufferFormatControl10metaObjectEv@Base 5.0.2
+ _ZNK33QCameraViewfinderSettingsControl210metaObjectEv@Base 5.5.0
  _ZNK6QSound10isFinishedEv@Base 5.0.2
  _ZNK6QSound10metaObjectEv@Base 5.0.2
  _ZNK6QSound14loopsRemainingEv@Base 5.0.2
@@ -1917,7 +1966,12 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK7QCamera14requestedLocksEv@Base 5.0.2
  _ZNK7QCamera14supportedLocksEv@Base 5.0.2
  _ZNK7QCamera15imageProcessingEv@Base 5.0.2
+ _ZNK7QCamera18viewfinderSettingsEv@Base 5.5.0
  _ZNK7QCamera22isCaptureModeSupportedE6QFlagsINS_11CaptureModeEE@Base 5.0.2
+ _ZNK7QCamera27supportedViewfinderSettingsERK25QCameraViewfinderSettings@Base 5.5.0
+ _ZNK7QCamera30supportedViewfinderResolutionsERK25QCameraViewfinderSettings@Base 5.5.0
+ _ZNK7QCamera31supportedViewfinderPixelFormatsERK25QCameraViewfinderSettings@Base 5.5.0
+ _ZNK7QCamera34supportedViewfinderFrameRateRangesERK25QCameraViewfinderSettings@Base 5.5.0
  _ZNK7QCamera5errorEv@Base 5.0.2
  _ZNK7QCamera5focusEv@Base 5.0.2
  _ZNK7QCamera5stateEv@Base 5.0.2
@@ -1962,11 +2016,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI20QAbstractAudioBuffer@Base 5.0.2
  _ZTI20QAbstractAudioOutput@Base 5.0.2
  _ZTI20QAbstractVideoBuffer@Base 5.0.2
+ _ZTI20QAbstractVideoFilter@Base 5.5.0
  _ZTI20QAudioDecoderControl@Base 5.0.2
  _ZTI20QImageEncoderControl@Base 5.0.2
  _ZTI20QMediaPlaylistReader@Base 5.0.2
  _ZTI20QMediaPlaylistWriter@Base 5.0.2
  _ZTI20QMediaStreamsControl@Base 5.0.2
+ _ZTI20QVideoFilterRunnable@Base 5.5.0
  _ZTI21QAbstractVideoSurface@Base 5.0.2
  _ZTI21QMediaPlaylistControl@Base 5.0.2
  _ZTI21QMediaRecorderControl@Base 5.0.2
@@ -2007,6 +2063,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI32QCameraViewfinderSettingsControl@Base 5.0.2
  _ZTI32QMediaPlayerResourceSetInterface@Base 5.0.2
  _ZTI33QCameraCaptureBufferFormatControl@Base 5.0.2
+ _ZTI33QCameraViewfinderSettingsControl2@Base 5.5.0
  _ZTI33QMediaResourceSetFactoryInterface@Base 5.0.2
  _ZTI37QMediaServiceProviderFactoryInterface@Base 5.0.2
  _ZTI6QSound@Base 5.0.2
@@ -2049,11 +2106,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS20QAbstractAudioBuffer@Base 5.0.2
  _ZTS20QAbstractAudioOutput@Base 5.0.2
  _ZTS20QAbstractVideoBuffer@Base 5.0.2
+ _ZTS20QAbstractVideoFilter@Base 5.5.0
  _ZTS20QAudioDecoderControl@Base 5.0.2
  _ZTS20QImageEncoderControl@Base 5.0.2
  _ZTS20QMediaPlaylistReader@Base 5.0.2
  _ZTS20QMediaPlaylistWriter@Base 5.0.2
  _ZTS20QMediaStreamsControl@Base 5.0.2
+ _ZTS20QVideoFilterRunnable@Base 5.5.0
  _ZTS21QAbstractVideoSurface@Base 5.0.2
  _ZTS21QMediaPlaylistControl@Base 5.0.2
  _ZTS21QMediaRecorderControl@Base 5.0.2
@@ -2094,6 +2153,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS32QCameraViewfinderSettingsControl@Base 5.0.2
  _ZTS32QMediaPlayerResourceSetInterface@Base 5.0.2
  _ZTS33QCameraCaptureBufferFormatControl@Base 5.0.2
+ _ZTS33QCameraViewfinderSettingsControl2@Base 5.5.0
  _ZTS33QMediaResourceSetFactoryInterface@Base 5.0.2
  _ZTS37QMediaServiceProviderFactoryInterface@Base 5.0.2
  _ZTS6QSound@Base 5.0.2
@@ -2136,11 +2196,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZTV20QAbstractAudioBuffer@Base 5.4.2
  _ZTV20QAbstractAudioOutput@Base 5.0.2
  _ZTV20QAbstractVideoBuffer@Base 5.0.2
+ _ZTV20QAbstractVideoFilter@Base 5.5.0
  _ZTV20QAudioDecoderControl@Base 5.0.2
  _ZTV20QImageEncoderControl@Base 5.0.2
  _ZTV20QMediaPlaylistReader@Base 5.0.2
  _ZTV20QMediaPlaylistWriter@Base 5.0.2
  _ZTV20QMediaStreamsControl@Base 5.0.2
+ _ZTV20QVideoFilterRunnable@Base 5.5.0
  _ZTV21QAbstractVideoSurface@Base 5.0.2
  _ZTV21QMediaPlaylistControl@Base 5.0.2
  _ZTV21QMediaRecorderControl@Base 5.0.2
@@ -2181,6 +2243,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV32QCameraViewfinderSettingsControl@Base 5.0.2
  _ZTV32QMediaPlayerResourceSetInterface@Base 5.0.2
  _ZTV33QCameraCaptureBufferFormatControl@Base 5.0.2
+ _ZTV33QCameraViewfinderSettingsControl2@Base 5.5.0
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZTV33QMediaResourceSetFactoryInterface@Base 5.4.2
  _ZTV37QMediaServiceProviderFactoryInterface@Base 5.0.2
  _ZTV6QSound@Base 5.0.2
@@ -2188,6 +2251,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV7QSample@Base 5.0.2
  _ZeqRK15QMediaTimeRangeS1_@Base 5.0.2
  _ZeqRK18QMediaTimeIntervalS1_@Base 5.0.2
+ _ZeqRK25QCameraViewfinderSettingsS1_@Base 5.5.0
  _Zls6QDebugN11QVideoFrame11PixelFormatE@Base 5.0.2
  _Zls6QDebugN11QVideoFrame9FieldTypeE@Base 5.0.2
  _Zls6QDebugN12QAudioFormat10SampleTypeE@Base 5.0.2
