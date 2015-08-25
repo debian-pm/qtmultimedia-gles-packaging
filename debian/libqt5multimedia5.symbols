@@ -128,12 +128,12 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN11QVideoProbeD1Ev@Base 5.0.2
  _ZN11QVideoProbeD2Ev@Base 5.0.2
  _ZN12QAudioBuffer4dataEv@Base 5.0.2
- _ZN12QAudioBufferC1EP20QAbstractAudioBuffer@Base 5.0.2
+ _ZN12QAudioBufferC1EP20QAbstractAudioBuffer@Base 5.0.2 1
  _ZN12QAudioBufferC1ERK10QByteArrayRK12QAudioFormatx@Base 5.0.2
  _ZN12QAudioBufferC1ERKS_@Base 5.0.2
  _ZN12QAudioBufferC1EiRK12QAudioFormatx@Base 5.0.2
  _ZN12QAudioBufferC1Ev@Base 5.0.2
- _ZN12QAudioBufferC2EP20QAbstractAudioBuffer@Base 5.0.2
+ _ZN12QAudioBufferC2EP20QAbstractAudioBuffer@Base 5.0.2 1
  _ZN12QAudioBufferC2ERK10QByteArrayRK12QAudioFormatx@Base 5.0.2
  _ZN12QAudioBufferC2ERKS_@Base 5.0.2
  _ZN12QAudioBufferC2EiRK12QAudioFormatx@Base 5.0.2
@@ -255,23 +255,23 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN12QMediaPlayerD0Ev@Base 5.0.2
  _ZN12QMediaPlayerD1Ev@Base 5.0.2
  _ZN12QMediaPlayerD2Ev@Base 5.0.2
- _ZN12QSampleCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN12QSampleCache11qt_metacastEPKc@Base 5.0.2
- _ZN12QSampleCache11setCapacityEx@Base 5.0.2
- _ZN12QSampleCache12unloadSampleEP7QSample@Base 5.0.2
- _ZN12QSampleCache13requestSampleERK4QUrl@Base 5.0.2
- _ZN12QSampleCache14loadingReleaseEv@Base 5.0.2
- _ZN12QSampleCache16isLoadingChangedEv@Base 5.0.2
- _ZN12QSampleCache16staticMetaObjectE@Base 5.0.2
- _ZN12QSampleCache20networkAccessManagerEv@Base 5.0.2
- _ZN12QSampleCache24notifyUnreferencedSampleEP7QSample@Base 5.0.2
- _ZN12QSampleCache24removeUnreferencedSampleEP7QSample@Base 5.0.2
- _ZN12QSampleCache7refreshEx@Base 5.0.2
- _ZN12QSampleCacheC1EP7QObject@Base 5.0.2
- _ZN12QSampleCacheC2EP7QObject@Base 5.0.2
- _ZN12QSampleCacheD0Ev@Base 5.0.2
- _ZN12QSampleCacheD1Ev@Base 5.0.2
- _ZN12QSampleCacheD2Ev@Base 5.0.2
+ _ZN12QSampleCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN12QSampleCache11qt_metacastEPKc@Base 5.0.2 1
+ _ZN12QSampleCache11setCapacityEx@Base 5.0.2 1
+ _ZN12QSampleCache12unloadSampleEP7QSample@Base 5.0.2 1
+ _ZN12QSampleCache13requestSampleERK4QUrl@Base 5.0.2 1
+ _ZN12QSampleCache14loadingReleaseEv@Base 5.0.2 1
+ _ZN12QSampleCache16isLoadingChangedEv@Base 5.0.2 1
+ _ZN12QSampleCache16staticMetaObjectE@Base 5.0.2 1
+ _ZN12QSampleCache20networkAccessManagerEv@Base 5.0.2 1
+ _ZN12QSampleCache24notifyUnreferencedSampleEP7QSample@Base 5.0.2 1
+ _ZN12QSampleCache24removeUnreferencedSampleEP7QSample@Base 5.0.2 1
+ _ZN12QSampleCache7refreshEx@Base 5.0.2 1
+ _ZN12QSampleCacheC1EP7QObject@Base 5.0.2 1
+ _ZN12QSampleCacheC2EP7QObject@Base 5.0.2 1
+ _ZN12QSampleCacheD0Ev@Base 5.0.2 1
+ _ZN12QSampleCacheD1Ev@Base 5.0.2 1
+ _ZN12QSampleCacheD2Ev@Base 5.0.2 1
  _ZN12QSoundEffect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN12QSoundEffect11qt_metacastEPKc@Base 5.0.2
  _ZN12QSoundEffect11setCategoryERK7QString@Base 5.0.2
@@ -636,13 +636,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN16QCameraFocusZoneD1Ev@Base 5.0.2
  _ZN16QCameraFocusZoneD2Ev@Base 5.0.2
  _ZN16QCameraFocusZoneaSERKS_@Base 5.0.2
- _ZN17QImageVideoBuffer3mapEN20QAbstractVideoBuffer7MapModeEPiS2_@Base 5.0.2
- _ZN17QImageVideoBuffer5unmapEv@Base 5.0.2
- _ZN17QImageVideoBufferC1ERK6QImage@Base 5.0.2
- _ZN17QImageVideoBufferC2ERK6QImage@Base 5.0.2
- _ZN17QImageVideoBufferD0Ev@Base 5.0.2
- _ZN17QImageVideoBufferD1Ev@Base 5.0.2
- _ZN17QImageVideoBufferD2Ev@Base 5.0.2
+ _ZN17QImageVideoBuffer3mapEN20QAbstractVideoBuffer7MapModeEPiS2_@Base 5.0.2 1
+ _ZN17QImageVideoBuffer5unmapEv@Base 5.0.2 1
+ _ZN17QImageVideoBufferC1ERK6QImage@Base 5.0.2 1
+ _ZN17QImageVideoBufferC2ERK6QImage@Base 5.0.2 1
+ _ZN17QImageVideoBufferD0Ev@Base 5.0.2 1
+ _ZN17QImageVideoBufferD1Ev@Base 5.0.2 1
+ _ZN17QImageVideoBufferD2Ev@Base 5.0.2 1
  _ZN17QRadioDataControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN17QRadioDataControl11qt_metacastEPKc@Base 5.0.2
  _ZN17QRadioDataControl16radioTextChangedE7QString@Base 5.0.2
@@ -688,26 +688,26 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN18QCameraZoomControlD0Ev@Base 5.0.2
  _ZN18QCameraZoomControlD1Ev@Base 5.0.2
  _ZN18QCameraZoomControlD2Ev@Base 5.0.2
- _ZN18QMediaPluginLoader12loadMetadataEv@Base 5.0.2
- _ZN18QMediaPluginLoader8instanceERK7QString@Base 5.0.2
- _ZN18QMediaPluginLoader9instancesERK7QString@Base 5.0.2
- _ZN18QMediaPluginLoaderC1EPKcRK7QStringN2Qt15CaseSensitivityE@Base 5.0.2
- _ZN18QMediaPluginLoaderC2EPKcRK7QStringN2Qt15CaseSensitivityE@Base 5.0.2
- _ZN18QMediaPluginLoaderD1Ev@Base 5.0.2
- _ZN18QMediaPluginLoaderD2Ev@Base 5.0.2
+ _ZN18QMediaPluginLoader12loadMetadataEv@Base 5.0.2 1
+ _ZN18QMediaPluginLoader8instanceERK7QString@Base 5.0.2 1
+ _ZN18QMediaPluginLoader9instancesERK7QString@Base 5.0.2 1
+ _ZN18QMediaPluginLoaderC1EPKcRK7QStringN2Qt15CaseSensitivityE@Base 5.0.2 1
+ _ZN18QMediaPluginLoaderC2EPKcRK7QStringN2Qt15CaseSensitivityE@Base 5.0.2 1
+ _ZN18QMediaPluginLoaderD1Ev@Base 5.0.2 1
+ _ZN18QMediaPluginLoaderD2Ev@Base 5.0.2 1
  _ZN18QMediaTimeIntervalC1ERKS_@Base 5.0.2
  _ZN18QMediaTimeIntervalC1Ev@Base 5.0.2
  _ZN18QMediaTimeIntervalC1Exx@Base 5.0.2
  _ZN18QMediaTimeIntervalC2ERKS_@Base 5.0.2
  _ZN18QMediaTimeIntervalC2Ev@Base 5.0.2
  _ZN18QMediaTimeIntervalC2Exx@Base 5.0.2
- _ZN18QMemoryVideoBuffer3mapEN20QAbstractVideoBuffer7MapModeEPiS2_@Base 5.0.2
- _ZN18QMemoryVideoBuffer5unmapEv@Base 5.0.2
- _ZN18QMemoryVideoBufferC1ERK10QByteArrayi@Base 5.0.2
- _ZN18QMemoryVideoBufferC2ERK10QByteArrayi@Base 5.0.2
- _ZN18QMemoryVideoBufferD0Ev@Base 5.0.2
- _ZN18QMemoryVideoBufferD1Ev@Base 5.0.2
- _ZN18QMemoryVideoBufferD2Ev@Base 5.0.2
+ _ZN18QMemoryVideoBuffer3mapEN20QAbstractVideoBuffer7MapModeEPiS2_@Base 5.0.2 1
+ _ZN18QMemoryVideoBuffer5unmapEv@Base 5.0.2 1
+ _ZN18QMemoryVideoBufferC1ERK10QByteArrayi@Base 5.0.2 1
+ _ZN18QMemoryVideoBufferC2ERK10QByteArrayi@Base 5.0.2 1
+ _ZN18QMemoryVideoBufferD0Ev@Base 5.0.2 1
+ _ZN18QMemoryVideoBufferD1Ev@Base 5.0.2 1
+ _ZN18QMemoryVideoBufferD2Ev@Base 5.0.2 1
  _ZN18QRadioTunerControl11bandChangedEN11QRadioTuner4BandE@Base 5.0.2
  _ZN18QRadioTunerControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18QRadioTunerControl11qt_metacastEPKc@Base 5.0.2
@@ -808,20 +808,20 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN19QMediaPlayerControlD0Ev@Base 5.0.2
  _ZN19QMediaPlayerControlD1Ev@Base 5.0.2
  _ZN19QMediaPlayerControlD2Ev@Base 5.0.2
- _ZN19QPlaylistFileParser11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN19QPlaylistFileParser11qt_metacastEPKc@Base 5.0.2
- _ZN19QPlaylistFileParser16findPlaylistTypeERK7QStringS2_PKvj@Base 5.0.2
- _ZN19QPlaylistFileParser16staticMetaObjectE@Base 5.0.2
- _ZN19QPlaylistFileParser4stopEv@Base 5.0.2
- _ZN19QPlaylistFileParser5errorENS_11ParserErrorERK7QString@Base 5.0.2
- _ZN19QPlaylistFileParser5startERK15QNetworkRequestb@Base 5.0.2
- _ZN19QPlaylistFileParser7newItemERK8QVariant@Base 5.0.2
- _ZN19QPlaylistFileParser8finishedEv@Base 5.0.2
- _ZN19QPlaylistFileParserC1EP7QObject@Base 5.0.2
- _ZN19QPlaylistFileParserC2EP7QObject@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QPlaylistFileParserD0Ev@Base 5.4.2
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QPlaylistFileParserD1Ev@Base 5.4.2
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QPlaylistFileParserD2Ev@Base 5.4.2
+ _ZN19QPlaylistFileParser11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN19QPlaylistFileParser11qt_metacastEPKc@Base 5.0.2 1
+ _ZN19QPlaylistFileParser16findPlaylistTypeERK7QStringS2_PKvj@Base 5.0.2 1
+ _ZN19QPlaylistFileParser16staticMetaObjectE@Base 5.0.2 1
+ _ZN19QPlaylistFileParser4stopEv@Base 5.0.2 1
+ _ZN19QPlaylistFileParser5errorENS_11ParserErrorERK7QString@Base 5.0.2 1
+ _ZN19QPlaylistFileParser5startERK15QNetworkRequestb@Base 5.0.2 1
+ _ZN19QPlaylistFileParser7newItemERK8QVariant@Base 5.0.2 1
+ _ZN19QPlaylistFileParser8finishedEv@Base 5.0.2 1
+ _ZN19QPlaylistFileParserC1EP7QObject@Base 5.0.2 1
+ _ZN19QPlaylistFileParserC2EP7QObject@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QPlaylistFileParserD0Ev@Base 5.4.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QPlaylistFileParserD1Ev@Base 5.4.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QPlaylistFileParserD2Ev@Base 5.4.2 1
  _ZN19QVideoSurfaceFormat11setPropertyEPKcRK8QVariant@Base 5.0.2
  _ZN19QVideoSurfaceFormat11setViewportERK5QRect@Base 5.0.2
  _ZN19QVideoSurfaceFormat12setFrameRateEd@Base 5.2.0
@@ -905,14 +905,14 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN20QImageEncoderControlD0Ev@Base 5.0.2
  _ZN20QImageEncoderControlD1Ev@Base 5.0.2
  _ZN20QImageEncoderControlD2Ev@Base 5.0.2
- _ZN20QMediaPlaylistReaderD0Ev@Base 5.0.2
- _ZN20QMediaPlaylistReaderD1Ev@Base 5.0.2
- _ZN20QMediaPlaylistReaderD2Ev@Base 5.0.2
- _ZN20QMediaPlaylistWriterD0Ev@Base 5.0.2
- _ZN20QMediaPlaylistWriterD1Ev@Base 5.0.2
- _ZN20QMediaPlaylistWriterD2Ev@Base 5.0.2
- _ZN20QMediaResourcePolicy17createResourceSetERK7QString@Base 5.0.2
- _ZN20QMediaResourcePolicy18destroyResourceSetEP7QObject@Base 5.0.2
+ _ZN20QMediaPlaylistReaderD0Ev@Base 5.0.2 1
+ _ZN20QMediaPlaylistReaderD1Ev@Base 5.0.2 1
+ _ZN20QMediaPlaylistReaderD2Ev@Base 5.0.2 1
+ _ZN20QMediaPlaylistWriterD0Ev@Base 5.0.2 1
+ _ZN20QMediaPlaylistWriterD1Ev@Base 5.0.2 1
+ _ZN20QMediaPlaylistWriterD2Ev@Base 5.0.2 1
+ _ZN20QMediaResourcePolicy17createResourceSetERK7QString@Base 5.0.2 1
+ _ZN20QMediaResourcePolicy18destroyResourceSetEP7QObject@Base 5.0.2 1
  _ZN20QMediaStreamsControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN20QMediaStreamsControl11qt_metacastEPKc@Base 5.0.2
  _ZN20QMediaStreamsControl14streamsChangedEv@Base 5.0.2
@@ -970,18 +970,18 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN21QImageEncoderSettingsD1Ev@Base 5.0.2
  _ZN21QImageEncoderSettingsD2Ev@Base 5.0.2
  _ZN21QImageEncoderSettingsaSERKS_@Base 5.0.2
- _ZN21QMediaPlaylistControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN21QMediaPlaylistControl11qt_metacastEPKc@Base 5.0.2
- _ZN21QMediaPlaylistControl16staticMetaObjectE@Base 5.0.2
- _ZN21QMediaPlaylistControl19currentIndexChangedEi@Base 5.0.2
- _ZN21QMediaPlaylistControl19currentMediaChangedERK13QMediaContent@Base 5.0.2
- _ZN21QMediaPlaylistControl19playbackModeChangedEN14QMediaPlaylist12PlaybackModeE@Base 5.0.2
- _ZN21QMediaPlaylistControl23playlistProviderChangedEv@Base 5.0.2
- _ZN21QMediaPlaylistControlC1EP7QObject@Base 5.0.2
- _ZN21QMediaPlaylistControlC2EP7QObject@Base 5.0.2
- _ZN21QMediaPlaylistControlD0Ev@Base 5.0.2
- _ZN21QMediaPlaylistControlD1Ev@Base 5.0.2
- _ZN21QMediaPlaylistControlD2Ev@Base 5.0.2
+ _ZN21QMediaPlaylistControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN21QMediaPlaylistControl11qt_metacastEPKc@Base 5.0.2 1
+ _ZN21QMediaPlaylistControl16staticMetaObjectE@Base 5.0.2 1
+ _ZN21QMediaPlaylistControl19currentIndexChangedEi@Base 5.0.2 1
+ _ZN21QMediaPlaylistControl19currentMediaChangedERK13QMediaContent@Base 5.0.2 1
+ _ZN21QMediaPlaylistControl19playbackModeChangedEN14QMediaPlaylist12PlaybackModeE@Base 5.0.2 1
+ _ZN21QMediaPlaylistControl23playlistProviderChangedEv@Base 5.0.2 1
+ _ZN21QMediaPlaylistControlC1EP7QObject@Base 5.0.2 1
+ _ZN21QMediaPlaylistControlC2EP7QObject@Base 5.0.2 1
+ _ZN21QMediaPlaylistControlD0Ev@Base 5.0.2 1
+ _ZN21QMediaPlaylistControlD1Ev@Base 5.0.2 1
+ _ZN21QMediaPlaylistControlD2Ev@Base 5.0.2 1
  _ZN21QMediaRecorderControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN21QMediaRecorderControl11qt_metacastEPKc@Base 5.0.2
  _ZN21QMediaRecorderControl12mutedChangedEb@Base 5.0.2
@@ -997,15 +997,15 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN21QMediaRecorderControlD0Ev@Base 5.0.2
  _ZN21QMediaRecorderControlD1Ev@Base 5.0.2
  _ZN21QMediaRecorderControlD2Ev@Base 5.0.2
- _ZN21QMediaServiceProvider11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN21QMediaServiceProvider11qt_metacastEPKc@Base 5.0.2
- _ZN21QMediaServiceProvider16staticMetaObjectE@Base 5.0.2
- _ZN21QMediaServiceProvider17deviceDescriptionERK10QByteArrayS2_@Base 5.0.2
- _ZN21QMediaServiceProvider22defaultServiceProviderEv@Base 5.0.2
- _ZN21QMediaServiceProvider25setDefaultServiceProviderEPS_@Base 5.0.2
- _ZN21QMediaStorageLocation18addStorageLocationENS_9MediaTypeERK7QString@Base 5.3.1
- _ZN21QMediaStorageLocationC1Ev@Base 5.3.1
- _ZN21QMediaStorageLocationC2Ev@Base 5.3.1
+ _ZN21QMediaServiceProvider11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN21QMediaServiceProvider11qt_metacastEPKc@Base 5.0.2 1
+ _ZN21QMediaServiceProvider16staticMetaObjectE@Base 5.0.2 1
+ _ZN21QMediaServiceProvider17deviceDescriptionERK10QByteArrayS2_@Base 5.0.2 1
+ _ZN21QMediaServiceProvider22defaultServiceProviderEv@Base 5.0.2 1
+ _ZN21QMediaServiceProvider25setDefaultServiceProviderEPS_@Base 5.0.2 1
+ _ZN21QMediaStorageLocation18addStorageLocationENS_9MediaTypeERK7QString@Base 5.3.1 1
+ _ZN21QMediaStorageLocationC1Ev@Base 5.3.1 1
+ _ZN21QMediaStorageLocationC2Ev@Base 5.3.1 1
  _ZN21QVideoEncoderSettings10setBitRateEi@Base 5.0.2
  _ZN21QVideoEncoderSettings10setQualityEN11QMultimedia15EncodingQualityE@Base 5.0.2
  _ZN21QVideoEncoderSettings12setFrameRateEd@Base 5.2.0
@@ -1072,43 +1072,43 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN22QMediaContainerControlD0Ev@Base 5.0.2
  _ZN22QMediaContainerControlD1Ev@Base 5.0.2
  _ZN22QMediaContainerControlD2Ev@Base 5.0.2
- _ZN22QMediaPlaylistIOPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN22QMediaPlaylistIOPlugin11qt_metacastEPKc@Base 5.0.2
- _ZN22QMediaPlaylistIOPlugin16staticMetaObjectE@Base 5.0.2
- _ZN22QMediaPlaylistIOPluginC1EP7QObject@Base 5.0.2
- _ZN22QMediaPlaylistIOPluginC2EP7QObject@Base 5.0.2
- _ZN22QMediaPlaylistIOPluginD0Ev@Base 5.0.2
- _ZN22QMediaPlaylistIOPluginD1Ev@Base 5.0.2
- _ZN22QMediaPlaylistIOPluginD2Ev@Base 5.0.2
- _ZN22QMediaPlaylistProvider10loadFailedEN14QMediaPlaylist5ErrorERK7QString@Base 5.0.2
- _ZN22QMediaPlaylistProvider11insertMediaEiRK13QMediaContent@Base 5.0.2
- _ZN22QMediaPlaylistProvider11insertMediaEiRK5QListI13QMediaContentE@Base 5.0.2
- _ZN22QMediaPlaylistProvider11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN22QMediaPlaylistProvider11qt_metacastEPKc@Base 5.0.2
- _ZN22QMediaPlaylistProvider11removeMediaEi@Base 5.0.2
- _ZN22QMediaPlaylistProvider11removeMediaEii@Base 5.0.2
- _ZN22QMediaPlaylistProvider12mediaChangedEii@Base 5.0.2
- _ZN22QMediaPlaylistProvider12mediaRemovedEii@Base 5.0.2
- _ZN22QMediaPlaylistProvider13mediaInsertedEii@Base 5.0.2
- _ZN22QMediaPlaylistProvider16staticMetaObjectE@Base 5.0.2
- _ZN22QMediaPlaylistProvider21mediaAboutToBeRemovedEii@Base 5.0.2
- _ZN22QMediaPlaylistProvider22mediaAboutToBeInsertedEii@Base 5.0.2
- _ZN22QMediaPlaylistProvider4loadEP9QIODevicePKc@Base 5.0.2
- _ZN22QMediaPlaylistProvider4loadERK15QNetworkRequestPKc@Base 5.0.2
- _ZN22QMediaPlaylistProvider4saveEP9QIODevicePKc@Base 5.0.2
- _ZN22QMediaPlaylistProvider4saveERK4QUrlPKc@Base 5.0.2
- _ZN22QMediaPlaylistProvider5clearEv@Base 5.0.2
- _ZN22QMediaPlaylistProvider6loadedEv@Base 5.0.2
- _ZN22QMediaPlaylistProvider7shuffleEv@Base 5.0.2
- _ZN22QMediaPlaylistProvider8addMediaERK13QMediaContent@Base 5.0.2
- _ZN22QMediaPlaylistProvider8addMediaERK5QListI13QMediaContentE@Base 5.0.2
- _ZN22QMediaPlaylistProviderC1EP7QObject@Base 5.0.2
- _ZN22QMediaPlaylistProviderC1ER29QMediaPlaylistProviderPrivateP7QObject@Base 5.0.2
- _ZN22QMediaPlaylistProviderC2EP7QObject@Base 5.0.2
- _ZN22QMediaPlaylistProviderC2ER29QMediaPlaylistProviderPrivateP7QObject@Base 5.0.2
- _ZN22QMediaPlaylistProviderD0Ev@Base 5.0.2
- _ZN22QMediaPlaylistProviderD1Ev@Base 5.0.2
- _ZN22QMediaPlaylistProviderD2Ev@Base 5.0.2
+ _ZN22QMediaPlaylistIOPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN22QMediaPlaylistIOPlugin11qt_metacastEPKc@Base 5.0.2 1
+ _ZN22QMediaPlaylistIOPlugin16staticMetaObjectE@Base 5.0.2 1
+ _ZN22QMediaPlaylistIOPluginC1EP7QObject@Base 5.0.2 1
+ _ZN22QMediaPlaylistIOPluginC2EP7QObject@Base 5.0.2 1
+ _ZN22QMediaPlaylistIOPluginD0Ev@Base 5.0.2 1
+ _ZN22QMediaPlaylistIOPluginD1Ev@Base 5.0.2 1
+ _ZN22QMediaPlaylistIOPluginD2Ev@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider10loadFailedEN14QMediaPlaylist5ErrorERK7QString@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider11insertMediaEiRK13QMediaContent@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider11insertMediaEiRK5QListI13QMediaContentE@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider11qt_metacastEPKc@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider11removeMediaEi@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider11removeMediaEii@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider12mediaChangedEii@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider12mediaRemovedEii@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider13mediaInsertedEii@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider16staticMetaObjectE@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider21mediaAboutToBeRemovedEii@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider22mediaAboutToBeInsertedEii@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider4loadEP9QIODevicePKc@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider4loadERK15QNetworkRequestPKc@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider4saveEP9QIODevicePKc@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider4saveERK4QUrlPKc@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider5clearEv@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider6loadedEv@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider7shuffleEv@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider8addMediaERK13QMediaContent@Base 5.0.2 1
+ _ZN22QMediaPlaylistProvider8addMediaERK5QListI13QMediaContentE@Base 5.0.2 1
+ _ZN22QMediaPlaylistProviderC1EP7QObject@Base 5.0.2 1
+ _ZN22QMediaPlaylistProviderC1ER29QMediaPlaylistProviderPrivateP7QObject@Base 5.0.2 1
+ _ZN22QMediaPlaylistProviderC2EP7QObject@Base 5.0.2 1
+ _ZN22QMediaPlaylistProviderC2ER29QMediaPlaylistProviderPrivateP7QObject@Base 5.0.2 1
+ _ZN22QMediaPlaylistProviderD0Ev@Base 5.0.2 1
+ _ZN22QMediaPlaylistProviderD1Ev@Base 5.0.2 1
+ _ZN22QMediaPlaylistProviderD2Ev@Base 5.0.2 1
  _ZN22QMetaDataReaderControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN22QMetaDataReaderControl11qt_metacastEPKc@Base 5.0.2
  _ZN22QMetaDataReaderControl15metaDataChangedERK7QStringRK8QVariant@Base 5.0.2
@@ -1145,23 +1145,23 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN23QMediaBindableInterfaceD0Ev@Base 5.0.2
  _ZN23QMediaBindableInterfaceD1Ev@Base 5.0.2
  _ZN23QMediaBindableInterfaceD2Ev@Base 5.0.2
- _ZN23QMediaPlaylistNavigator11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN23QMediaPlaylistNavigator11qt_metacastEPKc@Base 5.0.2
- _ZN23QMediaPlaylistNavigator11setPlaylistEP22QMediaPlaylistProvider@Base 5.0.2
- _ZN23QMediaPlaylistNavigator15setPlaybackModeEN14QMediaPlaylist12PlaybackModeE@Base 5.0.2
- _ZN23QMediaPlaylistNavigator16staticMetaObjectE@Base 5.0.2
- _ZN23QMediaPlaylistNavigator19currentIndexChangedEi@Base 5.0.2
- _ZN23QMediaPlaylistNavigator19playbackModeChangedEN14QMediaPlaylist12PlaybackModeE@Base 5.0.2
- _ZN23QMediaPlaylistNavigator23surroundingItemsChangedEv@Base 5.0.2
- _ZN23QMediaPlaylistNavigator4jumpEi@Base 5.0.2
- _ZN23QMediaPlaylistNavigator4nextEv@Base 5.0.2
- _ZN23QMediaPlaylistNavigator8previousEv@Base 5.0.2
- _ZN23QMediaPlaylistNavigator9activatedERK13QMediaContent@Base 5.0.2
- _ZN23QMediaPlaylistNavigatorC1EP22QMediaPlaylistProviderP7QObject@Base 5.0.2
- _ZN23QMediaPlaylistNavigatorC2EP22QMediaPlaylistProviderP7QObject@Base 5.0.2
- _ZN23QMediaPlaylistNavigatorD0Ev@Base 5.0.2
- _ZN23QMediaPlaylistNavigatorD1Ev@Base 5.0.2
- _ZN23QMediaPlaylistNavigatorD2Ev@Base 5.0.2
+ _ZN23QMediaPlaylistNavigator11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigator11qt_metacastEPKc@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigator11setPlaylistEP22QMediaPlaylistProvider@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigator15setPlaybackModeEN14QMediaPlaylist12PlaybackModeE@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigator16staticMetaObjectE@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigator19currentIndexChangedEi@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigator19playbackModeChangedEN14QMediaPlaylist12PlaybackModeE@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigator23surroundingItemsChangedEv@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigator4jumpEi@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigator4nextEv@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigator8previousEv@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigator9activatedERK13QMediaContent@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigatorC1EP22QMediaPlaylistProviderP7QObject@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigatorC2EP22QMediaPlaylistProviderP7QObject@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigatorD0Ev@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigatorD1Ev@Base 5.0.2 1
+ _ZN23QMediaPlaylistNavigatorD2Ev@Base 5.0.2 1
  _ZN23QMediaVideoProbeControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN23QMediaVideoProbeControl11qt_metacastEPKc@Base 5.0.2
  _ZN23QMediaVideoProbeControl16staticMetaObjectE@Base 5.0.2
@@ -1253,14 +1253,14 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN26QMediaNetworkAccessControlD0Ev@Base 5.0.2
  _ZN26QMediaNetworkAccessControlD1Ev@Base 5.0.2
  _ZN26QMediaNetworkAccessControlD2Ev@Base 5.0.2
- _ZN26QMediaResourcePolicyPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN26QMediaResourcePolicyPlugin11qt_metacastEPKc@Base 5.0.2
- _ZN26QMediaResourcePolicyPlugin16staticMetaObjectE@Base 5.0.2
- _ZN26QMediaResourcePolicyPluginC1EP7QObject@Base 5.0.2
- _ZN26QMediaResourcePolicyPluginC2EP7QObject@Base 5.0.2
- _ZN26QMediaResourcePolicyPluginD0Ev@Base 5.0.2
- _ZN26QMediaResourcePolicyPluginD1Ev@Base 5.0.2
- _ZN26QMediaResourcePolicyPluginD2Ev@Base 5.0.2
+ _ZN26QMediaResourcePolicyPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN26QMediaResourcePolicyPlugin11qt_metacastEPKc@Base 5.0.2 1
+ _ZN26QMediaResourcePolicyPlugin16staticMetaObjectE@Base 5.0.2 1
+ _ZN26QMediaResourcePolicyPluginC1EP7QObject@Base 5.0.2 1
+ _ZN26QMediaResourcePolicyPluginC2EP7QObject@Base 5.0.2 1
+ _ZN26QMediaResourcePolicyPluginD0Ev@Base 5.0.2 1
+ _ZN26QMediaResourcePolicyPluginD1Ev@Base 5.0.2 1
+ _ZN26QMediaResourcePolicyPluginD2Ev@Base 5.0.2 1
  _ZN27QAudioOutputSelectorControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN27QAudioOutputSelectorControl11qt_metacastEPKc@Base 5.0.2
  _ZN27QAudioOutputSelectorControl16staticMetaObjectE@Base 5.0.2
@@ -1271,15 +1271,15 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN27QAudioOutputSelectorControlD0Ev@Base 5.0.2
  _ZN27QAudioOutputSelectorControlD1Ev@Base 5.0.2
  _ZN27QAudioOutputSelectorControlD2Ev@Base 5.0.2
- _ZN27QMediaPlaylistSourceControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN27QMediaPlaylistSourceControl11qt_metacastEPKc@Base 5.0.2
- _ZN27QMediaPlaylistSourceControl15playlistChangedEP14QMediaPlaylist@Base 5.0.2
- _ZN27QMediaPlaylistSourceControl16staticMetaObjectE@Base 5.0.2
- _ZN27QMediaPlaylistSourceControlC1EP7QObject@Base 5.0.2
- _ZN27QMediaPlaylistSourceControlC2EP7QObject@Base 5.0.2
- _ZN27QMediaPlaylistSourceControlD0Ev@Base 5.0.2
- _ZN27QMediaPlaylistSourceControlD1Ev@Base 5.0.2
- _ZN27QMediaPlaylistSourceControlD2Ev@Base 5.0.2
+ _ZN27QMediaPlaylistSourceControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN27QMediaPlaylistSourceControl11qt_metacastEPKc@Base 5.0.2 1
+ _ZN27QMediaPlaylistSourceControl15playlistChangedEP14QMediaPlaylist@Base 5.0.2 1
+ _ZN27QMediaPlaylistSourceControl16staticMetaObjectE@Base 5.0.2 1
+ _ZN27QMediaPlaylistSourceControlC1EP7QObject@Base 5.0.2 1
+ _ZN27QMediaPlaylistSourceControlC2EP7QObject@Base 5.0.2 1
+ _ZN27QMediaPlaylistSourceControlD0Ev@Base 5.0.2 1
+ _ZN27QMediaPlaylistSourceControlD1Ev@Base 5.0.2 1
+ _ZN27QMediaPlaylistSourceControlD2Ev@Base 5.0.2 1
  _ZN27QMediaServiceProviderPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN27QMediaServiceProviderPlugin11qt_metacastEPKc@Base 5.0.2
  _ZN27QMediaServiceProviderPlugin16staticMetaObjectE@Base 5.0.2
@@ -1332,33 +1332,33 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN29QCameraImageProcessingControlD0Ev@Base 5.0.2
  _ZN29QCameraImageProcessingControlD1Ev@Base 5.0.2
  _ZN29QCameraImageProcessingControlD2Ev@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider11insertMediaEiRK13QMediaContent@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider11insertMediaEiRK5QListI13QMediaContentE@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider11qt_metacastEPKc@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider11removeMediaEi@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider11removeMediaEii@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider16staticMetaObjectE@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider4loadERK15QNetworkRequestPKc@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider5clearEv@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider7shuffleEv@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider8addMediaERK13QMediaContent@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProvider8addMediaERK5QListI13QMediaContentE@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProviderC1EP7QObject@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProviderC2EP7QObject@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProviderD0Ev@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProviderD1Ev@Base 5.0.2
- _ZN29QMediaNetworkPlaylistProviderD2Ev@Base 5.0.2
- _ZN30QVideoOutputOrientationHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0
- _ZN30QVideoOutputOrientationHandler11qt_metacastEPKc@Base 5.2.0
- _ZN30QVideoOutputOrientationHandler16staticMetaObjectE@Base 5.2.0
- _ZN30QVideoOutputOrientationHandler18orientationChangedEi@Base 5.2.0
- _ZN30QVideoOutputOrientationHandler24screenOrientationChangedEN2Qt17ScreenOrientationE@Base 5.2.0
- _ZN30QVideoOutputOrientationHandlerC1EP7QObject@Base 5.2.0
- _ZN30QVideoOutputOrientationHandlerC2EP7QObject@Base 5.2.0
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN30QVideoOutputOrientationHandlerD0Ev@Base 5.4.2
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN30QVideoOutputOrientationHandlerD1Ev@Base 5.4.2
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN30QVideoOutputOrientationHandlerD2Ev@Base 5.4.2
+ _ZN29QMediaNetworkPlaylistProvider11insertMediaEiRK13QMediaContent@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProvider11insertMediaEiRK5QListI13QMediaContentE@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProvider11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProvider11qt_metacastEPKc@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProvider11removeMediaEi@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProvider11removeMediaEii@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProvider16staticMetaObjectE@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProvider4loadERK15QNetworkRequestPKc@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProvider5clearEv@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProvider7shuffleEv@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProvider8addMediaERK13QMediaContent@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProvider8addMediaERK5QListI13QMediaContentE@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProviderC1EP7QObject@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProviderC2EP7QObject@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProviderD0Ev@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProviderD1Ev@Base 5.0.2 1
+ _ZN29QMediaNetworkPlaylistProviderD2Ev@Base 5.0.2 1
+ _ZN30QVideoOutputOrientationHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0 1
+ _ZN30QVideoOutputOrientationHandler11qt_metacastEPKc@Base 5.2.0 1
+ _ZN30QVideoOutputOrientationHandler16staticMetaObjectE@Base 5.2.0 1
+ _ZN30QVideoOutputOrientationHandler18orientationChangedEi@Base 5.2.0 1
+ _ZN30QVideoOutputOrientationHandler24screenOrientationChangedEN2Qt17ScreenOrientationE@Base 5.2.0 1
+ _ZN30QVideoOutputOrientationHandlerC1EP7QObject@Base 5.2.0 1
+ _ZN30QVideoOutputOrientationHandlerC2EP7QObject@Base 5.2.0 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN30QVideoOutputOrientationHandlerD0Ev@Base 5.4.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN30QVideoOutputOrientationHandlerD1Ev@Base 5.4.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN30QVideoOutputOrientationHandlerD2Ev@Base 5.4.2 1
  _ZN32QCameraCaptureDestinationControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN32QCameraCaptureDestinationControl11qt_metacastEPKc@Base 5.0.2
  _ZN32QCameraCaptureDestinationControl16staticMetaObjectE@Base 5.0.2
@@ -1376,17 +1376,17 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN32QCameraViewfinderSettingsControlD0Ev@Base 5.0.2
  _ZN32QCameraViewfinderSettingsControlD1Ev@Base 5.0.2
  _ZN32QCameraViewfinderSettingsControlD2Ev@Base 5.0.2
- _ZN32QMediaPlayerResourceSetInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN32QMediaPlayerResourceSetInterface11qt_metacastEPKc@Base 5.0.2
- _ZN32QMediaPlayerResourceSetInterface13resourcesLostEv@Base 5.0.2
- _ZN32QMediaPlayerResourceSetInterface15resourcesDeniedEv@Base 5.0.2
- _ZN32QMediaPlayerResourceSetInterface16resourcesGrantedEv@Base 5.0.2
- _ZN32QMediaPlayerResourceSetInterface16staticMetaObjectE@Base 5.0.2
- _ZN32QMediaPlayerResourceSetInterface17resourcesReleasedEv@Base 5.0.2
- _ZN32QMediaPlayerResourceSetInterface19availabilityChangedEb@Base 5.0.2
- _ZN32QMediaPlayerResourceSetInterface3iidEv@Base 5.0.2
- _ZN32QMediaPlayerResourceSetInterfaceC1EP7QObject@Base 5.0.2
- _ZN32QMediaPlayerResourceSetInterfaceC2EP7QObject@Base 5.0.2
+ _ZN32QMediaPlayerResourceSetInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN32QMediaPlayerResourceSetInterface11qt_metacastEPKc@Base 5.0.2 1
+ _ZN32QMediaPlayerResourceSetInterface13resourcesLostEv@Base 5.0.2 1
+ _ZN32QMediaPlayerResourceSetInterface15resourcesDeniedEv@Base 5.0.2 1
+ _ZN32QMediaPlayerResourceSetInterface16resourcesGrantedEv@Base 5.0.2 1
+ _ZN32QMediaPlayerResourceSetInterface16staticMetaObjectE@Base 5.0.2 1
+ _ZN32QMediaPlayerResourceSetInterface17resourcesReleasedEv@Base 5.0.2 1
+ _ZN32QMediaPlayerResourceSetInterface19availabilityChangedEb@Base 5.0.2 1
+ _ZN32QMediaPlayerResourceSetInterface3iidEv@Base 5.0.2 1
+ _ZN32QMediaPlayerResourceSetInterfaceC1EP7QObject@Base 5.0.2 1
+ _ZN32QMediaPlayerResourceSetInterfaceC2EP7QObject@Base 5.0.2 1
  _ZN33QCameraCaptureBufferFormatControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN33QCameraCaptureBufferFormatControl11qt_metacastEPKc@Base 5.0.2
  _ZN33QCameraCaptureBufferFormatControl16staticMetaObjectE@Base 5.0.2
@@ -1457,25 +1457,25 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN7QCameraD0Ev@Base 5.0.2
  _ZN7QCameraD1Ev@Base 5.0.2
  _ZN7QCameraD2Ev@Base 5.0.2
- _ZN7QSample10readSampleEv@Base 5.0.2
- _ZN7QSample11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN7QSample11qt_metacastEPKc@Base 5.0.2
- _ZN7QSample12decoderErrorEv@Base 5.0.2
- _ZN7QSample12decoderReadyEv@Base 5.0.2
- _ZN7QSample15loadIfNecessaryEv@Base 5.0.2
- _ZN7QSample16staticMetaObjectE@Base 5.0.2
- _ZN7QSample4loadEv@Base 5.0.2
- _ZN7QSample5errorEv@Base 5.0.2
- _ZN7QSample5readyEv@Base 5.0.2
- _ZN7QSample6addRefEv@Base 5.0.2
- _ZN7QSample7cleanupEv@Base 5.0.2
- _ZN7QSample7onReadyEv@Base 5.0.2
- _ZN7QSample7releaseEv@Base 5.0.2
- _ZN7QSampleC1ERK4QUrlP12QSampleCache@Base 5.0.2
- _ZN7QSampleC2ERK4QUrlP12QSampleCache@Base 5.0.2
- _ZN7QSampleD0Ev@Base 5.0.2
- _ZN7QSampleD1Ev@Base 5.0.2
- _ZN7QSampleD2Ev@Base 5.0.2
+ _ZN7QSample10readSampleEv@Base 5.0.2 1
+ _ZN7QSample11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN7QSample11qt_metacastEPKc@Base 5.0.2 1
+ _ZN7QSample12decoderErrorEv@Base 5.0.2 1
+ _ZN7QSample12decoderReadyEv@Base 5.0.2 1
+ _ZN7QSample15loadIfNecessaryEv@Base 5.0.2 1
+ _ZN7QSample16staticMetaObjectE@Base 5.0.2 1
+ _ZN7QSample4loadEv@Base 5.0.2 1
+ _ZN7QSample5errorEv@Base 5.0.2 1
+ _ZN7QSample5readyEv@Base 5.0.2 1
+ _ZN7QSample6addRefEv@Base 5.0.2 1
+ _ZN7QSample7cleanupEv@Base 5.0.2 1
+ _ZN7QSample7onReadyEv@Base 5.0.2 1
+ _ZN7QSample7releaseEv@Base 5.0.2 1
+ _ZN7QSampleC1ERK4QUrlP12QSampleCache@Base 5.0.2 1
+ _ZN7QSampleC2ERK4QUrlP12QSampleCache@Base 5.0.2 1
+ _ZN7QSampleD0Ev@Base 5.0.2 1
+ _ZN7QSampleD1Ev@Base 5.0.2 1
+ _ZN7QSampleD2Ev@Base 5.0.2 1
  _ZNK10QRadioData10metaObjectEv@Base 5.0.2
  _ZNK10QRadioData11errorStringEv@Base 5.0.2
  _ZNK10QRadioData11mediaObjectEv@Base 5.0.2
@@ -1627,9 +1627,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK12QMediaPlayer8durationEv@Base 5.0.2
  _ZNK12QMediaPlayer8playlistEv@Base 5.0.2
  _ZNK12QMediaPlayer8positionEv@Base 5.0.2
- _ZNK12QSampleCache10metaObjectEv@Base 5.0.2
- _ZNK12QSampleCache8isCachedERK4QUrl@Base 5.0.2
- _ZNK12QSampleCache9isLoadingEv@Base 5.0.2
+ _ZNK12QSampleCache10metaObjectEv@Base 5.0.2 1
+ _ZNK12QSampleCache8isCachedERK4QUrl@Base 5.0.2 1
+ _ZNK12QSampleCache9isLoadingEv@Base 5.0.2 1
  _ZNK12QSoundEffect10metaObjectEv@Base 5.0.2
  _ZNK12QSoundEffect14loopsRemainingEv@Base 5.0.2
  _ZNK12QSoundEffect6sourceEv@Base 5.0.2
@@ -1771,19 +1771,19 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK16QCameraFocusZone7isValidEv@Base 5.0.2
  _ZNK16QCameraFocusZoneeqERKS_@Base 5.0.2
  _ZNK16QCameraFocusZoneneERKS_@Base 5.0.2
- _ZNK17QImageVideoBuffer7mapModeEv@Base 5.0.2
+ _ZNK17QImageVideoBuffer7mapModeEv@Base 5.0.2 1
  _ZNK17QRadioDataControl10metaObjectEv@Base 5.0.2
  _ZNK18QAudioSystemPlugin10metaObjectEv@Base 5.0.2
  _ZNK18QCameraInfoControl10metaObjectEv@Base 5.3.0
  _ZNK18QCameraZoomControl10metaObjectEv@Base 5.0.2
- _ZNK18QMediaPluginLoader4keysEv@Base 5.0.2
+ _ZNK18QMediaPluginLoader4keysEv@Base 5.0.2 1
  _ZNK18QMediaTimeInterval10normalizedEv@Base 5.0.2
  _ZNK18QMediaTimeInterval10translatedEx@Base 5.0.2
  _ZNK18QMediaTimeInterval3endEv@Base 5.0.2
  _ZNK18QMediaTimeInterval5startEv@Base 5.0.2
  _ZNK18QMediaTimeInterval8containsEx@Base 5.0.2
  _ZNK18QMediaTimeInterval8isNormalEv@Base 5.0.2
- _ZNK18QMemoryVideoBuffer7mapModeEv@Base 5.0.2
+ _ZNK18QMemoryVideoBuffer7mapModeEv@Base 5.0.2 1
  _ZNK18QRadioTunerControl10metaObjectEv@Base 5.0.2
  _ZNK19QAbstractAudioInput10metaObjectEv@Base 5.0.2
  _ZNK19QCameraFlashControl10metaObjectEv@Base 5.0.2
@@ -1805,7 +1805,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK19QCameraImageCapture5errorEv@Base 5.0.2
  _ZNK19QCameraLocksControl10metaObjectEv@Base 5.0.2
  _ZNK19QMediaPlayerControl10metaObjectEv@Base 5.0.2
- _ZNK19QPlaylistFileParser10metaObjectEv@Base 5.0.2
+ _ZNK19QPlaylistFileParser10metaObjectEv@Base 5.0.2 1
  _ZNK19QVideoSurfaceFormat10frameWidthEv@Base 5.0.2
  _ZNK19QVideoSurfaceFormat10handleTypeEv@Base 5.0.2
  _ZNK19QVideoSurfaceFormat11frameHeightEv@Base 5.0.2
@@ -1857,19 +1857,19 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK21QImageEncoderSettings7qualityEv@Base 5.0.2
  _ZNK21QImageEncoderSettingseqERKS_@Base 5.0.2
  _ZNK21QImageEncoderSettingsneERKS_@Base 5.0.2
- _ZNK21QMediaPlaylistControl10metaObjectEv@Base 5.0.2
+ _ZNK21QMediaPlaylistControl10metaObjectEv@Base 5.0.2 1
  _ZNK21QMediaRecorderControl10metaObjectEv@Base 5.0.2
- _ZNK21QMediaServiceProvider10hasSupportERK10QByteArrayRK7QStringRK11QStringListi@Base 5.0.2
- _ZNK21QMediaServiceProvider10metaObjectEv@Base 5.0.2
- _ZNK21QMediaServiceProvider13defaultDeviceERK10QByteArray@Base 5.3.0
- _ZNK21QMediaServiceProvider14cameraPositionERK10QByteArray@Base 5.3.0
- _ZNK21QMediaServiceProvider17cameraOrientationERK10QByteArray@Base 5.3.0
- _ZNK21QMediaServiceProvider17supportedFeaturesEPK13QMediaService@Base 5.5.0
- _ZNK21QMediaServiceProvider18supportedMimeTypesERK10QByteArrayi@Base 5.0.2
- _ZNK21QMediaServiceProvider7devicesERK10QByteArray@Base 5.0.2
- _ZNK21QMediaStorageLocation15defaultLocationENS_9MediaTypeE@Base 5.3.1
- _ZNK21QMediaStorageLocation16generateFileNameERK7QStringNS_9MediaTypeES2_S2_@Base 5.3.1
- _ZNK21QMediaStorageLocation16generateFileNameERK7QStringRK4QDirS2_@Base 5.3.1
+ _ZNK21QMediaServiceProvider10hasSupportERK10QByteArrayRK7QStringRK11QStringListi@Base 5.0.2 1
+ _ZNK21QMediaServiceProvider10metaObjectEv@Base 5.0.2 1
+ _ZNK21QMediaServiceProvider13defaultDeviceERK10QByteArray@Base 5.3.0 1
+ _ZNK21QMediaServiceProvider14cameraPositionERK10QByteArray@Base 5.3.0 1
+ _ZNK21QMediaServiceProvider17cameraOrientationERK10QByteArray@Base 5.3.0 1
+ _ZNK21QMediaServiceProvider17supportedFeaturesEPK13QMediaService@Base 5.5.0 1
+ _ZNK21QMediaServiceProvider18supportedMimeTypesERK10QByteArrayi@Base 5.0.2 1
+ _ZNK21QMediaServiceProvider7devicesERK10QByteArray@Base 5.0.2 1
+ _ZNK21QMediaStorageLocation15defaultLocationENS_9MediaTypeE@Base 5.3.1 1
+ _ZNK21QMediaStorageLocation16generateFileNameERK7QStringNS_9MediaTypeES2_S2_@Base 5.3.1 1
+ _ZNK21QMediaStorageLocation16generateFileNameERK7QStringRK4QDirS2_@Base 5.3.1 1
  _ZNK21QVideoEncoderSettings10resolutionEv@Base 5.0.2
  _ZNK21QVideoEncoderSettings12encodingModeEv@Base 5.0.2
  _ZNK21QVideoEncoderSettings14encodingOptionERK7QString@Base 5.0.2
@@ -1896,22 +1896,22 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK22QCameraImageProcessing27isWhiteBalanceModeSupportedENS_16WhiteBalanceModeE@Base 5.0.2
  _ZNK22QCameraImageProcessing8contrastEv@Base 5.0.2
  _ZNK22QMediaContainerControl10metaObjectEv@Base 5.0.2
- _ZNK22QMediaPlaylistIOPlugin10metaObjectEv@Base 5.0.2
- _ZNK22QMediaPlaylistProvider10isReadOnlyEv@Base 5.0.2
- _ZNK22QMediaPlaylistProvider10metaObjectEv@Base 5.0.2
+ _ZNK22QMediaPlaylistIOPlugin10metaObjectEv@Base 5.0.2 1
+ _ZNK22QMediaPlaylistProvider10isReadOnlyEv@Base 5.0.2 1
+ _ZNK22QMediaPlaylistProvider10metaObjectEv@Base 5.0.2 1
  _ZNK22QMetaDataReaderControl10metaObjectEv@Base 5.0.2
  _ZNK22QMetaDataWriterControl10metaObjectEv@Base 5.0.2
  _ZNK23QMediaAudioProbeControl10metaObjectEv@Base 5.0.2
- _ZNK23QMediaPlaylistNavigator10metaObjectEv@Base 5.0.2
- _ZNK23QMediaPlaylistNavigator11currentItemEv@Base 5.0.2
- _ZNK23QMediaPlaylistNavigator12currentIndexEv@Base 5.0.2
- _ZNK23QMediaPlaylistNavigator12playbackModeEv@Base 5.0.2
- _ZNK23QMediaPlaylistNavigator12previousItemEi@Base 5.0.2
- _ZNK23QMediaPlaylistNavigator13previousIndexEi@Base 5.0.2
- _ZNK23QMediaPlaylistNavigator6itemAtEi@Base 5.0.2
- _ZNK23QMediaPlaylistNavigator8nextItemEi@Base 5.0.2
- _ZNK23QMediaPlaylistNavigator8playlistEv@Base 5.0.2
- _ZNK23QMediaPlaylistNavigator9nextIndexEi@Base 5.0.2
+ _ZNK23QMediaPlaylistNavigator10metaObjectEv@Base 5.0.2 1
+ _ZNK23QMediaPlaylistNavigator11currentItemEv@Base 5.0.2 1
+ _ZNK23QMediaPlaylistNavigator12currentIndexEv@Base 5.0.2 1
+ _ZNK23QMediaPlaylistNavigator12playbackModeEv@Base 5.0.2 1
+ _ZNK23QMediaPlaylistNavigator12previousItemEi@Base 5.0.2 1
+ _ZNK23QMediaPlaylistNavigator13previousIndexEi@Base 5.0.2 1
+ _ZNK23QMediaPlaylistNavigator6itemAtEi@Base 5.0.2 1
+ _ZNK23QMediaPlaylistNavigator8nextItemEi@Base 5.0.2 1
+ _ZNK23QMediaPlaylistNavigator8playlistEv@Base 5.0.2 1
+ _ZNK23QMediaPlaylistNavigator9nextIndexEi@Base 5.0.2 1
  _ZNK23QMediaVideoProbeControl10metaObjectEv@Base 5.0.2
  _ZNK24QAbstractAudioDeviceInfo10metaObjectEv@Base 5.0.2
  _ZNK25QCameraViewfinderSettings10resolutionEv@Base 5.5.0
@@ -1933,24 +1933,24 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK26QAudioInputSelectorControl10metaObjectEv@Base 5.0.2
  _ZNK26QCameraImageCaptureControl10metaObjectEv@Base 5.0.2
  _ZNK26QMediaNetworkAccessControl10metaObjectEv@Base 5.0.2
- _ZNK26QMediaResourcePolicyPlugin10metaObjectEv@Base 5.0.2
+ _ZNK26QMediaResourcePolicyPlugin10metaObjectEv@Base 5.0.2 1
  _ZNK27QAudioOutputSelectorControl10metaObjectEv@Base 5.0.2
- _ZNK27QMediaPlaylistSourceControl10metaObjectEv@Base 5.0.2
+ _ZNK27QMediaPlaylistSourceControl10metaObjectEv@Base 5.0.2 1
  _ZNK27QMediaServiceProviderPlugin10metaObjectEv@Base 5.0.2
  _ZNK27QVideoDeviceSelectorControl10metaObjectEv@Base 5.0.2
  _ZNK28QAudioEncoderSettingsControl10metaObjectEv@Base 5.0.2
  _ZNK28QMediaGaplessPlaybackControl10metaObjectEv@Base 5.0.2
  _ZNK28QVideoEncoderSettingsControl10metaObjectEv@Base 5.0.2
  _ZNK29QCameraImageProcessingControl10metaObjectEv@Base 5.0.2
- _ZNK29QMediaNetworkPlaylistProvider10isReadOnlyEv@Base 5.0.2
- _ZNK29QMediaNetworkPlaylistProvider10mediaCountEv@Base 5.0.2
- _ZNK29QMediaNetworkPlaylistProvider10metaObjectEv@Base 5.0.2
- _ZNK29QMediaNetworkPlaylistProvider5mediaEi@Base 5.0.2
- _ZNK30QVideoOutputOrientationHandler10metaObjectEv@Base 5.2.0
- _ZNK30QVideoOutputOrientationHandler18currentOrientationEv@Base 5.2.0
+ _ZNK29QMediaNetworkPlaylistProvider10isReadOnlyEv@Base 5.0.2 1
+ _ZNK29QMediaNetworkPlaylistProvider10mediaCountEv@Base 5.0.2 1
+ _ZNK29QMediaNetworkPlaylistProvider10metaObjectEv@Base 5.0.2 1
+ _ZNK29QMediaNetworkPlaylistProvider5mediaEi@Base 5.0.2 1
+ _ZNK30QVideoOutputOrientationHandler10metaObjectEv@Base 5.2.0 1
+ _ZNK30QVideoOutputOrientationHandler18currentOrientationEv@Base 5.2.0 1
  _ZNK32QCameraCaptureDestinationControl10metaObjectEv@Base 5.0.2
  _ZNK32QCameraViewfinderSettingsControl10metaObjectEv@Base 5.0.2
- _ZNK32QMediaPlayerResourceSetInterface10metaObjectEv@Base 5.0.2
+ _ZNK32QMediaPlayerResourceSetInterface10metaObjectEv@Base 5.0.2 1
  _ZNK33QCameraCaptureBufferFormatControl10metaObjectEv@Base 5.0.2
  _ZNK33QCameraViewfinderSettingsControl210metaObjectEv@Base 5.5.0
  _ZNK6QSound10isFinishedEv@Base 5.0.2
@@ -1978,8 +1978,8 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK7QCamera5stateEv@Base 5.0.2
  _ZNK7QCamera6statusEv@Base 5.0.2
  _ZNK7QCamera8exposureEv@Base 5.0.2
- _ZNK7QSample10metaObjectEv@Base 5.0.2
- _ZNK7QSample5stateEv@Base 5.0.2
+ _ZNK7QSample10metaObjectEv@Base 5.0.2 1
+ _ZNK7QSample5stateEv@Base 5.0.2 1
  _ZTI10QRadioData@Base 5.0.2
  _ZTI11QAudioInput@Base 5.0.2
  _ZTI11QAudioProbe@Base 5.0.2
@@ -1989,7 +1989,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI12QCameraFocus@Base 5.0.2
  _ZTI12QMediaObject@Base 5.0.2
  _ZTI12QMediaPlayer@Base 5.0.2
- _ZTI12QSampleCache@Base 5.0.2
+ _ZTI12QSampleCache@Base 5.0.2 1
  _ZTI12QSoundEffect@Base 5.0.2
  _ZTI13QAudioDecoder@Base 5.0.2
  _ZTI13QMediaControl@Base 5.0.2
@@ -1999,12 +1999,12 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI14QMediaPlaylist@Base 5.0.2
  _ZTI14QMediaRecorder@Base 5.0.2
  _ZTI15QCameraExposure@Base 5.0.2
- _ZTI17QImageVideoBuffer@Base 5.0.2
+ _ZTI17QImageVideoBuffer@Base 5.0.2 1
  _ZTI17QRadioDataControl@Base 5.0.2
  _ZTI18QAudioSystemPlugin@Base 5.0.2
  _ZTI18QCameraInfoControl@Base 5.3.0
  _ZTI18QCameraZoomControl@Base 5.0.2
- _ZTI18QMemoryVideoBuffer@Base 5.0.2
+ _ZTI18QMemoryVideoBuffer@Base 5.0.2 1
  _ZTI18QRadioTunerControl@Base 5.0.2
  _ZTI19QAbstractAudioInput@Base 5.0.2
  _ZTI19QCameraFlashControl@Base 5.0.2
@@ -2012,34 +2012,34 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI19QCameraImageCapture@Base 5.0.2
  _ZTI19QCameraLocksControl@Base 5.0.2
  _ZTI19QMediaPlayerControl@Base 5.0.2
- _ZTI19QPlaylistFileParser@Base 5.0.2
+ _ZTI19QPlaylistFileParser@Base 5.0.2 1
  _ZTI19QVideoWindowControl@Base 5.0.2
- _ZTI20QAbstractAudioBuffer@Base 5.0.2
+ _ZTI20QAbstractAudioBuffer@Base 5.0.2 1
  _ZTI20QAbstractAudioOutput@Base 5.0.2
  _ZTI20QAbstractVideoBuffer@Base 5.0.2
  _ZTI20QAbstractVideoFilter@Base 5.5.0
  _ZTI20QAudioDecoderControl@Base 5.0.2
  _ZTI20QImageEncoderControl@Base 5.0.2
- _ZTI20QMediaPlaylistReader@Base 5.0.2
- _ZTI20QMediaPlaylistWriter@Base 5.0.2
+ _ZTI20QMediaPlaylistReader@Base 5.0.2 1
+ _ZTI20QMediaPlaylistWriter@Base 5.0.2 1
  _ZTI20QMediaStreamsControl@Base 5.0.2
  _ZTI20QVideoFilterRunnable@Base 5.5.0
  _ZTI21QAbstractVideoSurface@Base 5.0.2
- _ZTI21QMediaPlaylistControl@Base 5.0.2
+ _ZTI21QMediaPlaylistControl@Base 5.0.2 1
  _ZTI21QMediaRecorderControl@Base 5.0.2
- _ZTI21QMediaServiceProvider@Base 5.0.2
+ _ZTI21QMediaServiceProvider@Base 5.0.2 1
  _ZTI21QVideoRendererControl@Base 5.0.2
  _ZTI22QCameraExposureControl@Base 5.0.2
  _ZTI22QCameraFeedbackControl@Base 5.0.2
  _ZTI22QCameraImageProcessing@Base 5.0.2
  _ZTI22QMediaContainerControl@Base 5.0.2
- _ZTI22QMediaPlaylistIOPlugin@Base 5.0.2
- _ZTI22QMediaPlaylistProvider@Base 5.0.2
+ _ZTI22QMediaPlaylistIOPlugin@Base 5.0.2 1
+ _ZTI22QMediaPlaylistProvider@Base 5.0.2 1
  _ZTI22QMetaDataReaderControl@Base 5.0.2
  _ZTI22QMetaDataWriterControl@Base 5.0.2
  _ZTI23QMediaAudioProbeControl@Base 5.0.2
  _ZTI23QMediaBindableInterface@Base 5.0.2
- _ZTI23QMediaPlaylistNavigator@Base 5.0.2
+ _ZTI23QMediaPlaylistNavigator@Base 5.0.2 1
  _ZTI23QMediaVideoProbeControl@Base 5.0.2
  _ZTI24QAbstractAudioDeviceInfo@Base 5.0.2
  _ZTI25QMediaAvailabilityControl@Base 5.0.2
@@ -2048,9 +2048,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI26QAudioInputSelectorControl@Base 5.0.2
  _ZTI26QCameraImageCaptureControl@Base 5.0.2
  _ZTI26QMediaNetworkAccessControl@Base 5.0.2
- _ZTI26QMediaResourcePolicyPlugin@Base 5.0.2
+ _ZTI26QMediaResourcePolicyPlugin@Base 5.0.2 1
  _ZTI27QAudioOutputSelectorControl@Base 5.0.2
- _ZTI27QMediaPlaylistSourceControl@Base 5.0.2
+ _ZTI27QMediaPlaylistSourceControl@Base 5.0.2 1
  _ZTI27QMediaServiceProviderPlugin@Base 5.0.2
  _ZTI27QVideoDeviceSelectorControl@Base 5.0.2
  _ZTI28QAudioEncoderSettingsControl@Base 5.0.2
@@ -2058,18 +2058,18 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI28QMediaGaplessPlaybackControl@Base 5.0.2
  _ZTI28QVideoEncoderSettingsControl@Base 5.0.2
  _ZTI29QCameraImageProcessingControl@Base 5.0.2
- _ZTI29QMediaNetworkPlaylistProvider@Base 5.0.2
- _ZTI30QVideoOutputOrientationHandler@Base 5.2.0
+ _ZTI29QMediaNetworkPlaylistProvider@Base 5.0.2 1
+ _ZTI30QVideoOutputOrientationHandler@Base 5.2.0 1
  _ZTI32QCameraCaptureDestinationControl@Base 5.0.2
  _ZTI32QCameraViewfinderSettingsControl@Base 5.0.2
- _ZTI32QMediaPlayerResourceSetInterface@Base 5.0.2
+ _ZTI32QMediaPlayerResourceSetInterface@Base 5.0.2 1
  _ZTI33QCameraCaptureBufferFormatControl@Base 5.0.2
  _ZTI33QCameraViewfinderSettingsControl2@Base 5.5.0
  _ZTI33QMediaResourceSetFactoryInterface@Base 5.0.2
  _ZTI37QMediaServiceProviderFactoryInterface@Base 5.0.2
  _ZTI6QSound@Base 5.0.2
  _ZTI7QCamera@Base 5.0.2
- _ZTI7QSample@Base 5.0.2
+ _ZTI7QSample@Base 5.0.2 1
  _ZTS10QRadioData@Base 5.0.2
  _ZTS11QAudioInput@Base 5.0.2
  _ZTS11QAudioProbe@Base 5.0.2
@@ -2079,7 +2079,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS12QCameraFocus@Base 5.0.2
  _ZTS12QMediaObject@Base 5.0.2
  _ZTS12QMediaPlayer@Base 5.0.2
- _ZTS12QSampleCache@Base 5.0.2
+ _ZTS12QSampleCache@Base 5.0.2 1
  _ZTS12QSoundEffect@Base 5.0.2
  _ZTS13QAudioDecoder@Base 5.0.2
  _ZTS13QMediaControl@Base 5.0.2
@@ -2089,12 +2089,12 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS14QMediaPlaylist@Base 5.0.2
  _ZTS14QMediaRecorder@Base 5.0.2
  _ZTS15QCameraExposure@Base 5.0.2
- _ZTS17QImageVideoBuffer@Base 5.0.2
+ _ZTS17QImageVideoBuffer@Base 5.0.2 1
  _ZTS17QRadioDataControl@Base 5.0.2
  _ZTS18QAudioSystemPlugin@Base 5.0.2
  _ZTS18QCameraInfoControl@Base 5.3.0
  _ZTS18QCameraZoomControl@Base 5.0.2
- _ZTS18QMemoryVideoBuffer@Base 5.0.2
+ _ZTS18QMemoryVideoBuffer@Base 5.0.2 1
  _ZTS18QRadioTunerControl@Base 5.0.2
  _ZTS19QAbstractAudioInput@Base 5.0.2
  _ZTS19QCameraFlashControl@Base 5.0.2
@@ -2102,34 +2102,34 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS19QCameraImageCapture@Base 5.0.2
  _ZTS19QCameraLocksControl@Base 5.0.2
  _ZTS19QMediaPlayerControl@Base 5.0.2
- _ZTS19QPlaylistFileParser@Base 5.0.2
+ _ZTS19QPlaylistFileParser@Base 5.0.2 1
  _ZTS19QVideoWindowControl@Base 5.0.2
- _ZTS20QAbstractAudioBuffer@Base 5.0.2
+ _ZTS20QAbstractAudioBuffer@Base 5.0.2 1
  _ZTS20QAbstractAudioOutput@Base 5.0.2
  _ZTS20QAbstractVideoBuffer@Base 5.0.2
  _ZTS20QAbstractVideoFilter@Base 5.5.0
  _ZTS20QAudioDecoderControl@Base 5.0.2
  _ZTS20QImageEncoderControl@Base 5.0.2
- _ZTS20QMediaPlaylistReader@Base 5.0.2
- _ZTS20QMediaPlaylistWriter@Base 5.0.2
+ _ZTS20QMediaPlaylistReader@Base 5.0.2 1
+ _ZTS20QMediaPlaylistWriter@Base 5.0.2 1
  _ZTS20QMediaStreamsControl@Base 5.0.2
  _ZTS20QVideoFilterRunnable@Base 5.5.0
  _ZTS21QAbstractVideoSurface@Base 5.0.2
- _ZTS21QMediaPlaylistControl@Base 5.0.2
+ _ZTS21QMediaPlaylistControl@Base 5.0.2 1
  _ZTS21QMediaRecorderControl@Base 5.0.2
- _ZTS21QMediaServiceProvider@Base 5.0.2
+ _ZTS21QMediaServiceProvider@Base 5.0.2 1
  _ZTS21QVideoRendererControl@Base 5.0.2
  _ZTS22QCameraExposureControl@Base 5.0.2
  _ZTS22QCameraFeedbackControl@Base 5.0.2
  _ZTS22QCameraImageProcessing@Base 5.0.2
  _ZTS22QMediaContainerControl@Base 5.0.2
- _ZTS22QMediaPlaylistIOPlugin@Base 5.0.2
- _ZTS22QMediaPlaylistProvider@Base 5.0.2
+ _ZTS22QMediaPlaylistIOPlugin@Base 5.0.2 1
+ _ZTS22QMediaPlaylistProvider@Base 5.0.2 1
  _ZTS22QMetaDataReaderControl@Base 5.0.2
  _ZTS22QMetaDataWriterControl@Base 5.0.2
  _ZTS23QMediaAudioProbeControl@Base 5.0.2
  _ZTS23QMediaBindableInterface@Base 5.0.2
- _ZTS23QMediaPlaylistNavigator@Base 5.0.2
+ _ZTS23QMediaPlaylistNavigator@Base 5.0.2 1
  _ZTS23QMediaVideoProbeControl@Base 5.0.2
  _ZTS24QAbstractAudioDeviceInfo@Base 5.0.2
  _ZTS25QMediaAvailabilityControl@Base 5.0.2
@@ -2138,9 +2138,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS26QAudioInputSelectorControl@Base 5.0.2
  _ZTS26QCameraImageCaptureControl@Base 5.0.2
  _ZTS26QMediaNetworkAccessControl@Base 5.0.2
- _ZTS26QMediaResourcePolicyPlugin@Base 5.0.2
+ _ZTS26QMediaResourcePolicyPlugin@Base 5.0.2 1
  _ZTS27QAudioOutputSelectorControl@Base 5.0.2
- _ZTS27QMediaPlaylistSourceControl@Base 5.0.2
+ _ZTS27QMediaPlaylistSourceControl@Base 5.0.2 1
  _ZTS27QMediaServiceProviderPlugin@Base 5.0.2
  _ZTS27QVideoDeviceSelectorControl@Base 5.0.2
  _ZTS28QAudioEncoderSettingsControl@Base 5.0.2
@@ -2148,18 +2148,18 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS28QMediaGaplessPlaybackControl@Base 5.0.2
  _ZTS28QVideoEncoderSettingsControl@Base 5.0.2
  _ZTS29QCameraImageProcessingControl@Base 5.0.2
- _ZTS29QMediaNetworkPlaylistProvider@Base 5.0.2
- _ZTS30QVideoOutputOrientationHandler@Base 5.2.0
+ _ZTS29QMediaNetworkPlaylistProvider@Base 5.0.2 1
+ _ZTS30QVideoOutputOrientationHandler@Base 5.2.0 1
  _ZTS32QCameraCaptureDestinationControl@Base 5.0.2
  _ZTS32QCameraViewfinderSettingsControl@Base 5.0.2
- _ZTS32QMediaPlayerResourceSetInterface@Base 5.0.2
+ _ZTS32QMediaPlayerResourceSetInterface@Base 5.0.2 1
  _ZTS33QCameraCaptureBufferFormatControl@Base 5.0.2
  _ZTS33QCameraViewfinderSettingsControl2@Base 5.5.0
  _ZTS33QMediaResourceSetFactoryInterface@Base 5.0.2
  _ZTS37QMediaServiceProviderFactoryInterface@Base 5.0.2
  _ZTS6QSound@Base 5.0.2
  _ZTS7QCamera@Base 5.0.2
- _ZTS7QSample@Base 5.0.2
+ _ZTS7QSample@Base 5.0.2 1
  _ZTV10QRadioData@Base 5.0.2
  _ZTV11QAudioInput@Base 5.0.2
  _ZTV11QAudioProbe@Base 5.0.2
@@ -2169,7 +2169,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV12QCameraFocus@Base 5.0.2
  _ZTV12QMediaObject@Base 5.0.2
  _ZTV12QMediaPlayer@Base 5.0.2
- _ZTV12QSampleCache@Base 5.0.2
+ _ZTV12QSampleCache@Base 5.0.2 1
  _ZTV12QSoundEffect@Base 5.0.2
  _ZTV13QAudioDecoder@Base 5.0.2
  _ZTV13QMediaControl@Base 5.0.2
@@ -2179,12 +2179,12 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV14QMediaPlaylist@Base 5.0.2
  _ZTV14QMediaRecorder@Base 5.0.2
  _ZTV15QCameraExposure@Base 5.0.2
- _ZTV17QImageVideoBuffer@Base 5.0.2
+ _ZTV17QImageVideoBuffer@Base 5.0.2 1
  _ZTV17QRadioDataControl@Base 5.0.2
  _ZTV18QAudioSystemPlugin@Base 5.0.2
  _ZTV18QCameraInfoControl@Base 5.3.0
  _ZTV18QCameraZoomControl@Base 5.0.2
- _ZTV18QMemoryVideoBuffer@Base 5.0.2
+ _ZTV18QMemoryVideoBuffer@Base 5.0.2 1
  _ZTV18QRadioTunerControl@Base 5.0.2
  _ZTV19QAbstractAudioInput@Base 5.0.2
  _ZTV19QCameraFlashControl@Base 5.0.2
@@ -2192,34 +2192,34 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV19QCameraImageCapture@Base 5.0.2
  _ZTV19QCameraLocksControl@Base 5.0.2
  _ZTV19QMediaPlayerControl@Base 5.0.2
- _ZTV19QPlaylistFileParser@Base 5.0.2
+ _ZTV19QPlaylistFileParser@Base 5.0.2 1
  _ZTV19QVideoWindowControl@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZTV20QAbstractAudioBuffer@Base 5.4.2
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZTV20QAbstractAudioBuffer@Base 5.4.2 1
  _ZTV20QAbstractAudioOutput@Base 5.0.2
  _ZTV20QAbstractVideoBuffer@Base 5.0.2
  _ZTV20QAbstractVideoFilter@Base 5.5.0
  _ZTV20QAudioDecoderControl@Base 5.0.2
  _ZTV20QImageEncoderControl@Base 5.0.2
- _ZTV20QMediaPlaylistReader@Base 5.0.2
- _ZTV20QMediaPlaylistWriter@Base 5.0.2
+ _ZTV20QMediaPlaylistReader@Base 5.0.2 1
+ _ZTV20QMediaPlaylistWriter@Base 5.0.2 1
  _ZTV20QMediaStreamsControl@Base 5.0.2
  _ZTV20QVideoFilterRunnable@Base 5.5.0
  _ZTV21QAbstractVideoSurface@Base 5.0.2
- _ZTV21QMediaPlaylistControl@Base 5.0.2
+ _ZTV21QMediaPlaylistControl@Base 5.0.2 1
  _ZTV21QMediaRecorderControl@Base 5.0.2
- _ZTV21QMediaServiceProvider@Base 5.0.2
+ _ZTV21QMediaServiceProvider@Base 5.0.2 1
  _ZTV21QVideoRendererControl@Base 5.0.2
  _ZTV22QCameraExposureControl@Base 5.0.2
  _ZTV22QCameraFeedbackControl@Base 5.0.2
  _ZTV22QCameraImageProcessing@Base 5.0.2
  _ZTV22QMediaContainerControl@Base 5.0.2
- _ZTV22QMediaPlaylistIOPlugin@Base 5.0.2
- _ZTV22QMediaPlaylistProvider@Base 5.0.2
+ _ZTV22QMediaPlaylistIOPlugin@Base 5.0.2 1
+ _ZTV22QMediaPlaylistProvider@Base 5.0.2 1
  _ZTV22QMetaDataReaderControl@Base 5.0.2
  _ZTV22QMetaDataWriterControl@Base 5.0.2
  _ZTV23QMediaAudioProbeControl@Base 5.0.2
  _ZTV23QMediaBindableInterface@Base 5.0.2
- _ZTV23QMediaPlaylistNavigator@Base 5.0.2
+ _ZTV23QMediaPlaylistNavigator@Base 5.0.2 1
  _ZTV23QMediaVideoProbeControl@Base 5.0.2
  _ZTV24QAbstractAudioDeviceInfo@Base 5.0.2
  _ZTV25QMediaAvailabilityControl@Base 5.0.2
@@ -2228,9 +2228,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV26QAudioInputSelectorControl@Base 5.0.2
  _ZTV26QCameraImageCaptureControl@Base 5.0.2
  _ZTV26QMediaNetworkAccessControl@Base 5.0.2
- _ZTV26QMediaResourcePolicyPlugin@Base 5.0.2
+ _ZTV26QMediaResourcePolicyPlugin@Base 5.0.2 1
  _ZTV27QAudioOutputSelectorControl@Base 5.0.2
- _ZTV27QMediaPlaylistSourceControl@Base 5.0.2
+ _ZTV27QMediaPlaylistSourceControl@Base 5.0.2 1
  _ZTV27QMediaServiceProviderPlugin@Base 5.0.2
  _ZTV27QVideoDeviceSelectorControl@Base 5.0.2
  _ZTV28QAudioEncoderSettingsControl@Base 5.0.2
@@ -2238,18 +2238,18 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV28QMediaGaplessPlaybackControl@Base 5.0.2
  _ZTV28QVideoEncoderSettingsControl@Base 5.0.2
  _ZTV29QCameraImageProcessingControl@Base 5.0.2
- _ZTV29QMediaNetworkPlaylistProvider@Base 5.0.2
- _ZTV30QVideoOutputOrientationHandler@Base 5.2.0
+ _ZTV29QMediaNetworkPlaylistProvider@Base 5.0.2 1
+ _ZTV30QVideoOutputOrientationHandler@Base 5.2.0 1
  _ZTV32QCameraCaptureDestinationControl@Base 5.0.2
  _ZTV32QCameraViewfinderSettingsControl@Base 5.0.2
- _ZTV32QMediaPlayerResourceSetInterface@Base 5.0.2
+ _ZTV32QMediaPlayerResourceSetInterface@Base 5.0.2 1
  _ZTV33QCameraCaptureBufferFormatControl@Base 5.0.2
  _ZTV33QCameraViewfinderSettingsControl2@Base 5.5.0
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZTV33QMediaResourceSetFactoryInterface@Base 5.4.2
  _ZTV37QMediaServiceProviderFactoryInterface@Base 5.0.2
  _ZTV6QSound@Base 5.0.2
  _ZTV7QCamera@Base 5.0.2
- _ZTV7QSample@Base 5.0.2
+ _ZTV7QSample@Base 5.0.2 1
  _ZeqRK15QMediaTimeRangeS1_@Base 5.0.2
  _ZeqRK18QMediaTimeIntervalS1_@Base 5.0.2
  _ZeqRK25QCameraViewfinderSettingsS1_@Base 5.5.0
