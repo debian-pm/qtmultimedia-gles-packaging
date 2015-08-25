@@ -8,6 +8,8 @@ qtmultimedia-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
     for it (Closes: #785874).
   * Update install files.
   * Update symbols files with current build log.
+  * Mark private symbols in symbols files. It should make handling the later
+    much easier.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Aug 2015 20:40:09 -0300
 

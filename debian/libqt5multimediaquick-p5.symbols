@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5MultimediaQuick_p.so.5 libqt5multimediaquick-p5 #MINVER#
+| libqt5multimediaquick-p5 #MINVER#
  _ZN12QSGVideoNode23setTexturedRectGeometryERK6QRectFS2_i@Base 5.0.2
  _ZN12QSGVideoNodeC1Ev@Base 5.0.2
  _ZN12QSGVideoNodeC2Ev@Base 5.0.2

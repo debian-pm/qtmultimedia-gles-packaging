@@ -29,6 +29,11 @@ override_dh_auto_build-indep:
 override_dh_auto_install-arch:
 	dh_auto_install
 
+	# Check for private symbols not marked as such. Be verbose.
+	pkgkde-mark-private-symbols debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimedia/*/QtMultimedia/private
+	pkgkde-mark-private-symbols debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimediaWidgets/*/QtMultimediaWidgets/private
+	pkgkde-mark-private-symbols debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimediaQuick_p
+
 	# Remove private headers.
 	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimedia/*/QtMultimedia/private
 	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimediaWidgets/*/QtMultimediaWidgets/private/

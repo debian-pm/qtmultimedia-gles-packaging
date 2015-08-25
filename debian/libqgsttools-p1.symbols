@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 5.5.0 amd64
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
+| libqgsttools-p1 #MINVER#
  (optional=templinst)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.4.2
  _Z19qt_gst_pad_get_capsP7_GstPad@Base 5.5.0
  _Z21qt_gst_caps_normalizeP8_GstCaps@Base 5.5.0
