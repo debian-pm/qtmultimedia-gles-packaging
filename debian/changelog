@@ -1,5 +1,8 @@
 qtmultimedia-opensource-src (5.5.0-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Move all private headers to debian/private-headers during build.
+  * Call pkgkde-mark-private-symbols only once, to make it really work.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Aug 2015 17:07:35 +0300
 
