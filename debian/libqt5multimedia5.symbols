@@ -819,9 +819,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN19QPlaylistFileParser8finishedEv@Base 5.0.2 1
  _ZN19QPlaylistFileParserC1EP7QObject@Base 5.0.2 1
  _ZN19QPlaylistFileParserC2EP7QObject@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QPlaylistFileParserD0Ev@Base 5.4.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QPlaylistFileParserD1Ev@Base 5.4.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QPlaylistFileParserD2Ev@Base 5.4.2 1
  _ZN19QVideoSurfaceFormat11setPropertyEPKcRK8QVariant@Base 5.0.2
  _ZN19QVideoSurfaceFormat11setViewportERK5QRect@Base 5.0.2
  _ZN19QVideoSurfaceFormat12setFrameRateEd@Base 5.2.0
@@ -1356,9 +1353,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN30QVideoOutputOrientationHandler24screenOrientationChangedEN2Qt17ScreenOrientationE@Base 5.2.0 1
  _ZN30QVideoOutputOrientationHandlerC1EP7QObject@Base 5.2.0 1
  _ZN30QVideoOutputOrientationHandlerC2EP7QObject@Base 5.2.0 1
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN30QVideoOutputOrientationHandlerD0Ev@Base 5.4.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN30QVideoOutputOrientationHandlerD1Ev@Base 5.4.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN30QVideoOutputOrientationHandlerD2Ev@Base 5.4.2 1
  _ZN32QCameraCaptureDestinationControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN32QCameraCaptureDestinationControl11qt_metacastEPKc@Base 5.0.2
  _ZN32QCameraCaptureDestinationControl16staticMetaObjectE@Base 5.0.2
@@ -2194,7 +2188,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV19QMediaPlayerControl@Base 5.0.2
  _ZTV19QPlaylistFileParser@Base 5.0.2 1
  _ZTV19QVideoWindowControl@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZTV20QAbstractAudioBuffer@Base 5.4.2 1
  _ZTV20QAbstractAudioOutput@Base 5.0.2
  _ZTV20QAbstractVideoBuffer@Base 5.0.2
  _ZTV20QAbstractVideoFilter@Base 5.5.0
@@ -2223,7 +2216,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV23QMediaVideoProbeControl@Base 5.0.2
  _ZTV24QAbstractAudioDeviceInfo@Base 5.0.2
  _ZTV25QMediaAvailabilityControl@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZTV25QMediaPlaylistIOInterface@Base 5.4.2
  _ZTV26QAbstractPlanarVideoBuffer@Base 5.4.0
  _ZTV26QAudioInputSelectorControl@Base 5.0.2
  _ZTV26QCameraImageCaptureControl@Base 5.0.2
@@ -2245,7 +2237,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV32QMediaPlayerResourceSetInterface@Base 5.0.2 1
  _ZTV33QCameraCaptureBufferFormatControl@Base 5.0.2
  _ZTV33QCameraViewfinderSettingsControl2@Base 5.5.0
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZTV33QMediaResourceSetFactoryInterface@Base 5.4.2
  _ZTV37QMediaServiceProviderFactoryInterface@Base 5.0.2
  _ZTV6QSound@Base 5.0.2
  _ZTV7QCamera@Base 5.0.2
