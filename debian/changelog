@@ -1,3 +1,8 @@
+qtmultimedia-opensource-src (5.5.0-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Aug 2015 17:07:35 +0300
+
 qtmultimedia-opensource-src (5.5.0-2) experimental; urgency=medium
 
   * Update symbols files with buildds' logs.
