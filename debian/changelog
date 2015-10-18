@@ -1,3 +1,7 @@
+qtmultimedia-opensource-src (5.5.0-4) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Oct 2015 23:18:55 -0300
+
 qtmultimedia-opensource-src (5.5.0-3) experimental; urgency=medium
 
   * Move all private headers to debian/private-headers during build.
