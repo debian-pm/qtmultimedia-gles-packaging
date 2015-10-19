@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.1 amd64
+# SymbolsHelper-Confirmed: 5.5.1 amd64 armel armhf hppa i386 powerpc
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
 | libqgsttools-p1 #MINVER#
  (optional=templinst)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.4.2
@@ -125,7 +125,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN22QGstreamerVideoOverlay13setSaturationEi@Base 5.5.1
  _ZN22QGstreamerVideoOverlay14updateIsActiveEv@Base 5.5.1
  _ZN22QGstreamerVideoOverlay15contrastChangedEi@Base 5.5.1
- _ZN22QGstreamerVideoOverlay15setWindowHandleEy@Base 5.5.1
+ (subst)_ZN22QGstreamerVideoOverlay15setWindowHandleE{quintptr}@Base 5.5.1
  _ZN22QGstreamerVideoOverlay16staticMetaObjectE@Base 5.5.1
  _ZN22QGstreamerVideoOverlay17brightnessChangedEi@Base 5.5.1
  _ZN22QGstreamerVideoOverlay17processBusMessageERK17QGstreamerMessage@Base 5.5.1
@@ -134,7 +134,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN22QGstreamerVideoOverlay18setAspectRatioModeEN2Qt15AspectRatioModeE@Base 5.5.1
  _ZN22QGstreamerVideoOverlay18setRenderRectangleERK5QRect@Base 5.5.1
  _ZN22QGstreamerVideoOverlay22nativeVideoSizeChangedEv@Base 5.5.1
- _ZN22QGstreamerVideoOverlay22setWindowHandle_helperEy@Base 5.5.1
+ (subst)_ZN22QGstreamerVideoOverlay22setWindowHandle_helperE{quintptr}@Base 5.5.1
  _ZN22QGstreamerVideoOverlay23showPrerollFrameChangedEP8_GObjectP11_GParamSpecPS_@Base 5.5.1
  _ZN22QGstreamerVideoOverlay6exposeEv@Base 5.5.1
  _ZN22QGstreamerVideoOverlay6setHueEi@Base 5.5.1
