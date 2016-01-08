@@ -1,14 +1,9 @@
-usr/include/*/qt5/QtMultimedia/QAbstractVideoFilter
-usr/include/*/qt5/QtMultimedia/QCameraViewfinderSettings
-usr/include/*/qt5/QtMultimedia/QCameraViewfinderSettingsControl2
-usr/include/*/qt5/QtMultimedia/qcameraviewfindersettings.h
-usr/include/*/qt5/QtMultimedia/qabstractvideofilter.h
-usr/include/*/qt5/QtMultimedia/QVideoFilterRunnable
 usr/include/*/qt5/QtMultimedia/QAbstractAudioDeviceInfo
 usr/include/*/qt5/QtMultimedia/QAbstractAudioInput
 usr/include/*/qt5/QtMultimedia/QAbstractAudioOutput
 usr/include/*/qt5/QtMultimedia/QAbstractPlanarVideoBuffer
 usr/include/*/qt5/QtMultimedia/QAbstractVideoBuffer
+usr/include/*/qt5/QtMultimedia/QAbstractVideoFilter
 usr/include/*/qt5/QtMultimedia/QAbstractVideoSurface
 usr/include/*/qt5/QtMultimedia/QAudio
 usr/include/*/qt5/QtMultimedia/QAudioBuffer
@@ -24,6 +19,7 @@ usr/include/*/qt5/QtMultimedia/QAudioOutput
 usr/include/*/qt5/QtMultimedia/QAudioOutputSelectorControl
 usr/include/*/qt5/QtMultimedia/QAudioProbe
 usr/include/*/qt5/QtMultimedia/QAudioRecorder
+usr/include/*/qt5/QtMultimedia/QAudioRoleControl
 usr/include/*/qt5/QtMultimedia/QAudioSystemFactoryInterface
 usr/include/*/qt5/QtMultimedia/QAudioSystemPlugin
 usr/include/*/qt5/QtMultimedia/QCamera
@@ -45,7 +41,9 @@ usr/include/*/qt5/QtMultimedia/QCameraImageProcessingControl
 usr/include/*/qt5/QtMultimedia/QCameraInfo
 usr/include/*/qt5/QtMultimedia/QCameraInfoControl
 usr/include/*/qt5/QtMultimedia/QCameraLocksControl
+usr/include/*/qt5/QtMultimedia/QCameraViewfinderSettings
 usr/include/*/qt5/QtMultimedia/QCameraViewfinderSettingsControl
+usr/include/*/qt5/QtMultimedia/QCameraViewfinderSettingsControl2
 usr/include/*/qt5/QtMultimedia/QCameraZoomControl
 usr/include/*/qt5/QtMultimedia/QImageEncoderControl
 usr/include/*/qt5/QtMultimedia/QImageEncoderSettings
@@ -91,6 +89,7 @@ usr/include/*/qt5/QtMultimedia/QSoundEffect
 usr/include/*/qt5/QtMultimedia/QVideoDeviceSelectorControl
 usr/include/*/qt5/QtMultimedia/QVideoEncoderSettings
 usr/include/*/qt5/QtMultimedia/QVideoEncoderSettingsControl
+usr/include/*/qt5/QtMultimedia/QVideoFilterRunnable
 usr/include/*/qt5/QtMultimedia/QVideoFrame
 usr/include/*/qt5/QtMultimedia/QVideoProbe
 usr/include/*/qt5/QtMultimedia/QVideoRendererControl
@@ -100,6 +99,7 @@ usr/include/*/qt5/QtMultimedia/QtMultimedia
 usr/include/*/qt5/QtMultimedia/QtMultimediaDepends
 usr/include/*/qt5/QtMultimedia/QtMultimediaVersion
 usr/include/*/qt5/QtMultimedia/qabstractvideobuffer.h
+usr/include/*/qt5/QtMultimedia/qabstractvideofilter.h
 usr/include/*/qt5/QtMultimedia/qabstractvideosurface.h
 usr/include/*/qt5/QtMultimedia/qaudio.h
 usr/include/*/qt5/QtMultimedia/qaudiobuffer.h
@@ -114,6 +114,7 @@ usr/include/*/qt5/QtMultimedia/qaudiooutput.h
 usr/include/*/qt5/QtMultimedia/qaudiooutputselectorcontrol.h
 usr/include/*/qt5/QtMultimedia/qaudioprobe.h
 usr/include/*/qt5/QtMultimedia/qaudiorecorder.h
+usr/include/*/qt5/QtMultimedia/qaudiorolecontrol.h
 usr/include/*/qt5/QtMultimedia/qaudiosystem.h
 usr/include/*/qt5/QtMultimedia/qaudiosystemplugin.h
 usr/include/*/qt5/QtMultimedia/qcamera.h
@@ -133,6 +134,7 @@ usr/include/*/qt5/QtMultimedia/qcameraimageprocessingcontrol.h
 usr/include/*/qt5/QtMultimedia/qcamerainfo.h
 usr/include/*/qt5/QtMultimedia/qcamerainfocontrol.h
 usr/include/*/qt5/QtMultimedia/qcameralockscontrol.h
+usr/include/*/qt5/QtMultimedia/qcameraviewfindersettings.h
 usr/include/*/qt5/QtMultimedia/qcameraviewfindersettingscontrol.h
 usr/include/*/qt5/QtMultimedia/qcamerazoomcontrol.h
 usr/include/*/qt5/QtMultimedia/qimageencodercontrol.h
@@ -203,7 +205,6 @@ usr/lib/*/libQt5MultimediaWidgets.so
 usr/lib/*/libqgsttools_p.prl
 usr/lib/*/libqgsttools_p.so
 usr/lib/*/pkgconfig/Qt5Multimedia.pc
-usr/lib/*/pkgconfig/Qt5MultimediaQuick_p.pc
 usr/lib/*/pkgconfig/Qt5MultimediaWidgets.pc
 usr/lib/*/qt5/mkspecs/modules/qt_lib_multimedia.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_multimediawidgets.pri
