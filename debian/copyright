@@ -18,6 +18,10 @@ Files: *
 Copyright: 2012-2014 The Qt Company Ltd
            2012-2013 Research In Motion
            2014 Canonical Ltd.
+           2013-2015 Jolla Ltd.
+           2013 Integrated Computer Solutions, Inc
+           2014 Pelagicore AG
+           2015 Denis Shienkov <denis.shienkov@gmail.com>
 License: LGPL-2.1-or-3 with Qt-Company-1.1 exception
 
 Files: config.tests/mmrenderer/*
@@ -33,10 +37,6 @@ Files: examples/multimedia/spectrum/3rdparty/fftreal/*
 Copyright: 2003-2005 Laurent de Soras
 License: LGPL-2.1
 
-Files: examples/multimedia/video/*
-Copyright: 2012 The Qt Company Ltd.
-License: LGPL-2.1-or-3 with Qt-Company-1.1 exception
-
 Files: examples/multimedia/spectrum/3rdparty/fftreal/fftreal.pas
 Copyright: 1999 Laurent de Soras
 License: custom-fftreal
@@ -45,21 +45,6 @@ License: custom-fftreal
  documentation) a text telling they use these routines by Laurent de Soras.
  Modified source code can be distributed, but modifications must be clearly
  indicated.
-
-Files: src/imports/multimedia/qdeclarativecameraviewfinder*
-       src/plugins/gstreamer/camerabin/camerabininfocontrol.*
-       src/plugins/resourcepolicy/*
-       src/plugins/videonode/egl/*
-Copyright: 2013-2014 Jolla Ltd.
-License: LGPL-2.1-or-3 with Qt-Company-1.1 exception
-
-Files: src/plugins/android/src/mediacapture/qandroidmediavideoprobecontrol.*
-Copyright: 2013 Integrated Computer Solutions, Inc
-License: LGPL-2.1-or-3 with Qt-Company-1.1 exception
-
-Files: src/plugins/videonode/imx6/*
-Copyright: 2014 Pelagicore AG
-License: LGPL-2.1-or-3 with Qt-Company-1.1 exception
 
 Files: *.qdoc
  src/multimedia/qmediametadata.cpp
@@ -76,7 +61,7 @@ License: LGPL-2.1-or-3 with Qt-Company-1.1 exception
  information to ensure the GNU Lesser General Public License requirements
  will be met: https://www.gnu.org/licenses/lgpl.html.
  .
- In addition, as a special exception, Digia gives you certain additional
+ In addition, as a special exception, The Qt Company gives you certain additional
  rights. These rights are described in the Digia Qt LGPL Exception
  version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
  .
