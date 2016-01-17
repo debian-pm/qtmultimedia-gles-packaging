@@ -1,6 +1,17 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
 | libqt5multimedia5 #MINVER#
+ Qt_5.0@Qt_5.0 5.6.0~beta
+ Qt_5.1@Qt_5.1 5.6.0~beta
+ Qt_5.2@Qt_5.2 5.6.0~beta
+ Qt_5.3@Qt_5.3 5.6.0~beta
+ Qt_5.4@Qt_5.4 5.6.0~beta
+ Qt_5.5@Qt_5.5 5.6.0~beta
+ Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5@Qt_5 5.6.0~beta
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
+ _Z19qt_real_to_fractiondPiS_@Qt_5 5.6.0~beta
+ _Z22qt_imageFromVideoFrameRK11QVideoFrame@Qt_5 5.6.0~beta
  _ZN10QRadioData11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN10QRadioData11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN10QRadioData14setMediaObjectEP12QMediaObject@Qt_5 5.6.0~beta
@@ -222,6 +233,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN12QMediaPlayer11setPositionEx@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer12mediaChangedERK13QMediaContent@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer12mutedChangedEb@Qt_5 5.6.0~beta
+ _ZN12QMediaPlayer12setAudioRoleEN6QAudio4RoleE@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer12stateChangedENS_5StateE@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer13volumeChangedEi@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer14setVideoOutputEP12QVideoWidget@Qt_5 5.6.0~beta
@@ -231,6 +243,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN12QMediaPlayer15positionChangedEx@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer15seekableChangedEb@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer15setPlaybackRateEd@Qt_5 5.6.0~beta
+ _ZN12QMediaPlayer16audioRoleChangedEN6QAudio4RoleE@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer16staticMetaObjectE@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer18mediaStatusChangedENS_11MediaStatusE@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer18supportedMimeTypesE6QFlagsINS_4FlagEE@Qt_5 5.6.0~beta
@@ -636,6 +649,15 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN16QCameraFocusZoneD1Ev@Qt_5 5.6.0~beta
  _ZN16QCameraFocusZoneD2Ev@Qt_5 5.6.0~beta
  _ZN16QCameraFocusZoneaSERKS_@Qt_5 5.6.0~beta
+ _ZN17QAudioRoleControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
+ _ZN17QAudioRoleControl11qt_metacastEPKc@Qt_5 5.6.0~beta
+ _ZN17QAudioRoleControl16audioRoleChangedEN6QAudio4RoleE@Qt_5 5.6.0~beta
+ _ZN17QAudioRoleControl16staticMetaObjectE@Qt_5 5.6.0~beta
+ _ZN17QAudioRoleControlC1EP7QObject@Qt_5 5.6.0~beta
+ _ZN17QAudioRoleControlC2EP7QObject@Qt_5 5.6.0~beta
+ _ZN17QAudioRoleControlD0Ev@Qt_5 5.6.0~beta
+ _ZN17QAudioRoleControlD1Ev@Qt_5 5.6.0~beta
+ _ZN17QAudioRoleControlD2Ev@Qt_5 5.6.0~beta
  _ZN17QImageVideoBuffer3mapEN20QAbstractVideoBuffer7MapModeEPiS2_@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QImageVideoBuffer5unmapEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QImageVideoBufferC1ERK6QImage@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -1612,6 +1634,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK12QMediaPlayer12playbackRateEv@Qt_5 5.6.0~beta
  _ZNK12QMediaPlayer16isAudioAvailableEv@Qt_5 5.6.0~beta
  _ZNK12QMediaPlayer16isVideoAvailableEv@Qt_5 5.6.0~beta
+ _ZNK12QMediaPlayer19supportedAudioRolesEv@Qt_5 5.6.0~beta
  _ZNK12QMediaPlayer27currentNetworkConfigurationEv@Qt_5 5.6.0~beta
  _ZNK12QMediaPlayer5errorEv@Qt_5 5.6.0~beta
  _ZNK12QMediaPlayer5mediaEv@Qt_5 5.6.0~beta
@@ -1621,6 +1644,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK12QMediaPlayer8durationEv@Qt_5 5.6.0~beta
  _ZNK12QMediaPlayer8playlistEv@Qt_5 5.6.0~beta
  _ZNK12QMediaPlayer8positionEv@Qt_5 5.6.0~beta
+ _ZNK12QMediaPlayer9audioRoleEv@Qt_5 5.6.0~beta
  _ZNK12QSampleCache10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK12QSampleCache8isCachedERK4QUrl@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK12QSampleCache9isLoadingEv@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -1765,6 +1789,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK16QCameraFocusZone7isValidEv@Qt_5 5.6.0~beta
  _ZNK16QCameraFocusZoneeqERKS_@Qt_5 5.6.0~beta
  _ZNK16QCameraFocusZoneneERKS_@Qt_5 5.6.0~beta
+ _ZNK17QAudioRoleControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK17QImageVideoBuffer7mapModeEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK17QRadioDataControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK18QAudioSystemPlugin10metaObjectEv@Qt_5 5.6.0~beta
@@ -1993,6 +2018,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI14QMediaPlaylist@Qt_5 5.6.0~beta
  _ZTI14QMediaRecorder@Qt_5 5.6.0~beta
  _ZTI15QCameraExposure@Qt_5 5.6.0~beta
+ _ZTI17QAudioRoleControl@Qt_5 5.6.0~beta
  _ZTI17QImageVideoBuffer@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTI17QRadioDataControl@Qt_5 5.6.0~beta
  _ZTI18QAudioSystemPlugin@Qt_5 5.6.0~beta
@@ -2083,6 +2109,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS14QMediaPlaylist@Qt_5 5.6.0~beta
  _ZTS14QMediaRecorder@Qt_5 5.6.0~beta
  _ZTS15QCameraExposure@Qt_5 5.6.0~beta
+ _ZTS17QAudioRoleControl@Qt_5 5.6.0~beta
  _ZTS17QImageVideoBuffer@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTS17QRadioDataControl@Qt_5 5.6.0~beta
  _ZTS18QAudioSystemPlugin@Qt_5 5.6.0~beta
@@ -2173,6 +2200,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV14QMediaPlaylist@Qt_5 5.6.0~beta
  _ZTV14QMediaRecorder@Qt_5 5.6.0~beta
  _ZTV15QCameraExposure@Qt_5 5.6.0~beta
+ _ZTV17QAudioRoleControl@Qt_5 5.6.0~beta
  _ZTV17QImageVideoBuffer@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTV17QRadioDataControl@Qt_5 5.6.0~beta
  _ZTV18QAudioSystemPlugin@Qt_5 5.6.0~beta
@@ -2253,6 +2281,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _Zls6QDebugN20QAbstractVideoBuffer10HandleTypeE@Qt_5 5.6.0~beta
  _Zls6QDebugN20QAbstractVideoBuffer7MapModeE@Qt_5 5.6.0~beta
  _Zls6QDebugN6QAudio4ModeE@Qt_5 5.6.0~beta
+ _Zls6QDebugN6QAudio4RoleE@Qt_5 5.6.0~beta
  _Zls6QDebugN6QAudio5ErrorE@Qt_5 5.6.0~beta
  _Zls6QDebugN6QAudio5StateE@Qt_5 5.6.0~beta
  _Zls6QDebugRK11QCameraInfo@Qt_5 5.6.0~beta

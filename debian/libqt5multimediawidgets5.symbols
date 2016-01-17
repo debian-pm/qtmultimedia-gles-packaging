@@ -1,6 +1,15 @@
-# SymbolsHelper-Confirmed: 5.4.0 amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5MultimediaWidgets.so.5 libqt5multimediawidgets5 #MINVER#
 | libqt5multimediawidgets5 #MINVER#
+ Qt_5.0@Qt_5.0 5.6.0~beta
+ Qt_5.1@Qt_5.1 5.6.0~beta
+ Qt_5.2@Qt_5.2 5.6.0~beta
+ Qt_5.3@Qt_5.3 5.6.0~beta
+ Qt_5.4@Qt_5.4 5.6.0~beta
+ Qt_5.5@Qt_5.5 5.6.0~beta
+ Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5@Qt_5 5.6.0~beta
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN12QVideoWidget10hueChangedEi@Qt_5 5.6.0~beta
  _ZN12QVideoWidget10paintEventEP11QPaintEvent@Qt_5 5.6.0~beta
  _ZN12QVideoWidget11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta

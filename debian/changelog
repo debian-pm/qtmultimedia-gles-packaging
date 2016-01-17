@@ -7,6 +7,7 @@ qtmultimedia-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Update symbols files using migrate-symbols.py script and bumping minimum
     version to 5.6.0~beta.
   * Update and simplify debian/copyright.
+  * Update symbols files using current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Jan 2016 18:26:14 -0300
 

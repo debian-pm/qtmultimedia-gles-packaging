@@ -1,14 +1,17 @@
-# SymbolsHelper-Confirmed: 5.5.1 amd64 armel armhf hppa i386 powerpc
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
 | libqgsttools-p1 #MINVER#
  (optional=templinst)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.6.0~beta
+ _Z18qt_gst_video_sinksv@Base 5.6.0~beta
  _Z19qt_gst_pad_get_capsP7_GstPad@Base 5.6.0~beta
  _Z21qt_gst_caps_normalizeP8_GstCaps@Base 5.6.0~beta
  _Z22qt_gst_object_ref_sinkPv@Base 5.6.0~beta
+ _Z25qt_gst_caps_can_intersectPK8_GstCapsS1_@Base 5.6.0~beta
  _Z26qt_gst_structure_new_emptyPKc@Base 5.6.0~beta
  _Z27qt_gst_pad_get_current_capsP7_GstPad@Base 5.6.0~beta
  (subst)_Z29qt_gst_element_query_durationP11_GstElement9GstFormatP{int64_t}@Base 5.6.0~beta
  (subst)_Z29qt_gst_element_query_positionP11_GstElement9GstFormatP{int64_t}@Base 5.6.0~beta
+ _Z30qt_gst_util_double_to_fractiondPiS_@Base 5.6.0~beta
  _Z31qt_gst_element_get_factory_nameP11_GstElement@Base 5.6.0~beta
  _ZN10QGstAppSrc11onDataReadyEv@Base 5.6.0~beta
  _ZN10QGstAppSrc11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.6.0~beta
@@ -30,7 +33,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrcD0Ev@Base 5.6.0~beta
  _ZN10QGstAppSrcD1Ev@Base 5.6.0~beta
  _ZN10QGstAppSrcD2Ev@Base 5.6.0~beta
- (optional=templinst|arch=mips mipsel)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.6.0~beta
+ (optional=templinst|arch=amd64 mips mipsel)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.6.0~beta
  (subst)_ZN14QGstCodecsInfo20supportedElementCapsE{uint64_t}7GstRank15GstPadDirection@Base 5.6.0~beta
  _ZN14QGstCodecsInfoC1ENS_11ElementTypeE@Base 5.6.0~beta
  _ZN14QGstCodecsInfoC2ENS_11ElementTypeE@Base 5.6.0~beta
@@ -279,19 +282,17 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN33QGstreamerVideoInputDeviceControlD0Ev@Base 5.6.0~beta
  _ZN33QGstreamerVideoInputDeviceControlD1Ev@Base 5.6.0~beta
  _ZN33QGstreamerVideoInputDeviceControlD2Ev@Base 5.6.0~beta
- (optional=templinst)_ZN4QMapI10QByteArray8QVariantE13detach_helperEv@Base 5.6.0~beta
  (optional=templinst)_ZN4QMapI10QByteArray8QVariantE6insertERKS0_RKS1_@Base 5.6.0~beta
  (optional=templinst)_ZN4QMapI7QStringS0_E13detach_helperEv@Base 5.6.0~beta
  (optional=templinst)_ZN5QHashI10QByteArray15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 5.6.0~beta
  (optional=templinst)_ZN5QHashI10QByteArray15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 5.6.0~beta
  (optional=templinst)_ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 5.6.0~beta
- (optional=templinst)_ZN5QHashI7QString15QHashDummyValueE13detach_helperEv@Base 5.6.0~beta
  (optional=templinst)_ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 5.6.0~beta
  (optional=templinst)_ZN5QHashIP18_GstElementFactory7QVectorIN9QGstUtils10CameraInfoEEE11deleteNode2EPN9QHashData4NodeE@Base 5.6.0~beta
- (optional=templinst)_ZN5QHashIP18_GstElementFactory7QVectorIN9QGstUtils10CameraInfoEEE13detach_helperEv@Base 5.6.0~beta
  (optional=templinst)_ZN5QHashIP18_GstElementFactory7QVectorIN9QGstUtils10CameraInfoEEE13duplicateNodeEPN9QHashData4NodeEPv@Base 5.6.0~beta
  (optional=templinst)_ZN5QListI10QByteArrayE18detach_helper_growEii@Base 5.6.0~beta
  (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@Base 5.6.0~beta
+ (optional=templinst)_ZN5QListI7QStringE5clearEv@Base 5.6.0~beta
  (optional=templinst)_ZN5QListI7QStringE6appendERKS0_@Base 5.6.0~beta
  (optional=templinst)_ZN5QListI7QStringEC1ERKS1_@Base 5.6.0~beta
  (optional=templinst)_ZN5QListI7QStringEC2ERKS1_@Base 5.6.0~beta
@@ -303,12 +304,10 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZN5QListIP17QGstVideoRendererE6appendERKS1_@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP17QGstVideoRendererED1Ev@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP17QGstVideoRendererED2Ev@Base 5.6.0~beta
- (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterE13detach_helperEi@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterE18detach_helper_growEii@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterE9removeAllERKS1_@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterED1Ev@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterED2Ev@Base 5.6.0~beta
- (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterE13detach_helperEi@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterE18detach_helper_growEii@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterE9removeAllERKS1_@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterED1Ev@Base 5.6.0~beta
@@ -320,6 +319,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=gccinternal)_ZN7QStringD2Ev@Base 5.6.0~beta
  (optional=templinst)_ZN7QVectorIN9QGstUtils10CameraInfoEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 5.6.0~beta
  (optional=templinst)_ZN7QVectorIN9QGstUtils10CameraInfoEE6appendERKS1_@Base 5.6.0~beta
+ (optional=templinst)_ZN8QMapDataI10QByteArray8QVariantE7destroyEv@Base 5.6.0~beta
  (optional=templinst)_ZN8QMapNodeI10QByteArray8QVariantE14destroySubTreeEv@Base 5.6.0~beta
  (optional=templinst)_ZN8QMapNodeI7QStringS0_E14destroySubTreeEv@Base 5.6.0~beta
  _ZN9QGstUtils10hasSupportERK7QStringRK11QStringListRK4QSetIS0_E@Base 5.6.0~beta
@@ -348,10 +348,14 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN9QGstUtils23capsCorrectedResolutionEPK8_GstCaps@Base 5.6.0~beta
  _ZN9QGstUtils23structureFrameRateRangeEPK13_GstStructure@Base 5.6.0~beta
  _ZN9QGstUtils25structurePixelAspectRatioEPK13_GstStructure@Base 5.6.0~beta
- (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWidgetControlFviENS_4ListIivEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
- (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWindowControlFviENS_4ListIivEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
- (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWindowControlFvvEvvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
- (optional=templinst)_ZN9QtPrivate11QSlotObjectIM28QGstreamerVideoWidgetControlFvvEvvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWidgetControlFviENS_4ListIIiEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWidgetControlFviENS_4ListIJiEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWindowControlFviENS_4ListIIiEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWindowControlFviENS_4ListIJiEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWindowControlFvvENS_4ListIIEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWindowControlFvvENS_4ListIJEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM28QGstreamerVideoWidgetControlFvvENS_4ListIIEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM28QGstreamerVideoWidgetControlFvvENS_4ListIJEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
  _ZNK10QGstAppSrc10metaObjectEv@Base 5.6.0~beta
  _ZNK10QGstAppSrc6streamEv@Base 5.6.0~beta
  _ZNK14QGstCodecsInfo15supportedCodecsEv@Base 5.6.0~beta
@@ -413,7 +417,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj@Base 5.6.0~beta
  (optional=templinst)_ZNK5QHashIP18_GstElementFactory7QVectorIN9QGstUtils10CameraInfoEEE8findNodeERKS1_Pj@Base 5.6.0~beta
  (optional=templinst)_ZNK5QListIP26QGstreamerBusMessageFilterE7indexOfERKS1_i@Base 5.6.0~beta
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !x32)_ZNK7QVectorIN9QGstUtils10CameraInfoEE5valueEi@Base 5.6.0~beta
+ (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !x32)_ZNK7QVectorIN9QGstUtils10CameraInfoEE5valueEi@Base 5.6.0~beta
  (optional=templinst)_ZNK8QMapNodeI10QByteArray8QVariantE4copyEP8QMapDataIS0_S1_E@Base 5.6.0~beta
  (optional=templinst)_ZNK8QMapNodeI7QStringS0_E4copyEP8QMapDataIS0_S0_E@Base 5.6.0~beta
  _ZTI10QGstAppSrc@Base 5.6.0~beta
