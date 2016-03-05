@@ -1,1 +1,2 @@
+fix_alsa_detection.patch
 rpath_nonlinux.diff
