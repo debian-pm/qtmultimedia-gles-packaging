@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 9.0.0),
                libpulse-dev,
                libqt5opengl5-dev (>= 5.5.1+dfsg~),
                pkg-kde-tools,
-               qtbase5-dev (>= 5.5.1+dfsg~),
+               qtbase5-dev (>= 5.5.1+dfsg-16~)(),
                qtbase5-private-dev (>= 5.5.1+dfsg~),
                qtdeclarative5-private-dev (>= 5.5.1~),
                zlib1g-dev
