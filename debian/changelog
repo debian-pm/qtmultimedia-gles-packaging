@@ -4,6 +4,7 @@ qtmultimedia-opensource-src (5.5.1-4) UNRELEASED; urgency=medium
   * Add fix_alsa_detection.patch to workaround ALSA >= 1.1.0 detection.
     - Bump build dependency on qtbase to 5.5.1+dfsg-16 to be sure Qt has
       detected ALSA.
+  * Update symbols files with buildd's logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Mar 2016 10:45:10 -0300
 

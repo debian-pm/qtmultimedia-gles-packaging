@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.1 amd64 armel armhf hppa i386 powerpc
+# SymbolsHelper-Confirmed: 5.5.1 amd64 armel armhf hppa i386 mips64el powerpc sparc64
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
 | libqgsttools-p1 #MINVER#
  (optional=templinst)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.4.2
@@ -30,7 +30,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN10QGstAppSrcD0Ev@Base 5.0.2
  _ZN10QGstAppSrcD1Ev@Base 5.0.2
  _ZN10QGstAppSrcD2Ev@Base 5.0.2
- (optional=templinst|arch=mips mipsel)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.4.1
+ (optional=templinst|arch=mips mips64el mipsel)_ZN11QMetaTypeIdI17QGstreamerMessageE14qt_metatype_idEv@Base 5.4.1
  (subst)_ZN14QGstCodecsInfo20supportedElementCapsE{uint64_t}7GstRank15GstPadDirection@Base 5.0.2
  _ZN14QGstCodecsInfoC1ENS_11ElementTypeE@Base 5.0.2
  _ZN14QGstCodecsInfoC2ENS_11ElementTypeE@Base 5.0.2
@@ -413,7 +413,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj@Base 5.0.2
  (optional=templinst)_ZNK5QHashIP18_GstElementFactory7QVectorIN9QGstUtils10CameraInfoEEE8findNodeERKS1_Pj@Base 5.4.0
  (optional=templinst)_ZNK5QListIP26QGstreamerBusMessageFilterE7indexOfERKS1_i@Base 5.4.2
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !x32)_ZNK7QVectorIN9QGstUtils10CameraInfoEE5valueEi@Base 5.4.0
+ (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !sparc64 !x32)_ZNK7QVectorIN9QGstUtils10CameraInfoEE5valueEi@Base 5.4.0
  (optional=templinst)_ZNK8QMapNodeI10QByteArray8QVariantE4copyEP8QMapDataIS0_S1_E@Base 5.0.2
  (optional=templinst)_ZNK8QMapNodeI7QStringS0_E4copyEP8QMapDataIS0_S0_E@Base 5.0.2
  _ZTI10QGstAppSrc@Base 5.0.2
