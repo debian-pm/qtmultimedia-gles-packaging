@@ -1,6 +1,5 @@
-qtmultimedia-opensource-src (5.6.0~rc-1) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.6.0~rc-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release candidate.
   * Merge 5.5.1-4 upload from unstable.
   * Update debian/libqgsttools-p1.symbols from buildds’ logs.
@@ -10,7 +9,7 @@ qtmultimedia-opensource-src (5.6.0~rc-1) UNRELEASED; urgency=medium
   * Update symbols files from the current build log.
   * Bump Standards-Version to 3.9.7, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Mar 2016 17:20:39 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 06 Mar 2016 22:46:46 +0300
 
 qtmultimedia-opensource-src (5.6.0~beta-1) experimental; urgency=medium
 
