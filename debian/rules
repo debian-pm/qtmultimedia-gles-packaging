@@ -29,13 +29,10 @@ override_dh_auto_build-indep:
 override_dh_auto_install-arch:
 	dh_auto_install
 
-	# Move private headers out of debian/tmp.
-	mkdir -p debian/private-headers
-	mv -v debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimedia/*/QtMultimedia/private \
-		debian/private-headers/QtMultimedia
-	mv -v debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimediaWidgets/*/QtMultimediaWidgets/private \
-		debian/private-headers/QtMultimediaWidgets
-	mv -v debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimediaQuick_p debian/private-headers/
+	# Remove private headers.
+	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimedia/*/QtMultimedia/private
+	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimediaWidgets/*/QtMultimediaWidgets/private
+	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimediaQuick_p
 
 	# Remove some other private stuff.
 	rm -fv debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_multimedia_private.pri
@@ -76,14 +73,8 @@ override_dh_install:
 	# and/or .install.OS files.
 	dh_install --fail-missing
 
-override_dh_makeshlibs:
-	dh_makeshlibs
-	# Check for private symbols not marked as such.
-	pkgkde-mark-private-symbols debian/private-headers
-
 override_dh_clean:
 	dh_clean
-	rm -rfv debian/private-headers
 
 	# Don't forget to remove the .install files we generated.
 	for pkg in $(pkgs_with_common); do \

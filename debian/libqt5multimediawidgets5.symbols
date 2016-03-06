@@ -1,6 +1,5 @@
 # SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5MultimediaWidgets.so.5 libqt5multimediawidgets5 #MINVER#
-| libqt5multimediawidgets5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
