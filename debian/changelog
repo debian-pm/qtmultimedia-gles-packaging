@@ -5,6 +5,7 @@ qtmultimedia-opensource-src (5.6.0~rc-1) UNRELEASED; urgency=medium
   * Merge 5.5.1-4 upload from unstable.
   * Update debian/libqgsttools-p1.symbols from buildds’ logs.
   * Stop marking private symbols (we no longer need explicit marks).
+  * Use recommended https URIs for Vcs fields.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Mar 2016 17:20:39 +0300
 
