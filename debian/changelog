@@ -1,3 +1,7 @@
+qtmultimedia-opensource-src (5.6.0~rc-3) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 31 Mar 2016 19:35:54 -0300
+
 qtmultimedia-opensource-src (5.6.0~rc-2) experimental; urgency=medium
 
   * Bump Qt build dependencies.
