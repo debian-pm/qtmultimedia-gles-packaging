@@ -10,7 +10,7 @@ Forwarded: no
 
 --- a/examples/multimedia/spectrum/app/app.pro
 +++ b/examples/multimedia/spectrum/app/app.pro
-@@ -76,7 +76,7 @@ macx {
+@@ -78,7 +78,7 @@
                                  ../spectrum.app/Contents/MacOS/spectrum
      }
  } else {
