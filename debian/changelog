@@ -3,6 +3,7 @@ qtmultimedia-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Refresh debian/patches/rpath_nonlinux.diff.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Aug 2016 21:28:56 +0300
 
