@@ -8,6 +8,7 @@ qtmultimedia-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Drop obsolete Breaks/Replaces.
   * Switch to automatic dbgsym packages.
   * Clean up unused code in debian/rules.
+  * Define DEB_HOST_ARCH properly in debian/rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Aug 2016 21:28:56 +0300
 
