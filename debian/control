@@ -7,7 +7,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9.0.0),
+Build-Depends: debhelper (>= 9.20160114~),
                libasound2-dev [linux-any],
                libgstreamer-plugins-base1.0-dev,
                libgstreamer1.0-dev,
@@ -144,20 +144,6 @@ Description: APIs for multimedia functionality - development files
  .
  This package contains the development files needed to build Qt applications
  using Qt Multimedia libraries.
-
-Package: qtmultimedia5-dbg
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Section: debug
-Depends: libqt5multimedia5 (= ${binary:Version}), ${misc:Depends}
-Suggests: qtmultimedia5-examples (= ${binary:Version})
-Description: Qt 5 Multimedia library debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 Multimedia
- libraries.
 
 Package: qtmultimedia5-doc
 Architecture: all
