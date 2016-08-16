@@ -14,8 +14,6 @@ export QT_SELECT := qt5
 pkgs_with_common = $(patsubst debian/%.install-common,%,$(wildcard debian/*.install-common))
 # Retrieve packages that have a .install-$DEB_HOST_ARCH file
 pkgs_with_arch = $(patsubst debian/%.install-$(DEB_HOST_ARCH),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH)))
-# Retrieve packages that have a .install-$DEB_HOST_ARCH_OS file
-pkgs_with_os = $(patsubst debian/%.install-$(DEB_HOST_ARCH_OS),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH_OS)))
 
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper
@@ -65,10 +63,6 @@ override_dh_install:
 		cat debian/$$pkg.install-$(DEB_HOST_ARCH) >> debian/$$pkg.install ; \
 	done
 
-	set -e; for pkg in $(pkgs_with_os); do \
-		cat debian/$$pkg.install-$(DEB_HOST_ARCH_OS) >> debian/$$pkg.install ; \
-	done
-
 	# Call dh_install normally. It will process .install, .install.ARCH
 	# and/or .install.OS files.
 	dh_install --fail-missing
@@ -82,10 +76,6 @@ override_dh_clean:
 	done
 
 	for pkg in $(pkgs_with_arch); do \
-		rm -f debian/$$pkg.install ; \
-	done
-
-	for pkg in $(pkgs_with_os); do \
 		rm -f debian/$$pkg.install ; \
 	done
 

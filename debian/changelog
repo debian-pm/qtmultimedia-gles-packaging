@@ -7,6 +7,7 @@ qtmultimedia-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.7.0.
   * Drop obsolete Breaks/Replaces.
   * Switch to automatic dbgsym packages.
+  * Clean up unused code in debian/rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Aug 2016 21:28:56 +0300
 
