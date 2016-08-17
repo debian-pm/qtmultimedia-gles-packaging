@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64
+# SymbolsHelper-Confirmed: 5.7.0 amd64
 libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
@@ -7,6 +7,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  Qt_5.4@Qt_5.4 5.6.0~beta
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5.7@Qt_5.7 5.7.0
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _Z19qt_real_to_fractiondPiS_@Qt_5 5.6.0~beta
@@ -516,6 +517,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN14QMediaPlaylist8addMediaERK13QMediaContent@Qt_5 5.6.0~beta
  _ZN14QMediaPlaylist8addMediaERK5QListI13QMediaContentE@Qt_5 5.6.0~beta
  _ZN14QMediaPlaylist8previousEv@Qt_5 5.6.0~beta
+ _ZN14QMediaPlaylist9moveMediaEii@Qt_5 5.7.0
  _ZN14QMediaPlaylistC1EP7QObject@Qt_5 5.6.0~beta
  _ZN14QMediaPlaylistC2EP7QObject@Qt_5 5.6.0~beta
  _ZN14QMediaPlaylistD0Ev@Qt_5 5.6.0~beta
@@ -1070,6 +1072,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN22QCameraImageProcessing11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN22QCameraImageProcessing11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN22QCameraImageProcessing11setContrastEd@Qt_5 5.6.0~beta
+ _ZN22QCameraImageProcessing13setBrightnessEd@Qt_5 5.7.0
  _ZN22QCameraImageProcessing13setSaturationEd@Qt_5 5.6.0~beta
  _ZN22QCameraImageProcessing14setColorFilterENS_11ColorFilterE@Qt_5 5.6.0~beta
  _ZN22QCameraImageProcessing16staticMetaObjectE@Qt_5 5.6.0~beta
@@ -1120,6 +1123,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN22QMediaPlaylistProvider7shuffleEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN22QMediaPlaylistProvider8addMediaERK13QMediaContent@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN22QMediaPlaylistProvider8addMediaERK5QListI13QMediaContentE@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN22QMediaPlaylistProvider9moveMediaEii@Qt_5_PRIVATE_API 5.7.0
  _ZN22QMediaPlaylistProviderC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN22QMediaPlaylistProviderC1ER29QMediaPlaylistProviderPrivateP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN22QMediaPlaylistProviderC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
@@ -1362,6 +1366,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN29QMediaNetworkPlaylistProvider7shuffleEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN29QMediaNetworkPlaylistProvider8addMediaERK13QMediaContent@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN29QMediaNetworkPlaylistProvider8addMediaERK5QListI13QMediaContentE@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN29QMediaNetworkPlaylistProvider9moveMediaEii@Qt_5_PRIVATE_API 5.7.0
  _ZN29QMediaNetworkPlaylistProviderC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN29QMediaNetworkPlaylistProviderC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN29QMediaNetworkPlaylistProviderD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
@@ -1902,6 +1907,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK21QVideoRendererControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK22QCameraExposureControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK22QCameraFeedbackControl10metaObjectEv@Qt_5 5.6.0~beta
+ _ZNK22QCameraImageProcessing10brightnessEv@Qt_5 5.7.0
  _ZNK22QCameraImageProcessing10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK22QCameraImageProcessing10saturationEv@Qt_5 5.6.0~beta
  _ZNK22QCameraImageProcessing11colorFilterEv@Qt_5 5.6.0~beta
