@@ -1,6 +1,5 @@
-qtmultimedia-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.7.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Refresh debian/patches/rpath_nonlinux.diff.
   * Update debian/copyright.
@@ -11,7 +10,7 @@ qtmultimedia-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Define DEB_HOST_ARCH properly in debian/rules.
   * Update the symbols files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Aug 2016 21:28:56 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 17 Aug 2016 20:34:38 +0300
 
 qtmultimedia-opensource-src (5.6.1-2) unstable; urgency=medium
 
