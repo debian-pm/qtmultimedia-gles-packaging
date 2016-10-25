@@ -1,11 +1,10 @@
-qtmultimedia-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream snapshot.
     - Bump Qt build dependencies.
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Oct 2016 20:04:47 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 25 Oct 2016 20:12:16 -0300
 
 qtmultimedia-opensource-src (5.7.0-1) experimental; urgency=medium
 
