@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64 arm64 armel armhf powerpc ppc64el s390x
+# SymbolsHelper-Confirmed: 5.7.1 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el sparc64
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.6.0~beta
  _Z18qt_gst_video_sinksv@Base 5.6.0~beta
@@ -400,7 +400,6 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj@Base 5.6.0~beta
  (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64)_ZNK5QHashIP18_GstElementFactory7QVectorIN9QGstUtils10CameraInfoEEE8findNodeERKS1_Pj@Base 5.6.0~beta
  (optional=templinst|arch=!alpha !amd64 !arm64 !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64)_ZNK5QHashIP18_GstElementFactory7QVectorIN9QGstUtils10CameraInfoEEE8findNodeERKS1_j@Base 5.6.0~beta
- (optional=templinst|arch=!amd64)_ZNK7QVectorIN9QGstUtils10CameraInfoEE5valueEi@Base 5.7.0
  (optional=templinst)_ZNK8QMapNodeI10QByteArray8QVariantE4copyEP8QMapDataIS0_S1_E@Base 5.6.0~beta
  (optional=templinst)_ZNK8QMapNodeI7QStringS0_E4copyEP8QMapDataIS0_S0_E@Base 5.6.0~beta
  _ZTI10QGstAppSrc@Base 5.6.0~beta
