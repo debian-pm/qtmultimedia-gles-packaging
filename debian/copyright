@@ -2,6 +2,12 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtmultimedia-opensource-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 
+Files: *
+Copyright: 2016 The Qt Company Ltd.
+           2016 Research In Motion
+           2016 Jolla Ltd.
+License: LGPL-3 or GPL-2
+
 Files: debian/*
 Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2012 Sune Vuorela <debian@pusling.com>
@@ -9,28 +15,47 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012 Zoltán Balogh <zoltan.balogh@canonical.com>
-           2012-2014 Timo Jyrinki <timo.jyrinki@canonical.com>,
-           2013-2014 Dmitry Shachnev <mitya57@debian.org>
+           2012-2014 Timo Jyrinki <timo.jyrinki@canonical.com>
            2012-2015 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-License: LGPL-2.1
+           2013-2016 Dmitry Shachnev <mitya57@debian.org>
+License: LGPL-3 or GPL-2
 
-Files: *
-Copyright: 2012-2014 The Qt Company Ltd
-           2012-2013 Research In Motion
-           2014 Canonical Ltd.
-           2013-2015 Jolla Ltd.
-           2013 Integrated Computer Solutions, Inc
-           2014 Pelagicore AG
-           2015 Denis Shienkov <denis.shienkov@gmail.com>
-License: LGPL-2.1-or-3 with Qt-Company-1.1 exception
+Files: src/gsttools/qgstreamermirtexturerenderer.cpp
+       src/multimedia/gsttools_headers/qgstreamermirtexturerenderer_p.h
+Copyright: 2016 Canonical Ltd.
+License: LGPL-3 or GPL-2
+
+Files: src/plugins/android/src/mediacapture/qandroidmediavideoprobecontrol.*
+       src/plugins/avfoundation/camera/avfmediavideoprobecontrol.mm
+Copyright: 2016 Integrated Computer Solutions, Inc
+License: LGPL-3 or GPL-2
+
+Files: src/plugins/videonode/imx6/*
+Copyright: 2016 Pelagicore AG
+License: LGPL-3 or GPL-2
+
+Files: src/plugins/directshow/camera/dscameraimageprocessingcontrol.*
+       src/plugins/gstreamer/camerabin/camerabinv4limageprocessing.*
+Copyright: 2016 Denis Shienkov <denis.shienkov@gmail.com>
+License: LGPL-3 or GPL-2
+
+Files: config.tests/*
+       tests/*
+Copyright: 2016 The Qt Company Ltd.
+License: GPL-3 with Qt-1.0 exception
 
 Files: config.tests/mmrenderer/*
-Copyright: 2013 BlackBerry Limited
-License: LGPL-2.1-or-3 with Qt-Company-1.1 exception
+Copyright: 2016 BlackBerry Limited
+License: GPL-3 with Qt-1.0 exception
+
+Files: tests/auto/integration/qdeclarativevideooutput_window/tst_qdeclarativevideooutput_window.cpp
+Copyright: 2016 The Qt Company Ltd.
+           2016 Research In Motion
+License: GPL-3 with Qt-1.0 exception
 
 Files: examples/*
  src/multimedia/doc/snippets/multimedia-snippets/qsound.cpp
-Copyright: 2012-2013 The Qt Company Ltd
+Copyright: 2016 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: examples/multimedia/spectrum/3rdparty/fftreal/*
@@ -49,59 +74,86 @@ License: custom-fftreal
 Files: *.qdoc
  src/multimedia/qmediametadata.cpp
  src/multimedia/qmultimedia.cpp
-Copyright: 2012 The Qt Company Ltd.
+Copyright: 2015 The Qt Company Ltd.
 License: GFDL-NIV-1.3
 
-License: LGPL-2.1-or-3 with Qt-Company-1.1 exception
- GNU Lesser General Public License:
- This file may be used under the terms of the GNU Lesser General Public
- License version 2.1 or version 3 as published by the Free Software
- Foundation and appearing in the file LICENSE.LGPLv21 and LICENSE.LGPLv3
- included in the packaging of this file. Please review the following
- information to ensure the GNU Lesser General Public License requirements
- will be met: https://www.gnu.org/licenses/lgpl.html.
- .
- In addition, as a special exception, The Qt Company gives you certain additional
- rights. These rights are described in the Digia Qt LGPL Exception
- version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
- .
- On Debian systems, the complete text of the GNU Lesser General Public
- License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1`.
- The complete text of the GNU Lesser General Public License version 3 can be
- found in `/usr/share/common-licenses/LGPL-3`.
- .
- Digia Qt LGPL Exception version 1.1:
- As an additional permission to the GNU Lesser General Public License version
- 2.1, the object code form of a "work that uses the Library" may incorporate
- material from a header file that is part of the Library.  You may distribute
- such object code under terms of your choice, provided that:
-     (i)   the header files of the Library have not been modified; and
-     (ii)  the incorporated material is limited to numerical parameters, data
-           structure layouts, accessors, macros, inline functions and
-           templates; and
-     (iii) you comply with the terms of Section 6 of the GNU Lesser General
-           Public License version 2.1.
- .
- Moreover, you may apply this exception to a modified version of the Library,
- provided that such modification does not involve copying material from the
- Library into the modified Library's header files unless such material is
- limited to (i) numerical parameters; (ii) data structure layouts;
- (iii) accessors; and (iv) small macros, templates and inline functions of
- five lines or less in length.
- .
- Furthermore, you are not required to apply this additional permission to a
- modified version of the Library.
+Files: src/multimedia/doc/src/blackberry.qdoc
+Copyright: 2012 Research In Motion
+License: GFDL-NIV-1.3
 
 License: LGPL-2.1
- This file may be used under the terms of the GNU Lesser
- General Public License version 2.1 as published by the Free Software
- Foundation and appearing in the file LICENSE.LGPL included in the
- packaging of this file.  Please review the following information to
- ensure the GNU Lesser General Public License version 2.1 requirements
- will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version 2.1
+ as published by the Free Software Foundation.
  .
- On Debian systems, the complete text of the LGPL-2.1 license can be found in
- `/usr/share/common-licenses/LGPL-2.1`.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in /usr/share/common-licenses/LGPL-2.1.
+
+License: LGPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version 3
+ as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 3 can be found in /usr/share/common-licenses/LGPL-3.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in /usr/share/common-licenses/GPL-2.
+
+License: GPL-3 with Qt-1.0 exception
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in /usr/share/common-licenses/GPL-3.
+ .
+ The Qt Company GPL Exception 1.0
+ Exception 1:
+ .
+ As a special exception you may create a larger work which contains the
+ output of this application and distribute that work under terms of your
+ choice, so long as the work is not otherwise derived from or based on
+ this application and so long as the work does not in itself generate
+ output that contains the output from this application in its original
+ or modified form.
+ .
+ Exception 2:
+ .
+ As a special exception, you have permission to combine this application
+ with Plugins licensed under the terms of your choice, to produce an
+ executable, and to copy and distribute the resulting executable under
+ the terms of your choice. However, the executable must be accompanied
+ by a prominent notice offering all users of the executable the entire
+ source code to this application, excluding the source code of the
+ independent modules, but including any changes you have made to this
+ application, under the terms of this license.
 
 License: BSD-3-clause
  You may use this file under the terms of the BSD license as follows:
@@ -132,13 +184,10 @@ License: BSD-3-clause
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
 
 License: GFDL-NIV-1.3
- GNU Free Documentation License Usage
- Alternatively, this file may be used under the terms of the GNU Free
- Documentation License version 1.3 as published by the Free Software
- Foundation and appearing in the file included in the packaging of
- this file.  Please review the following information to ensure
- the GNU Free Documentation License version 1.3 requirements
- will be met: http://www.gnu.org/copyleft/fdl.html.
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.3
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
  .
- On Debian systems, the complete text of the GFDL-1.3 license can be found in
- `/usr/share/common-licenses/GFDL-1.3`.
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.3 can be found in /usr/share/common-licenses/GFDL-1.3.
