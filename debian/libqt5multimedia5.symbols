@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64
+# SymbolsHelper-Confirmed: 5.9.0~rc amd64
 libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
@@ -8,6 +8,8 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5.7@Qt_5.7 5.7.0
+ Qt_5.8@Qt_5.8 5.9.0~rc
+ Qt_5.9@Qt_5.9 5.9.0~rc
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _Z19qt_real_to_fractiondPiS_@Qt_5 5.6.0~beta
@@ -831,17 +833,27 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN19QMediaPlayerControlD0Ev@Qt_5 5.6.0~beta
  _ZN19QMediaPlayerControlD1Ev@Qt_5 5.6.0~beta
  _ZN19QMediaPlayerControlD2Ev@Qt_5 5.6.0~beta
+ _ZN19QPlaylistFileParser10handleDataEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN19QPlaylistFileParser11handleErrorEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN19QPlaylistFileParser11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QPlaylistFileParser11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QPlaylistFileParser16findPlaylistTypeERK7QStringS2_PKvj@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN19QPlaylistFileParser14findByMimeTypeERK7QString@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN19QPlaylistFileParser16findByDataHeaderEPKcj@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN19QPlaylistFileParser16findBySuffixTypeERK7QString@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN19QPlaylistFileParser16findPlaylistTypeERK7QStringS2_PKcj@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN19QPlaylistFileParser16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QPlaylistFileParser4stopEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN19QPlaylistFileParser5abortEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN19QPlaylistFileParser5errorENS_11ParserErrorERK7QString@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QPlaylistFileParser5startERK15QNetworkRequestb@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN19QPlaylistFileParser5startEP9QIODeviceRK7QString@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN19QPlaylistFileParser5startERK13QMediaContentP9QIODevice@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN19QPlaylistFileParser5startERK15QNetworkRequestRK7QString@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN19QPlaylistFileParser7newItemERK8QVariant@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QPlaylistFileParser8finishedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QPlaylistFileParserC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QPlaylistFileParserC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN19QPlaylistFileParserD0Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN19QPlaylistFileParserD1Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN19QPlaylistFileParserD2Ev@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN19QVideoSurfaceFormat11setPropertyEPKcRK8QVariant@Qt_5 5.6.0~beta
  _ZN19QVideoSurfaceFormat11setViewportERK5QRect@Qt_5 5.6.0~beta
  _ZN19QVideoSurfaceFormat12setFrameRateEd@Qt_5 5.6.0~beta
@@ -1293,6 +1305,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN27QAudioOutputSelectorControlD0Ev@Qt_5 5.6.0~beta
  _ZN27QAudioOutputSelectorControlD1Ev@Qt_5 5.6.0~beta
  _ZN27QAudioOutputSelectorControlD2Ev@Qt_5 5.6.0~beta
+ _ZN27QAudioSystemPluginExtensionD0Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN27QAudioSystemPluginExtensionD1Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN27QAudioSystemPluginExtensionD2Ev@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN27QMediaPlaylistSourceControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN27QMediaPlaylistSourceControl11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN27QMediaPlaylistSourceControl15playlistChangedEP14QMediaPlaylist@Qt_5_PRIVATE_API 5.6.0~beta
@@ -1427,6 +1442,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN37QMediaServiceProviderFactoryInterfaceD0Ev@Qt_5 5.6.0~beta
  _ZN37QMediaServiceProviderFactoryInterfaceD1Ev@Qt_5 5.6.0~beta
  _ZN37QMediaServiceProviderFactoryInterfaceD2Ev@Qt_5 5.6.0~beta
+ _ZN6QAudio13convertVolumeEdNS_11VolumeScaleES0_@Qt_5 5.9.0~rc
  _ZN6QSound11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN6QSound11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN6QSound16deleteOnCompleteEv@Qt_5 5.6.0~beta
@@ -2075,6 +2091,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI26QMediaNetworkAccessControl@Qt_5 5.6.0~beta
  _ZTI26QMediaResourcePolicyPlugin@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI27QAudioOutputSelectorControl@Qt_5 5.6.0~beta
+ _ZTI27QAudioSystemPluginExtension@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTI27QMediaPlaylistSourceControl@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI27QMediaServiceProviderPlugin@Qt_5 5.6.0~beta
  _ZTI27QVideoDeviceSelectorControl@Qt_5 5.6.0~beta
@@ -2166,6 +2183,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS26QMediaNetworkAccessControl@Qt_5 5.6.0~beta
  _ZTS26QMediaResourcePolicyPlugin@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS27QAudioOutputSelectorControl@Qt_5 5.6.0~beta
+ _ZTS27QAudioSystemPluginExtension@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTS27QMediaPlaylistSourceControl@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS27QMediaServiceProviderPlugin@Qt_5 5.6.0~beta
  _ZTS27QVideoDeviceSelectorControl@Qt_5 5.6.0~beta
@@ -2255,6 +2273,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV26QMediaNetworkAccessControl@Qt_5 5.6.0~beta
  _ZTV26QMediaResourcePolicyPlugin@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV27QAudioOutputSelectorControl@Qt_5 5.6.0~beta
+ _ZTV27QAudioSystemPluginExtension@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTV27QMediaPlaylistSourceControl@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV27QMediaServiceProviderPlugin@Qt_5 5.6.0~beta
  _ZTV27QVideoDeviceSelectorControl@Qt_5 5.6.0~beta
@@ -2285,6 +2304,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _Zls6QDebugN19QVideoSurfaceFormat9DirectionE@Qt_5 5.6.0~beta
  _Zls6QDebugN20QAbstractVideoBuffer10HandleTypeE@Qt_5 5.6.0~beta
  _Zls6QDebugN20QAbstractVideoBuffer7MapModeE@Qt_5 5.6.0~beta
+ _Zls6QDebugN6QAudio11VolumeScaleE@Qt_5 5.9.0~rc
  _Zls6QDebugN6QAudio4ModeE@Qt_5 5.6.0~beta
  _Zls6QDebugN6QAudio4RoleE@Qt_5 5.6.0~beta
  _Zls6QDebugN6QAudio5ErrorE@Qt_5 5.6.0~beta
