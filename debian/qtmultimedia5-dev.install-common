@@ -164,6 +164,8 @@ usr/include/*/qt5/QtMultimedia/qmediavideoprobecontrol.h
 usr/include/*/qt5/QtMultimedia/qmetadatareadercontrol.h
 usr/include/*/qt5/QtMultimedia/qmetadatawritercontrol.h
 usr/include/*/qt5/QtMultimedia/qmultimedia.h
+usr/include/*/qt5/QtMultimedia/qtmultimediaglobal.h
+usr/include/*/qt5/QtMultimedia/qtmultimedia-config.h
 usr/include/*/qt5/QtMultimedia/qradiodata.h
 usr/include/*/qt5/QtMultimedia/qradiodatacontrol.h
 usr/include/*/qt5/QtMultimedia/qradiotuner.h
