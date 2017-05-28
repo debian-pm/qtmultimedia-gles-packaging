@@ -352,7 +352,7 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWindowControlFviENS_4ListIJiEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWindowControlFvvENS_4ListIJEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM28QGstreamerVideoWidgetControlFvvENS_4ListIJEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
- (arch=amd64)_ZN9QtPrivate8RefCount3refEv@Base 5.9.0~rc
+ (optional=inline|arch=amd64)_ZN9QtPrivate8RefCount3refEv@Base 5.9.0~rc
  _ZNK10QGstAppSrc10metaObjectEv@Base 5.6.0~beta
  _ZNK10QGstAppSrc6streamEv@Base 5.6.0~beta
  _ZNK14QGstCodecsInfo12codecElementERK7QString@Base 5.9.0~rc
