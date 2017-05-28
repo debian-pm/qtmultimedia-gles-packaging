@@ -4,6 +4,9 @@ qtmultimedia-opensource-src (5.9.0~rc-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update symbols from build logs.
 
+  [ Dmitry Shachnev ]
+  * Remove an obsolete entry from debian/copyright.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 May 2017 20:32:41 -0500
 
 qtmultimedia-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
