@@ -1,5 +1,6 @@
 qtmultimedia-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
   * New upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 Jun 2017 19:14:58 -0500
