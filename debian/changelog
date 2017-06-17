@@ -1,9 +1,8 @@
-qtmultimedia-opensource-src (5.9.0-2) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.9.0-2) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update debian/libqgsttools-p1.symbols from buildds’ logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Jun 2017 13:06:19 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 17 Jun 2017 13:08:55 +0300
 
 qtmultimedia-opensource-src (5.9.0-1) experimental; urgency=medium
 
