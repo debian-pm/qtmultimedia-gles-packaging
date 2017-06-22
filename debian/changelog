@@ -1,11 +1,10 @@
-qtmultimedia-opensource-src (5.9.0-3) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.9.0-3) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Change qtdeclarative5-private-dev dependency to qtdeclarative5-dev.
   * Run unit tests during build.
   * Update symbols files from sparc64 build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Jun 2017 15:54:19 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 22 Jun 2017 19:38:53 +0300
 
 qtmultimedia-opensource-src (5.9.0-2) experimental; urgency=medium
 
