@@ -1,5 +1,7 @@
 qtmultimedia-opensource-src (5.9.0-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Change qtdeclarative5-private-dev dependency to qtdeclarative5-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Jun 2017 15:54:19 +0300
 
