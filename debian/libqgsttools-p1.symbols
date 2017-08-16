@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 m68k mips powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.9.1 amd64 i386
 libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.6.0~beta
  _Z18qt_gst_video_sinksv@Base 5.6.0~beta
@@ -202,8 +202,8 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN26QGstreamerBusHelperPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.6.0~beta
  _ZN26QGstreamerBusHelperPrivate11qt_metacastEPKc@Base 5.6.0~beta
  _ZN26QGstreamerBusHelperPrivate16staticMetaObjectE@Base 5.6.0~beta
- (arch=!armel !armhf !hppa !m68k !powerpc !sparc64 !x32)_ZN26QGstreamerBusHelperPrivateC1EP19QGstreamerBusHelperP7_GstBus@Base 5.9.0
- (arch=!armel !armhf !hppa !m68k !powerpc !sparc64 !x32)_ZN26QGstreamerBusHelperPrivateC2EP19QGstreamerBusHelperP7_GstBus@Base 5.9.0
+ _ZN26QGstreamerBusHelperPrivateC1EP19QGstreamerBusHelperP7_GstBus@Base 5.9.1
+ _ZN26QGstreamerBusHelperPrivateC2EP19QGstreamerBusHelperP7_GstBus@Base 5.9.1
  _ZN26QGstreamerBusHelperPrivateD0Ev@Base 5.6.0~beta
  _ZN26QGstreamerBusHelperPrivateD1Ev@Base 5.6.0~beta
  _ZN26QGstreamerBusHelperPrivateD2Ev@Base 5.6.0~beta
@@ -286,10 +286,9 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  _ZN33QGstreamerVideoInputDeviceControlD1Ev@Base 5.6.0~beta
  _ZN33QGstreamerVideoInputDeviceControlD2Ev@Base 5.6.0~beta
  (optional=templinst)_ZN4QMapI10QByteArray8QVariantE6insertERKS0_RKS1_@Base 5.6.0~beta
- (optional=templinst|arch=!armel !armhf !hppa !m68k !powerpc !sparc64 !x32)_ZN4QMapI10QByteArray8QVariantEC1ERKS2_@Base 5.9.0
- (optional=templinst|arch=!armel !armhf !hppa !m68k !powerpc !sparc64 !x32)_ZN4QMapI10QByteArray8QVariantEC2ERKS2_@Base 5.9.0
+ (optional=templinst)_ZN4QMapI10QByteArray8QVariantEC1ERKS2_@Base 5.9.0
+ (optional=templinst)_ZN4QMapI10QByteArray8QVariantEC2ERKS2_@Base 5.9.0
  (optional=templinst)_ZN4QMapI7QStringN14QGstCodecsInfo9CodecInfoEE13detach_helperEv@Base 5.9.0~rc
- (optional=templinst)_ZN4QMapI7QStringS0_E6insertERKS0_S3_@Base 5.9.0~rc
  (optional=templinst)_ZN5QHashI10QByteArray15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 5.6.0~beta
  (optional=templinst)_ZN5QHashI10QByteArray15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 5.6.0~beta
  (optional=templinst)_ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 5.6.0~beta
@@ -300,8 +299,8 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@Base 5.6.0~beta
  (optional=templinst)_ZN5QListI7QStringE5clearEv@Base 5.6.0~beta
  (optional=templinst)_ZN5QListI7QStringE6appendERKS0_@Base 5.6.0~beta
- (optional=templinst|arch=!armel !armhf !hppa !m68k !powerpc !sparc64 !x32)_ZN5QListI7QStringEC1ERKS1_@Base 5.9.0
- (optional=templinst|arch=!armel !armhf !hppa !m68k !powerpc !sparc64 !x32)_ZN5QListI7QStringEC2ERKS1_@Base 5.9.0
+ (optional=templinst)_ZN5QListI7QStringEC1ERKS1_@Base 5.9.0
+ (optional=templinst)_ZN5QListI7QStringEC2ERKS1_@Base 5.9.0
  (optional=templinst)_ZN5QListI7QStringED1Ev@Base 5.6.0~beta
  (optional=templinst)_ZN5QListI7QStringED2Ev@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP17QGstVideoRendererE18detach_helper_growEii@Base 5.6.0~beta
@@ -310,9 +309,6 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZN5QListIP26QGstreamerBusMessageFilterE9removeAllERKS1_@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterE18detach_helper_growEii@Base 5.6.0~beta
  (optional=templinst)_ZN5QListIP27QGstreamerSyncMessageFilterE9removeAllERKS1_@Base 5.6.0~beta
- (optional=gccinternal)_ZN7QString8fromUtf8EPKci@Base 5.6.0~beta
- (optional=gccinternal)_ZN7QStringD1Ev@Base 5.6.0~beta
- (optional=gccinternal)_ZN7QStringD2Ev@Base 5.6.0~beta
  (optional=templinst)_ZN7QVectorIN9QGstUtils10CameraInfoEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 5.6.0~beta
  (optional=templinst)_ZN7QVectorIN9QGstUtils10CameraInfoEE6appendERKS1_@Base 5.6.0~beta
  (optional=templinst)_ZN7QVectorIN9QGstUtils10CameraInfoEEC1ERKS2_@Base 5.9.0~rc
@@ -351,7 +347,6 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWindowControlFviENS_4ListIJiEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM19QVideoWindowControlFvvENS_4ListIJEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM28QGstreamerVideoWidgetControlFvvENS_4ListIJEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 5.6.0~beta
- (optional=inline|arch=armel hppa i386 powerpc sparc64)_ZN9QtPrivate8RefCount3refEv@Base 5.9.0~rc
  _ZNK10QGstAppSrc10metaObjectEv@Base 5.6.0~beta
  _ZNK10QGstAppSrc6streamEv@Base 5.6.0~beta
  _ZNK14QGstCodecsInfo12codecElementERK7QString@Base 5.9.0~rc
@@ -416,8 +411,8 @@ libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
  (optional=templinst)_ZNK5QHashI10QByteArray15QHashDummyValueE8findNodeERKS0_j@Base 5.9.0~rc
  (optional=templinst)_ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj@Base 5.6.0~beta
  (optional=templinst)_ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_j@Base 5.9.0~rc
- (optional=templinst)_ZNK5QHashIP18_GstElementFactory7QVectorIN9QGstUtils10CameraInfoEEE8findNodeERKS1_j@Base 5.6.0~beta
- (optional=templinst|arch=!amd64 !i386 !kfreebsd-amd64 !m68k !mips !sparc64 !x32)_ZNK7QVectorIN9QGstUtils10CameraInfoEE5valueEi@Base 5.9.0
+ (optional=templinst)_ZNK5QHashIP18_GstElementFactory7QVectorIN9QGstUtils10CameraInfoEEE8findNodeERKS1_Pj@Base 5.9.1
+ (optional=templinst|arch=!i386 !kfreebsd-amd64 !m68k !mips !mips64el !mipsel !sparc64 !x32)_ZNK7QVectorIN9QGstUtils10CameraInfoEE5valueEi@Base 5.9.0
  (optional=templinst)_ZNK8QMapDataI10QByteArray8QVariantE8findNodeERKS0_@Base 5.9.0~rc
  (optional=templinst)_ZNK8QMapDataI7QStringN14QGstCodecsInfo9CodecInfoEE8findNodeERKS0_@Base 5.9.0~rc
  (optional=templinst)_ZNK8QMapNodeI10QByteArray8QVariantE4copyEP8QMapDataIS0_S1_E@Base 5.6.0~beta
