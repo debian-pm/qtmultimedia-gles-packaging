@@ -3,6 +3,7 @@ qtmultimedia-opensource-src (5.9.1-3) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Add libglib2.0-dev and libpulse-dev to qtmultimedia5-dev dependencies
     (closes: #872742).
+  * Update debian/libqgsttools-p1.symbols from buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Aug 2017 13:58:23 +0300
 
