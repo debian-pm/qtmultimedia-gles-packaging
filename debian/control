@@ -7,7 +7,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9.20160114~),
+Build-Depends: debhelper (>= 10),
                libasound2-dev [linux-any],
                libgstreamer-plugins-base1.0-dev,
                libgstreamer1.0-dev,

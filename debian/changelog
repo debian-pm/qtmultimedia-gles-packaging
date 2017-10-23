@@ -3,6 +3,7 @@ qtmultimedia-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
+  * Update debhelper compatibility level to 10.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Oct 2017 22:39:14 +0300
 
