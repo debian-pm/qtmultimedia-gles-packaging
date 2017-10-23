@@ -13,19 +13,19 @@ Build-Depends: debhelper (>= 9.20160114~),
                libgstreamer1.0-dev,
                libopenal-dev,
                libpulse-dev,
-               libqt5opengl5-dev (>= 5.9.1+dfsg~),
+               libqt5opengl5-dev (>= 5.9.2+dfsg~),
                pkg-kde-tools,
                qml-module-qtquick2,
                qml-module-qttest,
-               qtbase5-dev (>= 5.9.1+dfsg~),
-               qtbase5-private-dev (>= 5.9.1+dfsg~),
-               qtdeclarative5-dev (>= 5.9.1~),
+               qtbase5-dev (>= 5.9.2+dfsg~),
+               qtbase5-private-dev (>= 5.9.2+dfsg~),
+               qtdeclarative5-dev (>= 5.9.2~),
                xauth,
                xvfb,
                zlib1g-dev
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.1+dfsg~),
-                     qtbase5-doc-html (>= 5.9.1+dfsg~),
-                     qttools5-dev-tools (>= 5.9.1~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.2+dfsg~),
+                     qtbase5-doc-html (>= 5.9.2+dfsg~),
+                     qttools5-dev-tools (>= 5.9.2~)
 Standards-Version: 4.0.0
 Homepage: https://qt.io/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtmultimedia.git
